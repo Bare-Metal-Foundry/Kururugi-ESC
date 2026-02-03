@@ -2,6 +2,295 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+	(symbol "2EDL8024"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2EDL8024"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 -3.81 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-2edl8x2x-datasheet-en.pdf"
+			(at 31.75 -13.97 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gate Driver, 4A/4A HS/LS pull-up, 5A/6A HS/LS pull-down, Vgate 8V~17V, -40℃~+125℃, VDSON-8"
+			(at 31.75 -6.35 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " Infineon Technologies"
+			(at 31.75 -8.89 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " 2EDL8024G"
+			(at 31.75 -11.43 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/infineon-technologies/2EDL8024G3CXTMA1/16254499"
+			(at 31.75 -19.05 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Infineon-Technologies/2EDL8024GXUMA1?qs=sPbYRqrBIVkZchsE9G8%2FYw%3D%3D&srsltid=AfmBOorq0SP_XBCdOHYc-mCSlUkowttu_6IYWC5F55non9fBJ5gcZnad"
+			(at 31.75 -16.51 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C3655215"
+			(at 31.75 -21.59 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(symbol "2EDL8024_0_1"
+			(rectangle
+				(start 0 0)
+				(end 10.16 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "2EDL8024_1_0"
+			(pin unspecified line
+				(at -5.08 -1.27 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -5.08 0)
+				(length 5.08)
+				(name "HI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -7.62 0)
+				(length 5.08)
+				(name "LI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -11.43 0)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -11.43 0)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "HB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "HO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "HS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "LO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "CL05B103KB5NNNC"
 		(pin_numbers
 			(hide yes)
@@ -1130,6 +1419,156 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "D_TVS"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 5.08 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode TVS thyrector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_TVS_0_1"
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_TVS_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LM5160ADNTR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1155,6 +1594,7 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,6 +1605,7 @@
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5160a.pdf?ts=1769847934762&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5160A%252Fpart-details%252FLM5160ADNTR%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-app_opn_en-cpc-storeic-google-soas_en_pur%2526utm_content%253DDevice%2526ds_k%253DLM5160ADNTR%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D20324393711%2526gbraid%253D0AAAAAC068F0VB-WVQz6CnIvwQItNxuClA%2526gclid%253DCj0KCQiA7fbLBhDJARIsAOAqhsd5KEClwr0JzGD6n7PCBKbJczalRgGHKd5gruPnE0S_DD_dLOS5j80aAmX0EALw_wcB"
 			(at 20.32 -27.94 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,6 +1616,7 @@
 		)
 		(property "Description" "1MHz 2A 4.5V~65V Adjustable Buck, Flyback, WSON-12-EP, -40℃~+125℃@(TJ)"
 			(at 20.32 -20.32 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,6 +1627,7 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 20.32 -25.4 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,6 +1638,7 @@
 		)
 		(property "Manufacturer Part Number" "LM5160ADNTR"
 			(at 20.32 -22.86 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,6 +1649,7 @@
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/texas-instruments/LM5160ADNTR/5226705"
 			(at 20.32 -33.02 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,6 +1660,7 @@
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Texas-Instruments/LM5160ADNTR?qs=2iGeymVCXnUWi65aIPD7Bg%3D%3D&srsltid=AfmBOooIBWuGlWUu0_j9k8qem7ilANQ9ygzGzBhxUc8XEIeu9kAvhR2J"
 			(at 20.32 -30.48 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,6 +1671,7 @@
 		)
 		(property "LCSC" "C473375"
 			(at 20.32 -35.56 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,6 +1937,354 @@
 						(size 1.27 1.27)
 						(thickness 0.254)
 						(bold yes)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NVMFS5C604NL"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "NVMFS5C604N"
+			(at 7.62 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 12.7 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nvmfs5c604nl-d.pdf"
+			(at 12.7 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-channel, 1.2mΩ@10V, 120nC@10V, 200W 287A 60V, DFN-5(5x6), -55℃~+175℃"
+			(at 12.7 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Onsemi"
+			(at 12.7 -5.08 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NVMFS5C604NLT1G"
+			(at 12.7 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/onsemi/NVMFS5C604NLT1G/5258139?srsltid=AfmBOoq3L9plp6s2NrPnlMGEzgXBXopiEYhdhqa8bfeJ64A_J6f-Y1u5"
+			(at 12.7 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/onsemi/NVMFS5C604NLT1G?qs=dbuNSGnowt2jfUrpxHBecg%3D%3D&srsltid=AfmBOoqKgTXHADYp6zhpsVHBtgcYIIAxpH3cpXOhI90l47w7ugEFy6x7"
+			(at 12.7 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C513058"
+			(at 12.7 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NVMFS5C604NL_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 0.381) (xy 3.683 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NVMFS5C604NL_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -2501,6 +3296,223 @@
 						(bold yes)
 					)
 					(justify right)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS7B92033"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TPS7B92033"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7b92.pdf?ts=1769911629482&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 20.32 -27.94 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8uA 3.3VOUT 40VIN 300mA -40℃+125℃ SOT-23-5 LDO"
+			(at 20.32 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 20.32 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TPS7B92033DBVR"
+			(at 20.32 -25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Texas-Instruments/TPS7B92033DBVR?qs=i8QVZAFTkqTn75tUVrN19A%3D%3D&srsltid=AfmBOooF2mY-QrQsWU2t94FAA8bPG_iMEH9baSdRFL7ZbWYBQRqQU6rT"
+			(at 20.32 -33.02 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/TPS7B92033DBVR/23331395"
+			(at 20.32 -30.48 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32353919"
+			(at 20.32 -35.56 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(symbol "TPS7B92033_0_0"
+			(pin power_in line
+				(at -2.54 -1.27 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -8.89 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -8.89 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 -1.27 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -8.89 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPS7B92033_0_1"
+			(rectangle
+				(start 0 0)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
