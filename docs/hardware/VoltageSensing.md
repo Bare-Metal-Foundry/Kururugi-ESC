@@ -18,11 +18,14 @@ Rth = r1r2/(r1+r2)
 
 And as Ino = Vth/Rth, we can expect Rth to have an important impact on the current that can flow in the ADC capacitance.
 
-This is demonstrated bellow, where we can observe that with no ADC pin external capacitance, we cannot hope for great precision and great termal control. To change this, we could use a buffer but this would add some footprint and otherall complexity. A easier option is to add a adc pin external capacitance, as we have margin on the filtering frequency, this won't have a drastic impact on performances, this is presented on the second image with 470pF. The drastic gain on S*RC is due to the resistance being set to 100 ohm on the ext capa to adc capa.
+This is demonstrated bellow, where we can observe that with no ADC pin external capacitance, we cannot hope for great precision and great termal control. To change this, we could use a buffer but this would add some footprint and otherall complexity. A easier option is to add a adc pin external capacitance, as we have margin on the filtering frequency, this won't have a drastic impact on performances, this is presented on the second image with 470pF. The drastic gain on S*RC is due to the resistance being set to 100 ohm on the ext capa to adc capa. 
 
 ![alt text](details/VoltageSensing/opt1.png)
 
 ![alt text](details/VoltageSensing/opt2.png)
 
-We will use
+We also have to consider that the added capacitor itself is slow to fill up. He will fill during the noisy blanking phase so it has to be fast to settle (<480ns). This is presented in the next figure. As it has to settle pretty fast, we decided to double the security factor (or charge factor) from 12Tau to 24Tau
 
+![alt text](details/VoltageSensing/opt3.png)
+
+We can expect the whole ESC to be able to dissipate 1.5W still and 3W in forced air
