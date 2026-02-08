@@ -12,49 +12,35 @@ We will use the INFINEON 2EDL8024 as it is the one that allows the most source a
 
 An usual value in the drone context is to take Cg=1µf. Lets check it is ok with my configuration. We can use the datasheet of the INFINEON 2EDL8X2X.
 
-a) $\Delta V_{Cboot\_max} = V_{dd} - V_F - V_{HBR} - V_{HBH}$ = 2.48V
+a) $\Delta V_{Cboot\_max} = V_{dd} - V_F - V_{HBR} - V_{HBH} = 2.48V$
 
 as maximum are $V_{dd} = 10V$, $V_F = 1.25V$, $V_{HBR} = 6.0V$ and $V_{HBH} = 0.27V$
 
-b) $Q_T = Q_g + \frac{I_{HB}+I_{HBS}}{F_{SW}} = 217.5nC$
+b) $Q_T = Q_g + \frac{I_{HB}+(I_{HBS}+I_{pulldown})*0.95}{F_{SW}} = 261.9nC$
 
-as maximum are $Q_g = 120nC$, $I_{HB} = 0.7mA$, $I_{HBS} = 1.25mA$ and $F_{SW\_min} = 20kHz$, for 100% duty cycle
+as maximum are $Q_g = 120nC$, $I_{HB} = 0.7mA$, $I_{HBS} = 1.25mA, I_{pulldown}=1mA$ and $F_{SW\_min} = 20kHz$, for 100% duty cycle
 
 Both $I_{HB}$ and $I_{HBS}$ are quite high, this is a price to pays for fast propagation time and gate opening/closing.
 
-c) $C_{boot\_min} \geq \frac{Q_T}{V_{Cboot\_max}} = 87.7nF$
-
-d) To avoid DC voltage biais present on MLCC capacitor, aging, we are going for a 50V rated capacitor for 1µF on a 1608m package size, which should provide enough margin
-
-0402,~60% to 70% loss,300nF – 400nF,Safe (4x margin) <br>
-**0603,~20% to 30% loss,700nF – 800nF,Very Safe (8x margin)** <br>
-0805,~10% to 15% loss,850nF – 900nF,Ideal
-
-The bigger issue with oversized capacitor are the following
- - important current at first charge, can burn the internal diode
- - slow to charge the last bit -> may be an issue for the last few mV
- - Common rule is to have Cvdd x10 to x20 larger
- - Self Resonning Freq is higher, it might not have the punch needed for high PWM
-
-We should start to see depletion, taking $C_{boot} = 700nF$, problem appears around $F_{SW} = \frac{I_{HB}+I_{HBS}}{(C_{boot}*V_{Cboot\_max})-Q_g} = 1207kHz$, which is around 10 times higher than the maximum expected.
+c) $C_{boot\_min} \geq \frac{Q_T}{V_{Cboot\_max}} = 107.7nF$
 
 ## Technical Brief: Selection of the Bootstrap Diode $D_{boot}$
 
-We estimate the resitance of each diode to be $R_{BSD}=21.5\Omega$, thus $I_{DD,peak} = \frac{10}{R_{BSD}}=465mA$, from empty to full. This is an RC system, that will be charged in $t_{charge} = 4*\tau = 4*RC = 69\mu s$. If we take $C = 87.7nF$, then $t_{charge} = 7.54\mu s$. Some value analysis
+We estimated resistance of the internal path to charge the bootstrap capacitor to be Rinternal = 21.5R, so 0.465mA approximatly. Hence, TAU=15µs, to get a good value, 5tau=75.25µs (99.3% charged) to get a complete charge from 0V.
 
-- At 128kHz and 99% duty cycle $0.8\mu s$ are available to charge the system (ultimate goal). 
-- At 96kHz and 99% duty cycle, $1.0\mu s$ are available to charge the system. 
-- At 64kHz and 99% duty cycle, $1.6\mu s$ are available to charge the system.
-- At 48kHz and 99% duty cycle, $2.1\mu s$ are available to charge the system.
-- At 24kHz and 99% duty cycle, $4.2\mu s$ are available to charge the system.
+The internal diode can supply approximatly 0.465mA, hence it would take 650ns to top-up Cboost from the missing 261.9nC. We have to add another diode in //. If we add a 5Ohm resistor in // with a diode, we can add 2A for top-up, dropping top-up time to 122ns, which is enough to work at 95% duty cycle at Vboot = 9V (-1V from diode drop). 
 
-So $t_{charge} = 1.8\mu s$, seems far to limited as no margin is even taken. A external diode seems to be needed. The external diode must have a very low reverse current, be adaptage to $V_g = V_{batt}+V_{in} = 60 + 10 = 70V$ in wroste case scenario. We chosed to use a ES1B for its current capabilities and its fast $15ns$ recovery time. With those carateristics, an external resistor of $5\Omega$ must be added, bringing the total resistance to $4.1\Omega$ and $t_{charge} = 1.4\mu s$. This resistor will have to be pulse resistant.
+The BST capacitor can only be charged during low pwm, following are some magnitude order for the duration of low time depending of the:
 
-_Note1_: This is hardly enough for the 128kHz, but it might be impossible to go at such a speed in the first place. Improvement will come later. 
-
-_Note2_: For the current computation, 10V is considered. For $C = 87.7nF$, $800-87.7nF$ are already charged. Hence the tension will be much much higher, allowing for a lower resistance. We still have to be careful of first charges from 0V to 10V. 
+- At 128kHz and 95% duty cycle $0.4\mu s$ are available to charge Cboost (ultimate goal). 
+- At 96kHz and 95% duty cycle, $0.531\mu s$ are available to charge Cboost. 
+- At 64kHz and 95% duty cycle, $0.781\mu s$ are available to charge Cboost.
+- At 48kHz and 95% duty cycle, $1.042\mu s$ are available to charge Cboost.
+- At 24kHz and 95% duty cycle, $2.083\mu s$ are available to charge Cboost.
 
 _Note3_: To get a faster fill, we could rely on the soft start of the BUCK so 0->10V initial is not an issue. But this require to be certain this cannot happen outside of the start.
+
+![alt text](<WhatsApp Image 2026-02-08 at 19.16.33.jpeg>)
 
 ## Technical Brief: Selection of the Gate Resistor $R_{G}$
 

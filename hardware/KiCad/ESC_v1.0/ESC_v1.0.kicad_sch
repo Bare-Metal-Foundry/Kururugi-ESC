@@ -1789,6 +1789,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ESC-SchemSymLib:0805W8F100JT5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+				(at -1.778 0 90)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C17415.pdf"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "10Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
+				(at 5.08 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 5.08 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0805W8F100JT5E"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C17415.html"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0805W8F100JT5E?qs=e8oIoAS2J1So%252B3MHDM3UqQ%3D%3D&srsltid=AfmBOopI-gZFA3sL-5SWGoi7z_TSpDc4m1CcykSjlJ7W-70qans23Mn_"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C17415"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0805W8F100JT5E_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0805W8F100JT5E_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESC-SchemSymLib:2EDL8024"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3464,6 +3649,191 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ESC-SchemSymLib:HoBB1216-5W-0.5mR-1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0.5"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ESC-FootprintLib:Kelvin Shunt 1216 (3038)"
+				(at -1.778 0 90)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7663/HoBB_series.pdf"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shunt resisto 0.5mΩ 5W ±1% ±50ppm/℃ 1216"
+				(at 5.08 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Shenzhen Milliohm Electronic"
+				(at 5.08 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "HoBB1216-5W-0.5mR-1%"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/shenzhen-milliohm-electronic-co-ltd/HoBB1216-3038-5W-0-5mR-1/24386989"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.alibaba.com/product-detail/HoBB1216-5W-0-5mR-1-Current_1601632325091.html"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C17701556"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HoBB1216-5W-0.5mR-1%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HoBB1216-5W-0.5mR-1%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13618,12 +13988,6 @@
 		(uuid "54bc2db0-8e2a-418e-87b8-9068cc99a886")
 	)
 	(junction
-		(at 388.62 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56621063-41c3-4fed-8d20-74af664a23fe")
-	)
-	(junction
 		(at 163.83 396.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13988,6 +14352,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e84a7682-b437-4f7d-8187-f71a57daf489")
+	)
+	(junction
+		(at 388.62 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e947c573-16ec-4c05-a7e7-ce4f89f27ee2")
 	)
 	(junction
 		(at 267.97 25.4)
@@ -14414,16 +14784,6 @@
 			(type default)
 		)
 		(uuid "26c8fd60-9c8c-46fd-a59a-f6613f9b1bf0")
-	)
-	(wire
-		(pts
-			(xy 351.79 118.11) (xy 346.71 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2901ddef-cdce-4a48-9e61-d778741c6169")
 	)
 	(wire
 		(pts
@@ -15224,6 +15584,16 @@
 			(type default)
 		)
 		(uuid "7b0793df-4a88-4b5b-8543-aec7ce877b20")
+	)
+	(wire
+		(pts
+			(xy 351.79 119.38) (xy 351.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b83ad67-c1ce-431e-af3a-0312abd1ed10")
 	)
 	(wire
 		(pts
@@ -16557,6 +16927,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 118.11) (xy 346.71 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff1146d-0d36-4b94-a17b-234d5808aa07")
+	)
+	(wire
+		(pts
 			(xy 267.97 22.86) (xy 267.97 25.4)
 		)
 		(stroke
@@ -16587,7 +16967,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 125.73) (xy 351.79 130.81)
+			(xy 351.79 127) (xy 351.79 130.81)
 		)
 		(stroke
 			(width 0)
@@ -20710,74 +21090,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 372.11 123.19 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3046adb8-59f4-40b7-99ce-75f3373692c5")
-		(property "Reference" "R33"
-			(at 372.11 125.476 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 372.11 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 124.968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 372.11 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 372.11 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93e33acb-493f-4ad3-9257-f964717f1c61")
-		)
-		(pin "2"
-			(uuid "f290804f-b85e-4b2a-b867-4050ae65eb1c")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESC-SchemSymLib:CL05B104KO5NNNC")
 		(at -68.58 257.81 0)
 		(unit 1)
@@ -21020,6 +21332,75 @@
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 351.79 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34ec74bb-27a6-4e3f-b7a7-e3930c3da6f3")
+		(property "Reference" "C36"
+			(at 352.552 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "400n"
+			(at 352.552 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 352.7552 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 351.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90bb0f29-7b0a-4d8b-b0c0-1b65a9e050d8")
+		)
+		(pin "2"
+			(uuid "72b6a0d2-fa5f-49e4-ab51-e3599a840e9c")
+		)
+		(instances
+			(project ""
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -23115,75 +23496,6 @@
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 388.62 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59593016-f7c0-4f6d-992d-464cb7ddd655")
-		(property "Reference" "R38"
-			(at 390.144 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "250u"
-			(at 390.144 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 386.842 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 388.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 388.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a996e1ae-d1c5-45a9-b448-3c8ba06d9c96")
-		)
-		(pin "2"
-			(uuid "265317da-7c43-4347-b157-d20e4dc45eb0")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -26981,6 +27293,136 @@
 		)
 	)
 	(symbol
+		(lib_id "ESC-SchemSymLib:HoBB1216-5W-0.5mR-1%")
+		(at 388.62 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c6b2ed7-3d2f-4621-872e-0ac9386c67af")
+		(property "Reference" "R37"
+			(at 390.144 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5"
+			(at 390.144 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ESC-FootprintLib:Kelvin Shunt 1216 (3038)"
+			(at 386.842 149.86 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7663/HoBB_series.pdf"
+			(at 393.7 160.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resisto 0.5mΩ 5W ±1% ±50ppm/℃ 1216"
+			(at 393.7 152.4 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shenzhen Milliohm Electronic"
+			(at 393.7 154.94 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "HoBB1216-5W-0.5mR-1%"
+			(at 393.7 157.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/shenzhen-milliohm-electronic-co-ltd/HoBB1216-3038-5W-0-5mR-1/24386989"
+			(at 393.7 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.alibaba.com/product-detail/HoBB1216-5W-0-5mR-1-Current_1601632325091.html"
+			(at 393.7 165.1 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17701556"
+			(at 393.7 167.64 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64c80c18-9c87-422a-961f-77931e906c17")
+		)
+		(pin "2"
+			(uuid "f13d18a8-53a5-48df-a79a-a9d51050732f")
+		)
+		(instances
+			(project ""
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 36.83 26.67 0)
 		(unit 1)
@@ -27260,73 +27702,6 @@
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 372.11 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1c870f6-3585-4f40-b2a9-4cc813cb4168")
-		(property "Reference" "R34"
-			(at 372.11 134.112 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 372.11 136.144 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 372.11 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 372.11 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb689e55-1598-4396-a29a-fd8c3aac7d10")
-		)
-		(pin "2"
-			(uuid "71e9d000-2b97-4c82-972b-02eb48d53e57")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -27769,120 +28144,6 @@
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESC-SchemSymLib:CL10A105KB8NNNC")
-		(at 351.79 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af0da045-37ec-479b-ac4a-5cd5b5e109bc")
-		(property "Reference" "C36"
-			(at 352.044 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "700n"
-			(at 352.044 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 375.666 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do"
-			(at 389.382 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1uF 50V X5R ±10% 0603 MLCC"
-			(at 374.65 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 372.872 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" " CL10A105KB8NNNC"
-			(at 368.3 121.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A105KB8NNNC?qs=ktYoCbbtCSJz4pFCLWXd5g%3D%3D&srsltid=AfmBOoo2CFIeGAzAeX-EehEIaJFirySoaJxU9DtNhZNzRaMOvefS8sgE"
-			(at 456.946 133.858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
-			(at 410.718 131.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 362.712 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f89d86b6-faba-428c-a6d4-fe621c28e170")
-		)
-		(pin "1"
-			(uuid "595c5668-2310-4677-bb31-9e33551b37c0")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -28984,6 +29245,135 @@
 		)
 	)
 	(symbol
+		(lib_id "ESC-SchemSymLib:0805W8F100JT5E")
+		(at 372.11 142.24 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be3656f8-7478-44e0-a6c4-d030acc546f3")
+		(property "Reference" "R35"
+			(at 372.11 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 372.11 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 372.11 140.462 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17415.pdf"
+			(at 382.27 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
+			(at 374.65 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 377.19 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0805W8F100JT5E"
+			(at 379.73 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C17415.html"
+			(at 384.81 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0805W8F100JT5E?qs=e8oIoAS2J1So%252B3MHDM3UqQ%3D%3D&srsltid=AfmBOopI-gZFA3sL-5SWGoi7z_TSpDc4m1CcykSjlJ7W-70qans23Mn_"
+			(at 387.35 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 389.89 147.32 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5bfc9bf-eec9-47f5-a3fd-727b728a4f7d")
+		)
+		(pin "2"
+			(uuid "6de86db7-a246-40a8-985f-e90093733113")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 267.97 50.8 0)
 		(mirror y)
@@ -29111,6 +29501,134 @@
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESC-SchemSymLib:0805W8F100JT5E")
+		(at 372.11 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfea91b0-b331-4428-aa03-9b3a794f1d9d")
+		(property "Reference" "R32"
+			(at 372.11 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 372.11 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 372.11 121.158 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17415.pdf"
+			(at 382.27 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
+			(at 374.65 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 377.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0805W8F100JT5E"
+			(at 379.73 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C17415.html"
+			(at 384.81 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0805W8F100JT5E?qs=e8oIoAS2J1So%252B3MHDM3UqQ%3D%3D&srsltid=AfmBOopI-gZFA3sL-5SWGoi7z_TSpDc4m1CcykSjlJ7W-70qans23Mn_"
+			(at 387.35 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 389.89 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc1f31ea-1a02-45b3-951a-924b34591285")
+		)
+		(pin "2"
+			(uuid "a327fb87-0206-4c2f-9c1a-be8a6ef66530")
+		)
+		(instances
+			(project ""
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -30107,6 +30625,135 @@
 		)
 	)
 	(symbol
+		(lib_id "ESC-SchemSymLib:0805W8F100JT5E")
+		(at 372.11 123.19 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3704645-745f-470f-be85-c6f95b8a952e")
+		(property "Reference" "R33"
+			(at 372.11 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 372.11 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 372.11 121.412 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17415.pdf"
+			(at 382.27 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
+			(at 374.65 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 377.19 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0805W8F100JT5E"
+			(at 379.73 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C17415.html"
+			(at 384.81 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0805W8F100JT5E?qs=e8oIoAS2J1So%252B3MHDM3UqQ%3D%3D&srsltid=AfmBOopI-gZFA3sL-5SWGoi7z_TSpDc4m1CcykSjlJ7W-70qans23Mn_"
+			(at 387.35 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 389.89 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efa583b7-d61c-4879-b0c2-4284746ce29b")
+		)
+		(pin "2"
+			(uuid "b502a9de-ab86-48de-9d45-b060326b96cb")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 148.59 -71.12 0)
 		(mirror y)
@@ -30774,6 +31421,134 @@
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESC-SchemSymLib:0805W8F100JT5E")
+		(at 372.11 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddc87c70-a5f0-436a-9545-0c8c527b0e49")
+		(property "Reference" "R34"
+			(at 372.11 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 372.11 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 372.11 140.208 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17415.pdf"
+			(at 382.27 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
+			(at 374.65 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 377.19 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0805W8F100JT5E"
+			(at 379.73 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C17415.html"
+			(at 384.81 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0805W8F100JT5E?qs=e8oIoAS2J1So%252B3MHDM3UqQ%3D%3D&srsltid=AfmBOopI-gZFA3sL-5SWGoi7z_TSpDc4m1CcykSjlJ7W-70qans23Mn_"
+			(at 387.35 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17415"
+			(at 389.89 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce965c7a-b446-45ea-8603-0c78afd6c5de")
+		)
+		(pin "2"
+			(uuid "04bbb212-95b9-457e-9370-b5e826feb20e")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -31792,73 +32567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 372.11 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4214ede-ec2d-4a0a-a5b9-167e57d7d773")
-		(property "Reference" "R32"
-			(at 372.11 115.316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 372.11 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 117.602 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 372.11 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 372.11 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc2c2291-12d2-4fe8-839e-c6ae760722eb")
-		)
-		(pin "2"
-			(uuid "19fe5426-9b6a-42f2-bc0d-64e75a4c71e4")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at -130.81 273.05 0)
 		(unit 1)
@@ -32166,74 +32874,6 @@
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 372.11 142.24 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe0880a4-91fa-4d63-895d-3b627bbf5b8e")
-		(property "Reference" "R35"
-			(at 372.11 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 372.11 146.812 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 144.018 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 372.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 372.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b4a9f5a-51ed-4d50-9e6d-742aa28825fb")
-		)
-		(pin "2"
-			(uuid "e94bb63d-30cf-4704-8297-713f69c63b42")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R35")
 					(unit 1)
 				)
 			)

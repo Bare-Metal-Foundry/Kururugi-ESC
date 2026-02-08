@@ -1,0 +1,124 @@
+(footprint "Kelvin Shunt 1216 (3038)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cbb3e40f-5b82-49f6-9a4f-2950dde35c60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Kelvin Shunt 1216 (3038)"
+		(at 5 4.1148 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09e79c14-b37e-4aa3-901f-02fe1ced234f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7663/HoBB_series.pdf"
+		(at 5 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27745df3-acd4-40d5-8caf-5ef050b99305")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Description" "Shunt resistor with kelvin sensing"
+		(at 5 14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e77a77d-bc67-4824-adb7-389a22375572")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Manufacturer" "Shenzhen Milliohm Electronic"
+		(at 5 8 0)
+		(layer "F.Fab")
+		(uuid "b982c377-250d-4248-857d-e7998108013b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Manufacturer Part Number" "HoBB1216-5W-0.5mR-1%"
+		(at 5 10 0)
+		(layer "F.Fab")
+		(uuid "f99f6863-1844-4492-bccd-f36648cc3cf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 5 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c3f4d6bd-f0c5-41ab-bf7d-627e07dad164")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "23ea9544-2fa6-46c2-ad71-41f5231f7366")
+	)
+	(pad "1" smd roundrect
+		(at 0 2.325)
+		(size 1.5 2.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "5ffc0394-6f3c-4c78-ba2e-067226a3ade5")
+	)
+	(pad "1" smd roundrect
+		(at 2.1 0)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "56cb49fd-06d0-4196-bd6b-cf35e77188d3")
+	)
+	(pad "2" smd roundrect
+		(at 2.1 2.325)
+		(size 1.5 2.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c603671b-725e-416e-b78c-aa55ef4b08ed")
+	)
+	(embedded_fonts no)
+)
