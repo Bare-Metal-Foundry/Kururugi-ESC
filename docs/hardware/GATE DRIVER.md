@@ -8,29 +8,25 @@
 
 We will use the INFINEON 2EDL8024 as it is the one that allows the most source and sink current and the pin can be driven independently, which is great as the MCU will be resonsible for dead time. For the package, we chosed to use the VDSON-8 which is 4x4mm, slighlty lqrger, it allows better cooling and we already have a recommended footprint for it.
 
-## Technical Brief: Selection of the Bootstrap Capacitor $C_{boot}$
+## Technical Brief: Selection of the Bootstrap Capacitor $C_{boot}$ and diode $D_{boot}$
 
 An usual value in the drone context is to take Cg=1µf. Lets check it is ok with my configuration. We can use the datasheet of the INFINEON 2EDL8X2X.
 
-a) $\Delta V_{Cboot\_max} = V_{dd} - V_F - V_{HBR} - V_{HBH} = 2.48V$
+a) $\Delta V_{Cboot\_max} = V_{dd} - V_F - V_{HBR} - V_{HBH} = 2.03V$
 
-as maximum are $V_{dd} = 10V$, $V_F = 1.25V$, $V_{HBR} = 6.0V$ and $V_{HBH} = 0.27V$
+as maximum are $V_{dd} = 10V$, $V_F = 1.25V to 2.15V = 1.7V$, $V_{HBR} = 6.0V$ and $V_{HBH} = 0.27V$
 
-b) $Q_T = Q_g + \frac{I_{HB}+(I_{HBS}+I_{pulldown})*0.95}{F_{SW}} = 261.9nC$
+b) $Q_T = Q_g + \frac{I_{HB}+(I_{HBS}+I_{pulldown})*0.95}{F_{SW}} = 238.2nC$
 
-as maximum are $Q_g = 120nC$, $I_{HB} = 0.7mA$, $I_{HBS} = 1.25mA, I_{pulldown}=1mA$ and $F_{SW\_min} = 20kHz$, for 100% duty cycle
+as maximum are $Q_g = 120nC$, $I_{HB} = 0.7mA$, $I_{HBS} = 1.25mA, I_{pulldown}=1mA$ and $F_{SW\_min} = 24kHz$, for 100% duty cycle
 
 Both $I_{HB}$ and $I_{HBS}$ are quite high, this is a price to pays for fast propagation time and gate opening/closing.
 
-c) $C_{boot\_min} \geq \frac{Q_T}{V_{Cboot\_max}} = 107.7nF$
+c) $C_{boot\_min} \geq \frac{Q_T}{V_{Cboot\_max}} = 117.3nF$
 
-## Technical Brief: Selection of the Bootstrap Diode $D_{boot}$
+Hence, we will rely on a 300nF capactiance for 50V, to ensure minimal DC biais. We expect 20% max of DC biais so 240nF which is a x2 security factor. Hence, the max tension lost during a cycle will be of dV=Qt/C=992mV and not 2.03V.
 
-We estimated resistance of the internal path to charge the bootstrap capacitor to be Rinternal = 21.5R, so 0.465mA approximatly. Hence, TAU=15µs, to get a good value, 5tau=75.25µs (99.3% charged) to get a complete charge from 0V.
-
-The internal diode can supply approximatly 0.465mA, hence it would take 650ns to top-up Cboost from the missing 261.9nC. We have to add another diode in //. If we add a 5Ohm resistor in // with a diode, we can add 2A for top-up, dropping top-up time to 122ns, which is enough to work at 95% duty cycle at Vboot = 9V (-1V from diode drop). 
-
-The BST capacitor can only be charged during low pwm, following are some magnitude order for the duration of low time depending of the:
+At the start of a charging cycle (high side low), due to Vf, the voltage is of Vdd-Vf-deltaV = 10-1.7-0.992=7.308V. To charge the capacitor back to its original voltage of Vdd-Vf = 8.3V. The internal diode caracteristics are mostly unknown, we only know that Vf=1.25V@100µA (end of filling) and Vf=2.15V@100mA (start of filling). We chosed the second one as reference: Rf=21.5Ohm in mean. Given the formula: R=21.5Ohm, C=240nF, Vfwanted=8V, V0=7.3V, Vdd=8.3V. Hence, 6.2µs are needed to fill the capacitor, which is not acceptable as:
 
 - At 128kHz and 95% duty cycle $0.4\mu s$ are available to charge Cboost (ultimate goal). 
 - At 96kHz and 95% duty cycle, $0.531\mu s$ are available to charge Cboost. 
@@ -38,7 +34,17 @@ The BST capacitor can only be charged during low pwm, following are some magnitu
 - At 48kHz and 95% duty cycle, $1.042\mu s$ are available to charge Cboost.
 - At 24kHz and 95% duty cycle, $2.083\mu s$ are available to charge Cboost.
 
-_Note3_: To get a faster fill, we could rely on the soft start of the BUCK so 0->10V initial is not an issue. But this require to be certain this cannot happen outside of the start.
+Thus, 2 methods can be employed:
+1. Add an additionnal diode
+2. Raise Vdd
+
+Let first add an additional diode and a 5R resistor. We selected the RB161QS-40 which as a forward voltage of 0.38V (+0.5V from resistor) at 100mA and a reverse current of 40µA. Bringing $\Delta V_{Cboot\_max} = 2.85V$, $Q_T \approx 238.2nC$ and $C_{boot\_min} \geq = 83.6nF$.
+
+To keep the x2 security factor, we select a 200nF (DC biais 150nF) capacitance for Cboot, so $\Delta V_{Cboot\_max} = 1.59V$ during a cycle. We chosed the second one as reference: Rf=21.5Ohm in mean. Given the formula: R=4.06Ohm, C=150nF, Vfwanted=8.1V, V0=8.03V, Vdd=9.62V. Hence, 0.2µs are needed to fill the capacitor. This time, it is possible to work at an high duty without major compromise on Vboot!
+
+Computation are sum up here, we can see that using 11V from start add a lot of benefits! The downside to work at lower voltage is that Rdson increase on long duration.
+
+![alt text](image.png)
 
 ![alt text](<WhatsApp Image 2026-02-08 at 19.16.33.jpeg>)
 
