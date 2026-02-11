@@ -9,7 +9,8 @@ $F_{SW, \max(@V_{IN, \min})} = \frac{V_{IN,\min} - V_{OUT}}{V_{IN,\min} \cdot T_
 1. For $V_{IN, \min} = 10.5V, F_{SW} = 280kHz$
 2. For $V_{IN, \min} = 11.0V, F_{SW} = 535kHz$
 3. For $V_{IN, \min} = 11.5V, F_{SW} = 768kHz$
-4. For $V_{IN, \min} = 12.0V, F_{SW} = 981kHz$
+4. For $V_{IN, \min} = 12.0V, F_{SW} = 980kHz$
+4. For $V_{IN, \min} = 12.5V, F_{SW} = 981kHz$
 
 In the end, for VersionV1.0, we deemed that battery will never continuously drop under 12V. The full range of frequency of the LM5160 cannot be used and we must ensure F_sw<981kHz. 
 
@@ -27,6 +28,8 @@ Thus, the full range frequency of the LM5160 can be used with a confortable marg
 
 We will aim for F_sw = 900kHz. This is 900/128=7 times greater than the 128kHz max frequency of our PWM and well withing the 5-10x law of sampling rate, so there should be no issues.
 
-$R_{\text{ON}} = \frac{V_{\text{OUT}}}{F_{\text{SW}} \times 10^{-10}} = 111k\Omega$, we will use $110k\Omega$ as we design with 1% resistors for VersionV1.0
+$R_{\text{ON}} = \frac{V_{\text{OUT}}}{F_{\text{SW}} \times 10^{-10}} = 111k\Omega$, we will use $120k\Omega$ as it is the nearest value on JLCPCB, so 833kHz maximum.
 
 $T_{\text{ON}, \text{typ}} = \frac{R_{\text{ON}} \times 10^{-10}}{V_{\text{IN}}} = 458ns$
+
+On JLCPCB, there are no 110kR, so we went with a 120kR part, hence Fsw is limited to 833kHz, margin should be enough.

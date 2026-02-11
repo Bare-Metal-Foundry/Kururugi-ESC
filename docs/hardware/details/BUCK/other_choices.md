@@ -14,7 +14,7 @@ If FPWM is put to low, then the efficiency is increased. The low side mostfet be
 
 $V_{OUT} = \frac{V_{REF} \times (R_{FB1} + R_{FB2})}{R_{FB1}}$, specified in the datasheet.
 
-Where $V_{REF} = 2V$. We want $V_{OUT} = 10V$ so $\frac{R_{FB2}}{R_{FB1}} = 4$. We should try to keep the sum (lost power), in the $10k\Omega \text{ to } 100k\Omega$ order. We will use 
+Where $V_{REF} = 2V$. We want $V_{OUT} = 10V$ so $\frac{R_{FB2}}{R_{FB1}} = 4$. We should try to keep the sum (lost power), in the $10k\Omega \text{ to } 100k\Omega$ order. We will use 10kR and 39.2kR, so $V_{REF} = 2.041V$
 
 ## Technical Brief: Selection of the Current Limit Timer $C_{VCC}$
 
@@ -36,13 +36,17 @@ It is recommended to have $C_{BST} = 10nF$, with a good quality X7R. It is fed b
 
 ## Technical Brief: Under voltage lockout - RUV1/RUV2
 
-We want $V_{IN,\text{rise}}=18V$ and $\Delta V_{IN}=2.5V$ . We have $I_{HYS}=10mA$. 
+We decided to aim for 12.0V minimum Vbat so $V_{IN,\text{rise}}=12V$. We also need an important hysteresis as the battery will have a lot of sag, hence $\Delta V_{IN}=4V$ and, it is given $I_{HYS}=20µA$. This enforces:
 
-Hence, $R_{UV2} = \frac{\Delta V_{IN}}{I_{HYS}} = 125\,\text{k}\Omega$.
+$R_{UV2} = \frac{\Delta V_{IN}}{I_{HYS}} = 200\,\text{k}\Omega$. 
 
-And because $V_{IN,\text{rise}} = V_{UVLO}\left(1 + \frac{R_{UV2}}{R_{UV1}}\right)$, we have $R_{UV2} = 9.25\,\text{k}\Omega$.
+We want $V_{IN,\text{rise}} = 12V$ and have $V_{UVLO,\text{TH}} = 1.24V$. Hence:
 
-We will take $R_{UV1}=9.31\text{k}\Omega and $R_{UV2}=124\text{k}\Omega$
+$R_{UV1} = \frac{R_{UV2}}{\left(\dfrac{V_{IN,\text{rise}}}{V_{UVLO,\text{TH}}} - 1\right)} = 23k\Omega$
+
+We will take $R_{UV1}=23\text{k}\Omega$ and $R_{UV2}=200\text{k}\Omega$
+
+![alt text](uv_behavior.png)
 
 ## Technical Brief: Input cqpqcitor CIN
 
