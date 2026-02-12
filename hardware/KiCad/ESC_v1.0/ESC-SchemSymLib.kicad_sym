@@ -2270,7 +2270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1Ω 125mW 150V ±1% ±200ppm/℃ 0805  -55℃~+155℃"
+		(property "Description" "5.1Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
 			(at 5.08 -2.54 0)
 			(show_name)
 			(effects
@@ -10495,6 +10495,237 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "LVS404018-220M-N"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 1.905 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESC-FootprintLib:Chilisin_Elec_SMD,4x4mm"
+			(at 2.54 -5.08 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C116614.pdf"
+			(at 2.54 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uH 420mΩ 760mA 810mA Shielded ±20% SMD,4x4mm"
+			(at 2.54 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Chilisin Elec"
+			(at 2.54 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LVS404018-220M-N"
+			(at 2.54 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C116614.html"
+			(at 2.54 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Pulse-Electronics/BWVS00404018220M00?qs=DRkmTr78QAQDn%252B1PqgPhGw%3D%3D&utm_source=digipart&utm_medium=aggregator&utm_campaign=BWVS00404018220M00&utm_term=LVS404018-220M-N&utm_content=Pulse"
+			(at 2.54 -20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C116614"
+			(at 2.54 -22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Irms" "760mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LVS404018-220M-N_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LVS404018-220M-N_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "NVMFS5C604NL"
 		(pin_names
 			(offset 0)
@@ -10521,7 +10752,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
+		(property "Footprint" "ESC-FootprintLib:Onsemi_DFN5_DFNW5"
 			(at 12.7 -7.62 0)
 			(show_name)
 			(effects
@@ -10870,7 +11101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESC-FootprintLib:Rohm_SMD1006"
 			(at 2.54 -7.62 0)
 			(show_name)
 			(effects

@@ -1,4 +1,4 @@
-26636380903218129
+26639922710128183
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61348,9 +61348,23 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 ESC-FootprintLib
+Chilisin_Elec_SMD,4x4mm
+
+
+0
+2
+2
+ESC-FootprintLib
 Kelvin Shunt 1216 (3038)
 
 
+0
+4
+2
+ESC-FootprintLib
+Rohm_SMD1006
+SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf
+Diode SOD882 DFN1006-2
 0
 4
 2

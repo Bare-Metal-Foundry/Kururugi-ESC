@@ -12,7 +12,7 @@ $F_{SW, \max(@V_{IN, \min})} = \frac{V_{IN,\min} - V_{OUT}}{V_{IN,\min} \cdot T_
 4. For $V_{IN, \min} = 12.0V, F_{SW} = 980kHz$
 4. For $V_{IN, \min} = 12.5V, F_{SW} = 981kHz$
 
-In the end, for VersionV1.0, we deemed that battery will never continuously drop under 12V. The full range of frequency of the LM5160 cannot be used and we must ensure F_sw<981kHz. 
+In the end, for VersionV1.0, we deemed that battery will never continuously drop under 12.5V. The full range of frequency of the LM5160 cannot be used and we must ensure F_sw<981kHz. 
 
 _Note1_: Raising the UVLO could protect from <12V on battery rail.
 

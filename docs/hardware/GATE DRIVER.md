@@ -44,6 +44,8 @@ To keep the x2 security factor, we select a 200nF (DC biais 150nF) capacitance f
 
 Computation are sum up here, we can see that using 11V from start add a lot of benefits! The downside to work at lower voltage is that Rdson increase on long duration.
 
+We can, using the formula given, compute the consumption at 128
+
 ![alt text](image.png)
 
 ![alt text](<WhatsApp Image 2026-02-08 at 19.16.33.jpeg>)
@@ -90,6 +92,14 @@ This level of dissipation is acceptable given an idle board thermal budget of ap
 
 In practice, operation at 128 kHz is not targeted for the first hardware revision, both because the gate charge cannot be transferred fast enough with the chosen gate resistance and to preserve additional thermal margin. A maximum switching frequency of 64 kHz is therefore planned for V1, providing significant headroom on gate-drive dissipation.
 
+At 128kHz, 95%D, we have Qton=142.2nC and Qtoff=125nC, hence at 10V, we need to dissipate 335mW in thermal. The internal resistance of the IC are:
+- HS/LS pull up: 1R
+- HS pull down: 0.5R
+- LS pull down: 0.35R
+
+So $P_{R_g} = \frac{R_g}{R_g+R_{out}}*P_{g}$, the mean of Rout on a cycle is 2.85R, so $P_{R_g} = 261mW$. The IC dissipate 74mW.
+
+Also, on the pull down, the second Rg also dissipate so $P_{R_g1} = 261/2 * (1 + 0.5) = 196mW$ and $P_{R_g1} = 261/2 * (1 + 0.5) = 65mW$
 
 ## Technical Brief: Selection of the Bypass Capacitor $C_{V_{dd}}$
 
