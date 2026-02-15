@@ -1,4 +1,4 @@
-26639922710128183
+26641693618683913
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61362,11 +61362,18 @@ Kelvin Shunt 1216 (3038)
 4
 2
 ESC-FootprintLib
+Onsemi_DFN5_DFNW5
+ON Semi DFN5 5x6mm 1.27P SO-8FL CASE 488A https://www.onsemi.com/pub/Collateral/488AA.PDF
+ON Semi DFN5 5x6mm 1.27P SO-8FL CASE 488A 
+0
+5
+3
+ESC-FootprintLib
 Rohm_SMD1006
 SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf
 Diode SOD882 DFN1006-2
 0
-4
+2
 2
 Ferrite_THT
 LairdTech_28C0236-0JW-10

@@ -1,0 +1,85 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[a4paper, 10pt, conference]{IEEEtran} % Use this line for a4 paper
+\IEEEoverridecommandlockouts % This command is only needed if 
+
+\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{mathptmx} % assumes new font selection scheme installed
+\usepackage{times} % assumes new font selection scheme installed
+\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+
+% Custom packages
+\usepackage{algorithm}
+\usepackage{algpseudocode} % pour avoir l'environnement algorithmic
+
+\title{\LARGE \bf
+--- Electronical Engineering Note --- \\
+Engineering of a 94kHz 15A sensorless quadricopter ESC
+}
+
+\author{Stepane Binon and Guilhem Andrieu% <-this % stops a space
+	\thanks{Bare Metal Foundry}
+	\thanks{\tt\small stepane.binon@gmail.com}
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+To come
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+The goal of this document is to sumarize the though process, the choices and calculations made during the design of an ESC aimed at being used in an autonomous race quadricopter. 
+
+This project is part of the Bare Metal Foundry, an association which aims at having serious fun with engineering challenges and is also our first attemps at PCB design, both as engineers and association. In this context, the Kururugi-ESC has a central place as a vector of learing and as one of the most important part of a quadricopter, the ESC being the deepest loop of control, the fastest, and thus the deadliest in case of crash. 
+
+We wanted to do this design from scratch to, in addition of learning, gain complete control of the hardware (h/w) and matching the performances we needed. Hence, for now, we do not aim to make it compatible with any ESC software existing as we will develop a custom one in C++, this will be the subject of an article to come. For Version 1.0 of this project, it is aimed to contribute in the following points:
+\begin{itemize}
+    \item The production of a 24 to 94kHz, 15A, 95\%D (Duty Cycle) and sensorless ESC that can work both with Six-Step Control (SSC) and Field-Oriented Control (FOC);
+    \item The presentation of measure and results obtained;
+    \item A complete guideline on how to design a state of the art ESC PCB.
+\end{itemize}
+
+The Version 1.0 will be oriented toward getting the ESC working whereas next versions goals are aimed toward research. One particular point we are interested in is to have the SSC working on a 128kHz ESC, which would bring challenges both for the electronical and coding aspects.
+
+The rest of this paper is organized as follows. Section II will be about the schmatics and selection of components. Section III will present the layout. Section II will exposes results
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Schematic and choice of components}
+
+An ESC is composed of N main sectionsparts
+\begin{itemize}
+    \item An MCU (Micro Controller Unit), responsible for the overall control of the behaviour, mainly communication with the Flight Controller (FC) and control of the power section behaviour;
+    \item Analog to Digital Converters (ADC) and Operational Amplificator (OpAmp), which are used to translate analog signal as tension and current on each phase to the digital language of the MCU. As space is constrained on this PCB, the MCU internal ADC and OpAmp will be used;
+    \item The power section, composed of the 3 half bridge needed to control the Brushless Direct Current Motor (BLDC), get the necessary analog outputs for the MCU and also power the ICs present on the PCB. This is from far the most complexe part of an ADC as it require fine control over very important electron flows;
+\end{itemize}
+
+\subsection{Power section}
+
+As precised before, the power section is divided into three parts. The most complexe is the design of the three half bridges, responsible of the switching needed for the BLDC to rotate (e.g., to mimic DC motors brushes electronically). Then, the design of the measurement unit, including the measure of current/tension on each phase, and battery tension is also a great deal as without proper sensing, control will fail. Finally, less complex are the design of the DC-DC conversion needed to power the Gate Drivers (usually 5-10V, ~1A) and the MCU (usually 3.3V, ~300mA).
+
+\subsubsection{Half Bridge}
+
+The six mosfets present on the board cannot be controlled directly by the MCU as it requires to much power. It begin by selecting the MOSFET to used
+
+
+
+
+
+
+
+
+\end{document}

@@ -92,7 +92,7 @@ This level of dissipation is acceptable given an idle board thermal budget of ap
 
 In practice, operation at 128 kHz is not targeted for the first hardware revision, both because the gate charge cannot be transferred fast enough with the chosen gate resistance and to preserve additional thermal margin. A maximum switching frequency of 64 kHz is therefore planned for V1, providing significant headroom on gate-drive dissipation.
 
-At 128kHz, 95%D, we have Qton=142.2nC and Qtoff=125nC, hence at 10V, we need to dissipate 335mW in thermal. The internal resistance of the IC are:
+At 128kHz, 95%D, we have Qton=142.2nC and Qtoff=125nC, hence at 10V, we need to dissipate 335mW in thermal (i think there is a error, tthis is for 2 fets?). The internal resistance of the IC are:
 - HS/LS pull up: 1R
 - HS pull down: 0.5R
 - LS pull down: 0.35R
