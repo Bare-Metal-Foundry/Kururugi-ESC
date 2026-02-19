@@ -1,0 +1,171 @@
+\documentclass[a4paper, 10pt, conference]{IEEEtran} % Use this line for a4 paper
+
+\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{mathptmx} % assumes new font selection scheme installed
+\usepackage{times} % assumes new font selection scheme installed
+\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+
+% Custom packages
+\usepackage{algorithm}
+\usepackage{algpseudocode} % pour avoir l'environnement algorithmic
+
+\title{\LARGE \bf
+--- Electronical Engineering Note --- \\
+Engineering of a 94kHz 15A sensorless quadricopter ESC
+}
+
+\author{Stepane Binon and Guilhem Andrieu% <-this % stops a space
+	\thanks{Bare Metal Foundry}
+	\thanks{\tt\small stepane.binon@gmail.com}
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\section{Design of the Half-Bridges}
+
+\[
+\Delta V_{boot,max} = V_{DD} - V_F - V_{HBR} - V_{HBH}\text{V}.
+\]
+\[
+V_{boot,min} = V_{DD}-\Delta V_{boot,max}
+\]
+\[
+V_{boot,max} = V_{DD}-V_f
+\]
+\[
+I_{pulldown} = V_{boot,max} / R_{pulldown}
+\]
+\[
+Q_{BS} = Q_g + \frac{I_{HB} + (I_{HBS} + I_{pulldown}) D_{max}}{F_{sw}}
+\]
+\[
+C_{boot,min} \ge \frac{Q_{BS}}{\Delta V_{boot,max}}
+\]
+\[
+C_{boot} = \frac{C_{boot,min}}{1-{k_{derating}}}*S_{C_{boot}}
+\]
+\[
+t_{recharge} = \frac{1-D}{F_{SW}} - t_{blank@V_{SW}=0}
+\]
+\[
+R_{eq} = \frac{  R_{boot,ext} * R_{boot,int}   }{    R_{boot,ext} + R_{boot,int} }
+\]
+\[
+V_{boot,max @ D_{max}} = V_{boot,max} - (V_{boot,max} - V_{boot,min}) e^{-\frac{t_{recharge}}{R_{eq}C_{boot}}}
+\]
+\[
+R_{eq,off} = \frac{R_{pd,hs}+R_{pd,ls}}{2} + R_{g,eq,off}
+\]
+\[
+R_{eq,on} = \frac{R_{pu,hs}+R_{pu,ls}}{2} + R_{g,on+off}
+\]
+\[
+R_{eq,off} = \frac{R_{pd,hs}+R_{pd,ls}}{2} + R_{g,eq,off}
+\]
+\[
+I_{max,on} = V_{boot,max} / R_{eq,on}
+\]
+\[
+I_{max,off} = V_{boot,max} / R_{eq,off}
+\]
+\[
+P_{g,loss,min} = Q_g * V_{boot,max} * F_{SW}
+\]
+\[
+P_{g,loss} = P_{g,loss,min}*S
+\]
+\[
+P_{R_{GD},mean} = P_{g,loss}-P_{Rg,mean}
+\]
+\[
+P_{Rg,mean} = \frac{R_{g,mean}}{R_{g,mean}+R_{GD,mean}}*P_{g,loss}
+\]
+\[
+P_{Rg,mean} = \frac{R_{g,mean}}{R_{g,mean}+R_{GD,mean}}*P_{g,loss}
+\]
+\[
+P_{R_{GD},mean} = P_{g,loss}-P_{Rg,mean}
+\]
+ 
+\section{Design of the Current sensing}
+
+\[
+V_{shunt,typ} = R_{shunt} * I_{ph,typ}
+\]
+\[
+V_{shunt,amp,typ} = V_{shunt,typ}*G_{opamp}
+\]
+\[
+V_{shunt,spike} = R_{shunt} * I_{ph,spike}
+\]
+\[
+V_{shunt,amp,spike} = V_{shunt,spike}*G_{opamp}
+\]
+\[
+\Delta I_{LSB} = \frac{V_{ref,ADC}}{(2^{B_{res}}-1)*G_{opamp}*R_{shunt}}
+\]
+\[
+P_{shunt,mean} = \frac{2}{3} * R_{shunt} * I_{ph,mean}^2 * D_{max}
+\]
+\[
+P_{shunt,max} = \frac{2}{3} * R_{shunt} * I_{ph,max}^2 * D_{max}
+\]
+
+\section{Design of the Voltage sensing}
+
+As the current sensing uses an op-amp buffer with very low output impedance, the ADC input impedance constraint becomes negligible. Therefore, detailed RC settling analysis at the ADC pin is not required for the current sensing ADC channels. As the ADC of the STM32G484 are designed for this purpose, no additional impedance matching or damping network is deemed necessary.
+\[
+R_{V_1} = R_{V_2}(\frac{V_{ph,spike}}{V_{ADC}} - 1)
+\]
+\[
+P_{R_{V_1}} = \frac{V_{ph,spike}^2}{R_{V_1}+R_{V_2}}
+\]
+\[
+P_{R_{V_1},R_{V_2}} = \frac{V_{ph,spike}^2}{R_{V_1}+R_{V_2}}
+\]
+\[
+V_{divider,spike} = \frac{R_{V_2}}{R_{V_1}+R_{V_2}} V_{ph,spike}
+\]
+\[
+V_{divider,typ} = \frac{R_{V_2}}{R_{V_1}+R_{V_2}} V_{ph,typ}
+\]
+\[
+I_{divider,typ} = \frac{V_{divider,typ}}{R_{V_1}+R_{V_2}}
+\]
+\[
+I_{in,ADC,spike} = \frac{V_{divier,spike}}{R_{adc,ext}}
+\]
+\[
+I_{in,ADC,typ} = \frac{V_{divier,typ}}{R_{adc,ext}}
+\]
+\[
+R_{thvn} = \frac{R_{V_1}*R_{V_2}}{R_{V_1}+R_{V_2}}
+\]
+\[
+I_{in,ADC,typ} = \frac{V_{divier,typ}}{R_{thvn}+R_{adc,ext}}
+\]
+\[
+\Delta V_{LSB} = \frac{V_{ref,ADC}}{V_{in,ADC}(2^{N_{bit}}-1)}V_{ph,spike}
+\]
+\[
+T_{aqc} = N_{ADC} * T_{ADC}
+\]
+To chose the external capacitor, one should note that we won't be sampling the ADC during blanking time. Hence, the external capacior will be fully charged at the start of the sampling: we can model the external capacitor as fully charge at the start of a sampling. This assumption holds when $t_{\mathrm{settle}} \gg R_{\mathrm{th}}\,C_{\mathrm{ext}}$.
+\[
+V_{err} = V_{divider,typ} e^{-\frac{t_{acq}}{R_{ADC,ext} C_{samp}}}
+\]
+\[
+e^{-\frac{t_{acq}}{R_{ADC,ext} C_{samp}}} \le \frac{\epsilon_{LSB}}{2^N}
+\]
+\[
+T_{fill,Csamp} = 
+k_{charge}(R_{ADC,ext}+R_{thvn})C_{samp} \ln\left(\frac{2^{N_{bit}}}{\epsilon_{LSB}}\right)
+\]
+
+\end{document}

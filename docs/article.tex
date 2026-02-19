@@ -47,12 +47,12 @@ This project is part of the Bare Metal Foundry, an association which aims at hav
 
 We wanted to do this design from scratch to, in addition of learning, gain complete control of the hardware (h/w) and matching the performances we needed. Hence, for now, we do not aim to make it compatible with any ESC software existing as we will develop a custom one in C++, this will be the subject of an article to come. For Version 1.0 of this project, it is aimed to contribute in the following points:
 \begin{itemize}
-    \item The production of a 24 to 94kHz, 15A, 95\%D (Duty Cycle) and sensorless ESC that can work both with Six-Step Control (SSC) and Field-Oriented Control (FOC);
+    \item The production of a 24 to 94kHz, 15A continuous, 95\%D (Duty Cycle), 4S to 6S, and sensorless ESC that can work both with Six-Step Control (SSC) and Field-Oriented Control (FOC);
     \item The presentation of measure and results obtained;
-    \item A complete guideline on how to design a state of the art ESC PCB.
+    \item A complete guideline on how to design a such an ESC PCB, that we hope is state of the art.
 \end{itemize}
 
-The Version 1.0 will be oriented toward getting the ESC working whereas next versions goals are aimed toward research. One particular point we are interested in is to have the SSC working on a 128kHz ESC, which would bring challenges both for the electronical and coding aspects.
+The Version 1.0 of the Kururugi-ESC will be oriented toward getting it working whereas next versions goals are aimed toward research. One particular point we are interested in is to have the SSC working on a 128kHz PWM, which would bring challenges both for the electronical and coding aspects.
 
 The rest of this paper is organized as follows. Section II will be about the schmatics and selection of components. Section III will present the layout. Section II will exposes results
 
@@ -67,16 +67,42 @@ An ESC is composed of N main sectionsparts
     \item The power section, composed of the 3 half bridge needed to control the Brushless Direct Current Motor (BLDC), get the necessary analog outputs for the MCU and also power the ICs present on the PCB. This is from far the most complexe part of an ADC as it require fine control over very important electron flows;
 \end{itemize}
 
-\subsection{Power section}
+\subsection{Half bridge}
 
-As precised before, the power section is divided into three parts. The most complexe is the design of the three half bridges, responsible of the switching needed for the BLDC to rotate (e.g., to mimic DC motors brushes electronically). Then, the design of the measurement unit, including the measure of current/tension on each phase, and battery tension is also a great deal as without proper sensing, control will fail. Finally, less complex are the design of the DC-DC conversion needed to power the Gate Drivers (usually 5-10V, ~1A) and the MCU (usually 3.3V, ~300mA).
+To control the BLDC motor by mimicing electronically the behaviour of an MCC motor, an ESC relies on 3 phases that exictes the different phases at precise timings. This paper does not sumarize the theory behind it. The first role of an ESC is to ensure proper commutation to keep the motor running. Its second role it to control at which speed the motor rotate. 
 
-\subsubsection{Half Bridge}
+The design of the 3 half bridge needed is the most critical part as Gate-Drive Domain and Logic Domain collide with the Power Domain. Among other, these are the main challenges:
 
-The six mosfets present on the board cannot be controlled directly by the MCU as it requires to much power. It begin by selecting the MOSFET to used
+\begin{itemize}
+    \item Ensuring proper conduction of the battery power to the motor cables.
+    \item Ensuring minimal EMI creation during the high-speed switching of mostfet.
+    \item Ensuring proper sensing of the voltage and current on the motor phases, this is critical for sensorless FOC. The low power sensing must not be flowed by high power EMI noise. Ensuring this sensing, which mainly relies on resisor, does not creates too much heat.
+    \item Ensuring that the Gate capacitance is filled fast enough for high speed switching and low switching losses
+    \item Ensuring that their is no creep and false trigger in the Gate capacitance
+    \item Preventing shoot through caused by simultaneous trigger of MOSFET
+    \item Ensuring all components are cooled enough and that the ESC overall temperature stay tolerable
+    \item Ensuring that the boost capacitor of the gate driver is filled fast enough
+    \item Ensuring that the gate driver capacitance is enough for all workload and temperatures
+\end{itemize}
 
+To chose a mosfet, over that maximum current admissible at maximal running temperature, two parameter are of the outmost importance:
+\begin{itemize}
+    \item $Q_g$ which defines the gate capacitance. An increase of gate capacitance means that more power will be need to both turn on and off the mosfet, wich creates more heat and longer switching time.
+    \item $R_{DS,on}$ which defines the resistance of the mosfet when on. This is used to compute the heat created by the mosfet and is important at high duty cycles. 
+\end{itemize}
+At low PWM frequency, conduction losses are more important than swithing losses, this tendency inverted at high frequency PWM and much more heat is create overall.
 
+Conduction losses per mosfet can be calculated using:
+\[
+P_{cond} = R_{DS,on} * I_{max} * D_{max}
+\]
 
+Swithing losses per mosfet can be calculated using:
+\[
+P_{sw} = U_{max} * I_{max} * (t_{rise} + t_{fall}) * F_{ws,max}
+\]
+
+The selection of the MOSFET will define all the Half-Bridge. For the Kururugi-ESC-V1.0, six Texas Instruments CSD18540Q5B will be used. 
 
 
 
