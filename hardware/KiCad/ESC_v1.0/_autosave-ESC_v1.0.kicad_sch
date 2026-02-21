@@ -13679,30 +13679,6 @@
 		(uuid 13fc2621-b76d-44c1-abd3-c8896b6e88f8)
 	)
 	(rectangle
-		(start 496.57 36.83)
-		(end 622.3 82.55)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7fa0ed7f-0611-4d52-a102-9e0b220609ea)
-	)
-	(rectangle
-		(start 613.41 91.44)
-		(end 641.35 113.03)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid aa9655ff-0519-4cbf-89c4-b43cf72b85b8)
-	)
-	(rectangle
 		(start 13.97 20.32)
 		(end 85.09 58.42)
 		(stroke
@@ -13774,19 +13750,6 @@
 			(justify left bottom)
 		)
 		(uuid "0f48c981-c765-422e-82c1-e32cea654373")
-	)
-	(text "MCU\n"
-		(exclude_from_sim no)
-		(at 614.172 112.268 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "491531ac-8200-4fc0-ae4a-d4e79a3902c7")
 	)
 	(text "RGB LED\n"
 		(exclude_from_sim no)
@@ -14366,12 +14329,6 @@
 		(uuid "c1e1b04f-1220-449d-b874-2e449dcb7faa")
 	)
 	(junction
-		(at 585.47 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3872b59-b8a2-48a0-a80f-2c974b69346b")
-	)
-	(junction
 		(at 287.02 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14438,22 +14395,10 @@
 		(uuid "d8b8cbcc-9a33-42ec-88b1-fdfb317dcd37")
 	)
 	(junction
-		(at 601.98 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e117a6b7-49cb-4543-9ab5-7fd022e1f00e")
-	)
-	(junction
 		(at 76.2 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e356adc3-cf18-44ed-8081-199cdcdc4ed3")
-	)
-	(junction
-		(at 626.11 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3c213ad-6f18-4294-957d-b106ac9e16ea")
 	)
 	(junction
 		(at 233.68 71.12)
@@ -14555,16 +14500,6 @@
 	)
 	(wire
 		(pts
-			(xy 601.98 93.98) (xy 614.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08fd4e9d-ae9c-4b00-9ea6-3be652aedb49")
-	)
-	(wire
-		(pts
 			(xy 116.84 246.38) (xy 111.76 246.38)
 		)
 		(stroke
@@ -14625,16 +14560,6 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 93.98) (xy 572.77 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12edbdd1-5489-49b9-b49b-abe73f3f524f")
-	)
-	(wire
-		(pts
 			(xy 528.32 55.88) (xy 529.59 55.88)
 		)
 		(stroke
@@ -14692,16 +14617,6 @@
 			(type default)
 		)
 		(uuid "1a85dae1-a6c7-4424-9499-d44a76ece786")
-	)
-	(wire
-		(pts
-			(xy 598.17 93.98) (xy 601.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8811fe-3c0d-4264-8561-9b2e0cbca79e")
 	)
 	(wire
 		(pts
@@ -14835,26 +14750,6 @@
 	)
 	(wire
 		(pts
-			(xy 585.47 105.41) (xy 585.47 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "280ed12a-d81b-4560-9086-c2cf5a912c5c")
-	)
-	(wire
-		(pts
-			(xy 601.98 93.98) (xy 601.98 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29fce18b-17ea-4192-9fd8-f3b6ed6dae33")
-	)
-	(wire
-		(pts
 			(xy 44.45 190.5) (xy 55.88 190.5)
 		)
 		(stroke
@@ -14942,16 +14837,6 @@
 			(type default)
 		)
 		(uuid "33647ab9-b493-48ea-bb36-7c053d5a7a53")
-	)
-	(wire
-		(pts
-			(xy 626.11 93.98) (xy 626.11 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33bb2104-e425-4b45-8d12-054cafa0c1df")
 	)
 	(wire
 		(pts
@@ -15435,16 +15320,6 @@
 	)
 	(wire
 		(pts
-			(xy 601.98 105.41) (xy 601.98 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce2dc80-7d5e-4c98-abdd-3749c46dcf25")
-	)
-	(wire
-		(pts
 			(xy 556.26 52.07) (xy 556.26 53.34)
 		)
 		(stroke
@@ -15452,16 +15327,6 @@
 			(type default)
 		)
 		(uuid "6d6df949-9c10-4437-b08f-3214b3d8cecb")
-	)
-	(wire
-		(pts
-			(xy 580.39 93.98) (xy 585.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75f411a0-360b-44df-ba45-82740ea7d258")
 	)
 	(wire
 		(pts
@@ -15562,16 +15427,6 @@
 			(type default)
 		)
 		(uuid "7e7e6e62-60b7-4213-91e6-eda785c03a13")
-	)
-	(wire
-		(pts
-			(xy 585.47 93.98) (xy 585.47 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef0504e-66fa-4ee7-b6ec-379938e5e595")
 	)
 	(wire
 		(pts
@@ -15835,16 +15690,6 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 105.41) (xy 626.11 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a12da74c-f932-47b3-b7bf-2f5aacb5f77d")
-	)
-	(wire
-		(pts
 			(xy 143.51 248.92) (xy 152.4 248.92)
 		)
 		(stroke
@@ -16102,16 +15947,6 @@
 			(type default)
 		)
 		(uuid "b4a0d86c-44f3-4811-85b0-da587d706fcf")
-	)
-	(wire
-		(pts
-			(xy 628.65 93.98) (xy 626.11 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7598812-c925-4cfb-b807-386dcefd7bb4")
 	)
 	(wire
 		(pts
@@ -16465,16 +16300,6 @@
 	)
 	(wire
 		(pts
-			(xy 622.3 93.98) (xy 626.11 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc6844e4-3b2f-410f-93ed-032453f71ca3")
-	)
-	(wire
-		(pts
 			(xy 280.67 60.96) (xy 287.02 60.96)
 		)
 		(stroke
@@ -16802,16 +16627,6 @@
 			(type default)
 		)
 		(uuid "fb11f6ac-d385-49f3-b081-c83f6486c551")
-	)
-	(wire
-		(pts
-			(xy 585.47 93.98) (xy 590.55 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb7e973e-afb3-4bb3-a27a-eed4e4539956")
 	)
 	(wire
 		(pts
@@ -18702,71 +18517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 628.65 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14fd51ac-38d9-4448-8514-cce0f4f80db1")
-		(property "Reference" "#PWR032"
-			(at 624.84 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "To ADC"
-			(at 635.508 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 628.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 628.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 628.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01fe8606-3f13-4d85-a358-d11345fe316d")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESC-SchemSymLib:STM32G484CEU6")
 		(at 66.04 190.5 0)
 		(unit 1)
@@ -19715,71 +19465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 567.69 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1edf78e4-e2de-427d-9fc4-b6e7a85d0f08")
-		(property "Reference" "#PWR019"
-			(at 571.5 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vph"
-			(at 562.61 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 567.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 567.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 567.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12325dbc-735d-4af3-93db-7d0edb8c92a2")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESC-SchemSymLib:CL21A475KAQNNNE")
 		(at 76.2 48.26 0)
 		(unit 1)
@@ -20217,136 +19902,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0805W8F100JT5E")
-		(at 594.36 93.98 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "283ed56e-9483-494f-b245-44396ee8aec5")
-		(property "Reference" "Radc,ext"
-			(at 594.36 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 594.36 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 594.36 92.202 90)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17415.pdf"
-			(at 604.52 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
-			(at 596.9 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 599.44 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0805W8F100JT5E"
-			(at 601.98 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C17415.html"
-			(at 607.06 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0805W8F100JT5E?qs=e8oIoAS2J1So%252B3MHDM3UqQ%3D%3D&srsltid=AfmBOopI-gZFA3sL-5SWGoi7z_TSpDc4m1CcykSjlJ7W-70qans23Mn_"
-			(at 609.6 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17415"
-			(at 612.14 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c32b69ff-32a8-445d-a06a-d09d861614dd")
-		)
-		(pin "2"
-			(uuid "4070219e-5963-4261-8779-7f3f757a6e97")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "Radc,ext")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 368.3 190.5 0)
 		(unit 1)
@@ -20741,73 +20296,6 @@
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 601.98 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e665c6d-966f-4cfa-8e2c-3aaeb114180e")
-		(property "Reference" "#PWR029"
-			(at 601.98 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 601.98 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 601.98 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 601.98 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 601.98 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "257f4597-1391-4b32-a841-78cd273579ac")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -24886,188 +24374,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B104KO5NNNC")
-		(at 601.98 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "771e3639-e3d6-4b72-9648-0ef855967167")
-		(property "Reference" "Cadc,ext"
-			(at 605.028 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 601.726 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 578.104 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
-			(at 564.388 94.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
-			(at 577.85 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 580.898 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 585.47 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
-			(at 504.698 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
-			(at 492.76 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 591.566 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a750c7de-f981-4291-ac7c-7ef888b81789")
-		)
-		(pin "2"
-			(uuid "94a1f90c-b330-4693-98d4-28a761e35488")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "Cadc,ext")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 585.47 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77dba6a2-c158-48b1-8781-24417195718b")
-		(property "Reference" "#PWR027"
-			(at 585.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 585.47 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 585.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 585.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 585.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4ee9c5f-934c-409b-a2b3-b65b261b9d40")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESC-SchemSymLib:0603WAF5601T5E")
 		(at 228.6 237.49 270)
 		(mirror x)
@@ -25260,121 +24566,6 @@
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B104KO5NNNC")
-		(at 626.11 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e1984a9-cb3d-4755-9829-6a79895e80f4")
-		(property "Reference" "Csamp"
-			(at 629.666 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 625.856 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 602.234 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
-			(at 588.518 94.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
-			(at 601.98 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 605.028 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 609.6 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
-			(at 528.828 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
-			(at 516.89 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 615.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6eab19af-58fb-4a58-a600-3f1dcd553b32")
-		)
-		(pin "2"
-			(uuid "c3387a30-5714-4e78-8a7b-ddd9e3029f04")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "Csamp")
 					(unit 1)
 				)
 			)
@@ -30543,73 +29734,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 626.11 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd5a49be-2d5c-466d-9dd3-7a434a1f4dda")
-		(property "Reference" "#PWR015"
-			(at 626.11 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 626.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 626.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 626.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 626.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "179bfc31-086b-4d1f-acc2-41be665fdead")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESC-SchemSymLib:0805W8F100JT5E")
 		(at 588.01 63.5 90)
 		(unit 1)
@@ -30799,136 +29923,6 @@
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESC-SchemSymLib:0805W8F100JT5E")
-		(at 618.49 93.98 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dea484c2-4ce1-4ec1-a0a7-da5ace2b07b1")
-		(property "Reference" "Radc,int"
-			(at 618.49 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 618.49 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 618.49 92.202 90)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17415.pdf"
-			(at 628.65 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
-			(at 621.03 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 623.57 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0805W8F100JT5E"
-			(at 626.11 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C17415.html"
-			(at 631.19 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0805W8F100JT5E?qs=e8oIoAS2J1So%252B3MHDM3UqQ%3D%3D&srsltid=AfmBOopI-gZFA3sL-5SWGoi7z_TSpDc4m1CcykSjlJ7W-70qans23Mn_"
-			(at 633.73 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17415"
-			(at 636.27 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7591c64-a8fa-4fa0-950a-d96538cbff8e")
-		)
-		(pin "2"
-			(uuid "2676b6e5-1d45-41b7-a7b1-6baf21ef3e86")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "Radc,int")
 					(unit 1)
 				)
 			)
@@ -31442,136 +30436,6 @@
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESC-SchemSymLib:0805W8F100JT5E")
-		(at 576.58 93.98 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea634e37-2be9-4166-b0cf-7035a87a763a")
-		(property "Reference" "Rv1"
-			(at 576.58 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 576.58 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 576.58 92.202 90)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17415.pdf"
-			(at 586.74 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
-			(at 579.12 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 581.66 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0805W8F100JT5E"
-			(at 584.2 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C17415.html"
-			(at 589.28 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0805W8F100JT5E?qs=e8oIoAS2J1So%252B3MHDM3UqQ%3D%3D&srsltid=AfmBOopI-gZFA3sL-5SWGoi7z_TSpDc4m1CcykSjlJ7W-70qans23Mn_"
-			(at 591.82 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17415"
-			(at 594.36 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55e2baed-4a73-485d-a9be-251d3d468e53")
-		)
-		(pin "2"
-			(uuid "5cae4bc0-423b-488a-bd3f-7f707100af88")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "Rv1")
 					(unit 1)
 				)
 			)
@@ -32342,137 +31206,6 @@
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESC-SchemSymLib:0805W8F100JT5E")
-		(at 585.47 101.6 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff960400-80b3-4556-9cc2-b022cbd95f2b")
-		(property "Reference" "Rv2"
-			(at 587.248 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 587.756 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 583.692 101.6 90)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17415.pdf"
-			(at 590.55 91.44 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω 125mW 150V ±1% ±200ppm/℃ 0805 -55℃~+155℃"
-			(at 590.55 99.06 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 590.55 96.52 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0805W8F100JT5E"
-			(at 590.55 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C17415.html"
-			(at 590.55 88.9 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0805W8F100JT5E?qs=e8oIoAS2J1So%252B3MHDM3UqQ%3D%3D&srsltid=AfmBOopI-gZFA3sL-5SWGoi7z_TSpDc4m1CcykSjlJ7W-70qans23Mn_"
-			(at 590.55 86.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17415"
-			(at 590.55 83.82 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5450c273-dd21-4d94-8d37-1b0c27ea228d")
-		)
-		(pin "2"
-			(uuid "afc0e008-1f58-4067-8330-7fb346d5ad9b")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "Rv2")
 					(unit 1)
 				)
 			)

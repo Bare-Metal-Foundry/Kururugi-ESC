@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.6)  20 FEB 2026 00:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.6)  21 FEB 2026 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -345,32 +345,32 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 ** WARNING: \thanks is locked out when in conference mode (line 26).
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 32.
+ 33.
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 32.
+ 33.
 
 (C:\Program Files\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 32.
+ 33.
 
 (C:\Program Files\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 32.
+ 33.
 
 (C:\Program Files\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
 
 
 
@@ -404,24 +404,23 @@ L3 programming layer <2025-08-13>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4164 strings out of 468133
- 65749 string characters out of 5440780
- 478540 words of memory out of 5000000
+ 4162 strings out of 468133
+ 65769 string characters out of 5440780
+ 479540 words of memory out of 5000000
  32731 multiletter control sequences out of 15000+600000
- 672303 words of font info for 129 fonts, out of 8000000 for 9000
+ 670735 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,414b,254s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol
-/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program 
-Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/ty
-pe1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on formulas_v1.0.pdf (2 pages, 94746 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type
+1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiK
+TeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on formulas_v1.0.pdf (2 pages, 87476 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

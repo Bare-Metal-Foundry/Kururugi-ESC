@@ -27,10 +27,33 @@ Engineering of a 94kHz 15A sensorless quadricopter ESC
 \thispagestyle{empty}
 \pagestyle{empty}
 
+
+\section{Design of the MOSFETs}
+
+\[
+P_{cond} = I_{ph,mean}^2*R_{DS,on}*D_{max}
+\]
+\[
+P_{cond} = I_{ph,max}^2*R_{DS,on}*D_{max}
+\]
+\[
+P_{switch,typ} = \frac{1}{2}V_{ph,spike@run}*I_{ph,mean}*F_{SW,max}(t_{rise}+t_{fall})
+\]
+\[
+P_{switch,max} = \frac{1}{2}V_{ph,spike@run}*I_{ph,max}*F_{SW,max}(t_{rise}+t_{fall})
+\]
+\[
+P_{tot,typ} = 2P_{cond,mean} + 4P_{switch,typ,spike}
+\]
+\[
+P_{tot,max} = 2P_{cond,max
+} + 4P_{switch,max,spike}
+\]
+
 \section{Design of the Half-Bridges}
 
 \[
-\Delta V_{boot,max} = V_{DD} - V_F - V_{HBR} - V_{HBH}\text{V}.
+\Delta V_{boot,max} = V_{DD} - V_F - V_{HBR} - V_{HBH}
 \]
 \[
 V_{boot,min} = V_{DD}-\Delta V_{boot,max}
@@ -60,13 +83,10 @@ R_{eq} = \frac{  R_{boot,ext} * R_{boot,int}   }{    R_{boot,ext} + R_{boot,int}
 V_{boot,max @ D_{max}} = V_{boot,max} - (V_{boot,max} - V_{boot,min}) e^{-\frac{t_{recharge}}{R_{eq}C_{boot}}}
 \]
 \[
-R_{eq,off} = \frac{R_{pd,hs}+R_{pd,ls}}{2} + R_{g,eq,off}
+R_{eq,on} = \frac{R_{pu,hs}+R_{pu,ls}}{2} + R_{g,on+off} + R_{g,int}
 \]
 \[
-R_{eq,on} = \frac{R_{pu,hs}+R_{pu,ls}}{2} + R_{g,on+off}
-\]
-\[
-R_{eq,off} = \frac{R_{pd,hs}+R_{pd,ls}}{2} + R_{g,eq,off}
+R_{eq,off} = \frac{R_{pd,hs}+R_{pd,ls}}{2} + R_{g,eq,off} + R_{g,int}
 \]
 \[
 I_{max,on} = V_{boot,max} / R_{eq,on}
@@ -75,23 +95,36 @@ I_{max,on} = V_{boot,max} / R_{eq,on}
 I_{max,off} = V_{boot,max} / R_{eq,off}
 \]
 \[
+I_{Miller,on} = V_{miller} / R_{eq,on}
+\]
+\[
+I_{Miller,on} = V_{miller} / R_{eq,off}
+\]
+\[
+t_{rise} = Q_g/I_{Miller,on}
+\]
+\[
+t_{fall} = Q_g/I_{Miller,off}
+\]
+\[
 P_{g,loss,min} = Q_g * V_{boot,max} * F_{SW}
 \]
 \[
 P_{g,loss} = P_{g,loss,min}*S
 \]
 \[
-P_{R_{GD},mean} = P_{g,loss}-P_{Rg,mean}
+P_{R_{GDint},mean} = P_{g,loss}-P_{Rg,mean}
 \]
 \[
 P_{Rg,mean} = \frac{R_{g,mean}}{R_{g,mean}+R_{GD,mean}}*P_{g,loss}
 \]
 \[
-P_{Rg,mean} = \frac{R_{g,mean}}{R_{g,mean}+R_{GD,mean}}*P_{g,loss}
+P_{Rg,off} = \frac{R_{g,off}(1-D_{max})^2}{R_{g,on+off}}P_{Rg,mean}
 \]
 \[
-P_{R_{GD},mean} = P_{g,loss}-P_{Rg,mean}
+P_{Rg,on+off} = P_{Rg,mean}-P_{Rg,off}
 \]
+
  
 \section{Design of the Current sensing}
 
@@ -124,9 +157,6 @@ As the current sensing uses an op-amp buffer with very low output impedance, the
 R_{V_1} = R_{V_2}(\frac{V_{ph,spike}}{V_{ADC}} - 1)
 \]
 \[
-P_{R_{V_1}} = \frac{V_{ph,spike}^2}{R_{V_1}+R_{V_2}}
-\]
-\[
 P_{R_{V_1},R_{V_2}} = \frac{V_{ph,spike}^2}{R_{V_1}+R_{V_2}}
 \]
 \[
@@ -145,27 +175,37 @@ I_{in,ADC,spike} = \frac{V_{divier,spike}}{R_{adc,ext}}
 I_{in,ADC,typ} = \frac{V_{divier,typ}}{R_{adc,ext}}
 \]
 \[
-R_{thvn} = \frac{R_{V_1}*R_{V_2}}{R_{V_1}+R_{V_2}}
-\]
-\[
-I_{in,ADC,typ} = \frac{V_{divier,typ}}{R_{thvn}+R_{adc,ext}}
-\]
-\[
 \Delta V_{LSB} = \frac{V_{ref,ADC}}{V_{in,ADC}(2^{N_{bit}}-1)}V_{ph,spike}
 \]
 \[
-T_{aqc} = N_{ADC} * T_{ADC}
+R_{thvn} = \frac{R_{V_1}*R_{V_2}}{R_{V_1}+R_{V_2}}
+\]
+As $R_{AIN} = 100\Omega \le R_{thvn}+R_{ADC,ext}$, a impedance matching network is required. We will rely on an external capacitor name $C_{ADC,ext}$.
+\[
+F_{c,C_{ADC,ext}} = \frac{1}{2\pi (R_{thvn}+R_{ADC,ext})C_{ADC,ext}}
+\]
+\[
+C_{ADC,ext,real} = C_{ADC,ext}*(1-k_{derating})
+\]
+\[
+\begin{aligned}
+T_{fill,C_{ADC,ext}} &= S*\tau_{c,C_{ADC,ext,real}} \\
+&= S*(R_{thvn}+R_{ADC,ext})C_{ADC,ext,real}
+\end{aligned}
+\]
+\[
+C_{ADC,tot} = C_{samp} + C_{pad} + C_{trace}
+\]
+\[
+\begin{aligned}
+T_{fill,samp} &= S*\tau_{c,C_{samp+pad}} \\
+&= S*R_{pad}*(C_{samp}+C_{pad})
+\end{aligned}
 \]
 To chose the external capacitor, one should note that we won't be sampling the ADC during blanking time. Hence, the external capacior will be fully charged at the start of the sampling: we can model the external capacitor as fully charge at the start of a sampling. This assumption holds when $t_{\mathrm{settle}} \gg R_{\mathrm{th}}\,C_{\mathrm{ext}}$.
-\[
-V_{err} = V_{divider,typ} e^{-\frac{t_{acq}}{R_{ADC,ext} C_{samp}}}
-\]
-\[
-e^{-\frac{t_{acq}}{R_{ADC,ext} C_{samp}}} \le \frac{\epsilon_{LSB}}{2^N}
-\]
-\[
-T_{fill,Csamp} = 
-k_{charge}(R_{ADC,ext}+R_{thvn})C_{samp} \ln\left(\frac{2^{N_{bit}}}{\epsilon_{LSB}}\right)
-\]
+
+\section{Power consumption}
+
+
 
 \end{document}
