@@ -80,7 +80,13 @@ t_{recharge} = \frac{1-D}{F_{SW}} - t_{blank@V_{SW}=0}
 R_{eq} = \frac{  R_{boot,ext} * R_{boot,int}   }{    R_{boot,ext} + R_{boot,int} }
 \]
 \[
-V_{boot,max @ D_{max}} = V_{boot,max} - (V_{boot,max} - V_{boot,min}) e^{-\frac{t_{recharge}}{R_{eq}C_{boot}}}
+V_{boot,max @ D_{max}} = V_{boot,max} - (V_{boot,max} - V_{boot,min}) e^{-\frac{t_{recharge}}{R_{eq}C_{boot}*k_{derating}}}
+\]
+\[
+P_{boot} = C_{boot}(1-k_{derating})V_{boot}\Delta V_{boot,max}F_{max}
+\]
+\[
+P_{R_{boot}} = \frac{R_{boot,ext}}{R_{boot,ext}+R_{boot,int}}P_{boot}
 \]
 \[
 R_{eq,on} = \frac{R_{pu,hs}+R_{pu,ls}}{2} + R_{g,on+off} + R_{g,int}
@@ -119,10 +125,10 @@ P_{R_{GDint},mean} = P_{g,loss}-P_{Rg,mean}
 P_{Rg,mean} = \frac{R_{g,mean}}{R_{g,mean}+R_{GD,mean}}*P_{g,loss}
 \]
 \[
-P_{Rg,off} = \frac{R_{g,off}(1-D_{max})^2}{R_{g,on+off}}P_{Rg,mean}
+P_{Rg,on+off} = \frac{1}{2}\left(1 + \frac{R_{g,off}}{R_{g,on+off}+R_{g,off}}\right)P_{Rg,mean}
 \]
 \[
-P_{Rg,on+off} = P_{Rg,mean}-P_{Rg,off}
+P_{Rg,off} = P_{Rg,mean}-P_{Rg,on+off}
 \]
 
  

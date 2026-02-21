@@ -40,11 +40,11 @@ We decided to aim for 12.0V minimum Vbat so $V_{IN,\text{rise}}=12V$. We also ne
 
 $R_{UV2} = \frac{\Delta V_{IN}}{I_{HYS}} = 200\,\text{k}\Omega$. 
 
-We want $V_{IN,\text{rise}} = 12V$ and have $V_{UVLO,\text{TH}} = 1.24V$. Hence:
+We want $V_{IN,\text{rise}} = 14V$ and have $V_{UVLO,\text{TH}} = 1.24V$. Hence:
 
 $R_{UV1} = \frac{R_{UV2}}{\left(\dfrac{V_{IN,\text{rise}}}{V_{UVLO,\text{TH}}} - 1\right)} = 23k\Omega$
 
-We will take $R_{UV1}=23\text{k}\Omega$ and $R_{UV2}=200\text{k}\Omega$
+We will take $R_{UV1}=22\text{k}\Omega$ and $R_{UV2}=200\text{k}\Omega$
 
 ![alt text](uv_behavior.png)
 
