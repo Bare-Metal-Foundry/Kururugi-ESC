@@ -86,7 +86,10 @@ V_{boot,max @ D_{max}} = V_{boot,max} - (V_{boot,max} - V_{boot,min}) e^{-\frac{
 P_{boot} = C_{boot}(1-k_{derating})V_{boot}\Delta V_{boot,max}F_{max}
 \]
 \[
-P_{R_{boot}} = \frac{R_{boot,ext}}{R_{boot,ext}+R_{boot,int}}P_{boot}
+P_{Rboot} = \frac{1}{2}C_{boot}(1-k_{derating})\Delta V_{boot,max}^2F_{max}
+\]
+\[
+P_{Rboot,ext} = \frac{R_{boot,int}}{R_{boot,ext}+R_{boot,int}}P_{boot}
 \]
 \[
 R_{eq,on} = \frac{R_{pu,hs}+R_{pu,ls}}{2} + R_{g,on+off} + R_{g,int}

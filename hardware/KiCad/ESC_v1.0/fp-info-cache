@@ -1,4 +1,4 @@
-26645236468146303
+26647008234159574
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61347,6 +61347,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESC-FootprintLib
+2EDL8x2x_PG-VDSON-8-4
+DFN, 8 Pin (https://www.st.com/resource/en/datasheet/ld1086.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+13
+9
 ESC-FootprintLib
 Chilisin_Elec_SMD,4x4mm
 
