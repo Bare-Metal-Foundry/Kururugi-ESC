@@ -443,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -471,7 +471,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.144,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -485,6 +485,72 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "name": "DEBUG",
+        "pcb_color": "rgb(255, 0, 219)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 219)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 3,
+        "schematic_color": "rgb(72, 72, 72)"
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "HS",
+        "pcb_color": "rgb(0, 255, 37)",
+        "priority": 8,
+        "schematic_color": "rgb(0, 255, 37)",
+        "wire_width": 6
+      },
+      {
+        "name": "IMU",
+        "pcb_color": "rgb(0, 138, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 138, 255)"
+      },
+      {
+        "name": "MAG",
+        "pcb_color": "rgb(0, 39, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 39, 255)"
+      },
+      {
+        "name": "OSC",
+        "pcb_color": "rgb(0, 255, 201)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 255, 201)"
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWR_3V3",
+        "pcb_color": "rgb(255, 132, 0)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 132, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWR_3V3A",
+        "pcb_color": "rgb(255, 192, 57)",
+        "priority": 5,
+        "schematic_color": "rgb(255, 192, 57)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWR_5V",
+        "pcb_color": "rgb(255, 32, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(255, 32, 0)",
         "wire_width": 6
       }
     ],
@@ -639,6 +705,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Irms",
+          "name": "Irms",
+          "show": false
         }
       ],
       "filter_string": "r",
@@ -657,7 +729,7 @@
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
+      "intersheets_ref_short": true,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
@@ -676,6 +748,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
