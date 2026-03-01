@@ -4381,7 +4381,7 @@
 			)
 		)
 		(symbol "2EDL8024_1_0"
-			(pin unspecified line
+			(pin power_in line
 				(at -5.08 -1.27 0)
 				(length 5.08)
 				(name "VDD"
@@ -4399,7 +4399,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -5.08 -5.08 0)
 				(length 5.08)
 				(name "HI"
@@ -4417,7 +4417,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -5.08 -7.62 0)
 				(length 5.08)
 				(name "LI"
@@ -4435,7 +4435,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -5.08 -11.43 0)
 				(length 5.08)
 				(name "VSS"
@@ -4453,7 +4453,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -5.08 -11.43 0)
 				(length 5.08)
 				(name "VSS"
@@ -4471,7 +4471,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 15.24 -2.54 180)
 				(length 5.08)
 				(name "HB"
@@ -4489,7 +4489,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 15.24 -5.08 180)
 				(length 5.08)
 				(name "HO"
@@ -4507,7 +4507,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "HS"
@@ -4525,7 +4525,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "LO"
@@ -7368,6 +7368,130 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "InputConnector"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IN"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 2.54 -2.54 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+			(at 2.54 -7.62 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 2.54 -5.08 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector for x1 motor phase wire."
+			(at 2.54 -10.16 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "InputConnector_1_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -0.508 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -0.508)
+				(mid -0.5058 0)
+				(end 0 0.508)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13180,7 +13304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm"
+		(property "Footprint" "ESC-FootprintLib:WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm"
 			(at 20.32 -22.86 0)
 			(show_name)
 			(effects
@@ -13519,7 +13643,7 @@
 		)
 		(symbol "LM5160ADNTR_1_1"
 			(text "LM5160A"
-				(at 12.7 -1.27 0)
+				(at 13.208 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14456,7 +14580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14475,7 +14599,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 0 0 0)
+			(at 13.208 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14915,7 +15039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias"
+		(property "Footprint" "ESC-FootprintLib:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
 			(at 82.296 -65.278 0)
 			(effects
 				(font

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 4.0,
+          "width": 4.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.5,
+          "width": 0.3
         }
       ],
       "drc_exclusions": [],
@@ -187,7 +192,14 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.152,
+        0.2,
+        0.25,
+        0.3,
+        0.5,
+        0.75,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -219,6 +231,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -450,7 +466,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -488,70 +504,50 @@
         "wire_width": 6
       },
       {
-        "name": "DEBUG",
-        "pcb_color": "rgb(255, 0, 219)",
-        "priority": 0,
-        "schematic_color": "rgb(255, 0, 219)"
+        "name": "10V",
+        "pcb_color": "rgb(0, 114, 178)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 114, 178)"
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.144,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DEFAULT_NET",
+        "pcb_color": "rgb(153, 153, 153)",
+        "priority": 5,
+        "schematic_color": "rgb(153, 153, 153)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(72, 72, 72)"
       },
       {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "HS",
-        "pcb_color": "rgb(0, 255, 37)",
-        "priority": 8,
-        "schematic_color": "rgb(0, 255, 37)",
-        "wire_width": 6
-      },
-      {
-        "name": "IMU",
-        "pcb_color": "rgb(0, 138, 255)",
+        "name": "PHASES",
+        "pcb_color": "rgb(230, 159, 0)",
         "priority": 2,
-        "schematic_color": "rgb(0, 138, 255)"
+        "schematic_color": "rgb(230, 159, 0)"
       },
       {
-        "name": "MAG",
-        "pcb_color": "rgb(0, 39, 255)",
-        "priority": 1,
-        "schematic_color": "rgb(0, 39, 255)"
+        "name": "PWR_LOGIC",
+        "pcb_color": "rgb(86, 180, 233)",
+        "priority": 0,
+        "schematic_color": "rgb(86, 180, 233)"
       },
       {
-        "name": "OSC",
-        "pcb_color": "rgb(0, 255, 201)",
-        "priority": 4,
-        "schematic_color": "rgb(0, 255, 201)"
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "PWR_3V3",
-        "pcb_color": "rgb(255, 132, 0)",
-        "priority": 6,
-        "schematic_color": "rgb(255, 132, 0)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "PWR_3V3A",
-        "pcb_color": "rgb(255, 192, 57)",
-        "priority": 5,
-        "schematic_color": "rgb(255, 192, 57)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "PWR_5V",
-        "pcb_color": "rgb(255, 32, 0)",
-        "priority": 7,
-        "schematic_color": "rgb(255, 32, 0)",
-        "wire_width": 6
+        "name": "VBAT",
+        "pcb_color": "rgb(213, 94, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(213, 94, 0)"
       }
     ],
     "meta": {
@@ -559,7 +555,52 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "*GND*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*SENS*"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "PHASES",
+        "pattern": "PH*"
+      },
+      {
+        "netclass": "10V",
+        "pattern": "VBUCK"
+      },
+      {
+        "netclass": "PWR_LOGIC",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "DEFAULT_NET",
+        "pattern": "*"
+      },
+      {
+        "netclass": "PWR_LOGIC",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "PWR_LOGIC",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "10V",
+        "pattern": "/VIN"
+      },
+      {
+        "netclass": "10V",
+        "pattern": "/SW"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -713,7 +754,7 @@
           "show": false
         }
       ],
-      "filter_string": "r",
+      "filter_string": "c",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

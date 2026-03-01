@@ -106,7 +106,7 @@
 		(roundrect_rratio 0.15)
 		(uuid "5ffc0394-6f3c-4c78-ba2e-067226a3ade5")
 	)
-	(pad "1" smd roundrect
+	(pad "2" smd roundrect
 		(at 2.1 0)
 		(size 1.5 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
