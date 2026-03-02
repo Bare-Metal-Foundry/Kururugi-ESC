@@ -487,7 +487,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.144,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -498,56 +498,104 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.15,
         "name": "10V",
         "pcb_color": "rgb(0, 114, 178)",
-        "priority": 1,
-        "schematic_color": "rgb(0, 114, 178)"
+        "priority": 2,
+        "schematic_color": "rgb(0, 114, 178)",
+        "track_width": 0.15,
+        "wire_width": 12
       },
       {
         "bus_width": 12,
-        "clearance": 0.144,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DEFAULT_NET",
-        "pcb_color": "rgb(153, 153, 153)",
-        "priority": 5,
-        "schematic_color": "rgb(153, 153, 153)",
-        "track_width": 0.2,
+        "pcb_color": "rgb(170, 170, 170)",
+        "priority": 8,
+        "schematic_color": "rgb(170, 170, 170)",
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "name": "GATE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(119, 41, 121)",
+        "track_width": 0.15,
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 4,
-        "schematic_color": "rgb(72, 72, 72)"
+        "priority": 7,
+        "schematic_color": "rgb(72, 72, 72)",
+        "wire_width": 12
       },
       {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "name": "PGND",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 6,
+        "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 4.0,
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
         "name": "PHASES",
         "pcb_color": "rgb(230, 159, 0)",
-        "priority": 2,
-        "schematic_color": "rgb(230, 159, 0)"
+        "priority": 5,
+        "schematic_color": "rgb(230, 159, 0)",
+        "track_width": 4.0,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.15,
         "name": "PWR_LOGIC",
         "pcb_color": "rgb(86, 180, 233)",
-        "priority": 0,
-        "schematic_color": "rgb(86, 180, 233)"
+        "priority": 4,
+        "schematic_color": "rgb(86, 180, 233)",
+        "track_width": 0.15,
+        "wire_width": 12
       },
       {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "name": "SENSING",
+        "pcb_color": "rgb(0, 158, 115)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 158, 115)",
+        "track_width": 0.15,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
         "name": "VBAT",
         "pcb_color": "rgb(213, 94, 0)",
-        "priority": 3,
-        "schematic_color": "rgb(213, 94, 0)"
+        "priority": 1,
+        "schematic_color": "rgb(213, 94, 0)",
+        "track_width": 4.0,
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -558,10 +606,10 @@
     "netclass_patterns": [
       {
         "netclass": "GND",
-        "pattern": "*GND*"
+        "pattern": "GND"
       },
       {
-        "netclass": "Default",
+        "netclass": "SENSING",
         "pattern": "*SENS*"
       },
       {
@@ -599,6 +647,42 @@
       {
         "netclass": "10V",
         "pattern": "/SW"
+      },
+      {
+        "netclass": "10V",
+        "pattern": "/HB1"
+      },
+      {
+        "netclass": "PGND",
+        "pattern": "PGND"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/HO"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/LO"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/HO1"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/LO1"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/GL1"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/GH1"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/GH1"
       }
     ]
   },
