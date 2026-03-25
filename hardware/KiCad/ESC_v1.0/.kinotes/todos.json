@@ -1,0 +1,23 @@
+[
+  {
+    "text": "Schematic Review",
+    "done": false,
+    "time_spent": 0,
+    "history": [],
+    "is_running": false
+  },
+  {
+    "text": "Layout Check",
+    "done": false,
+    "time_spent": 0,
+    "history": [],
+    "is_running": false
+  },
+  {
+    "text": "Design Verification",
+    "done": false,
+    "time_spent": 0,
+    "history": [],
+    "is_running": false
+  }
+]

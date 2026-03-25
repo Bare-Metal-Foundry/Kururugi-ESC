@@ -320,7 +320,7 @@
 		(uuid "a8333b1d-ef93-496c-b96f-0ee3cf870584")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_4x4mm_P0.8mm_EP2.3x3.24mm.step"
+	(model "C:/Users/binon/Downloads/https___www.infineon.com_assets_row_public_packages_73_3d_model_infineon-pg-vdson-8-4-3d-01-stp-package-en.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,4 +1,4 @@
-26652327105419417
+26657667076824778
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61374,6 +61374,13 @@ Kelvin Shunt 1216 (3038)
 
 0
 4
+4
+ESC-FootprintLib
+NetTie-Small
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
 2
 ESC-FootprintLib
 Onsemi_DFN5_DFNW5
@@ -61382,6 +61389,13 @@ ON Semi DFN5 5x6mm 1.27P SO-8FL CASE 488A
 0
 5
 3
+ESC-FootprintLib
+Phase4x4
+SMD rectangular pad as test Point, square 4.0mm side length
+test point SMD pad rectangle square
+0
+2
+1
 ESC-FootprintLib
 QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm
 QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -61410,6 +61424,13 @@ TRANS_CSD18540Q5B
 0
 5
 3
+ESC-FootprintLib
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
 ESC-FootprintLib
 WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm
 WSON, 12 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py

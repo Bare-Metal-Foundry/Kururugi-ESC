@@ -480,4 +480,15 @@
 		(uuid "68109483-735b-47f4-98bc-1f1449da96e5")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/ESC-CADLib/USB4105-GF-A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

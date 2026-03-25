@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 4.0,
-          "width": 4.0
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -128,22 +128,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.16,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -193,7 +193,6 @@
       ],
       "track_widths": [
         0.0,
-        0.152,
         0.2,
         0.25,
         0.3,
@@ -233,8 +232,24 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.7,
+          "diameter": 0.2,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.35,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.45,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.55,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -487,7 +502,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.05,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -504,25 +519,32 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
         "clearance": 0.15,
-        "name": "10V",
-        "pcb_color": "rgb(0, 114, 178)",
-        "priority": 2,
-        "schematic_color": "rgb(0, 114, 178)",
+        "name": "3V3",
+        "pcb_color": "rgb(86, 180, 233)",
+        "priority": 8,
+        "schematic_color": "rgb(86, 180, 233)",
         "track_width": 0.15,
-        "wire_width": 12
+        "wire_width": 6
       },
       {
-        "bus_width": 12,
         "clearance": 0.15,
+        "name": "COM",
+        "pcb_color": "rgb(131, 157, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(131, 157, 0)",
+        "track_width": 0.15,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.05,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DEFAULT_NET",
         "pcb_color": "rgb(170, 170, 170)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgb(170, 170, 170)",
         "track_width": 0.15,
         "via_diameter": 0.6,
@@ -530,71 +552,75 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.15,
         "name": "GATE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(119, 41, 121)",
+        "priority": 4,
         "schematic_color": "rgb(119, 41, 121)",
         "track_width": 0.15,
         "wire_width": 12
       },
       {
-        "bus_width": 12,
+        "clearance": 0.15,
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgb(72, 72, 72)",
-        "wire_width": 12
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.3,
-        "name": "PGND",
-        "pcb_color": "rgb(72, 72, 72)",
-        "priority": 6,
-        "schematic_color": "rgb(72, 72, 72)",
-        "track_width": 4.0,
-        "wire_width": 12
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.3,
-        "name": "PHASES",
-        "pcb_color": "rgb(230, 159, 0)",
-        "priority": 5,
-        "schematic_color": "rgb(230, 159, 0)",
-        "track_width": 4.0,
+        "track_width": 0.15,
         "wire_width": 6
       },
       {
-        "bus_width": 12,
         "clearance": 0.15,
-        "name": "PWR_LOGIC",
-        "pcb_color": "rgb(86, 180, 233)",
-        "priority": 4,
-        "schematic_color": "rgb(86, 180, 233)",
-        "track_width": 0.15,
+        "name": "PGND",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 3,
+        "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 0.3,
         "wire_width": 12
       },
       {
-        "bus_width": 12,
+        "clearance": 0.3,
+        "name": "PHASES",
+        "pcb_color": "rgb(255, 134, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 134, 0)",
+        "track_width": 0.3,
+        "wire_width": 12
+      },
+      {
+        "clearance": 0.15,
+        "name": "PWM",
+        "pcb_color": "rgb(169, 185, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(169, 185, 0)",
+        "track_width": 0.15,
+        "wire_width": 6
+      },
+      {
         "clearance": 0.15,
         "name": "SENSING",
         "pcb_color": "rgb(0, 158, 115)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgb(0, 158, 115)",
         "track_width": 0.15,
         "wire_width": 6
       },
       {
-        "bus_width": 12,
         "clearance": 0.3,
         "name": "VBAT",
         "pcb_color": "rgb(213, 94, 0)",
         "priority": 1,
         "schematic_color": "rgb(213, 94, 0)",
-        "track_width": 4.0,
+        "track_width": 0.3,
+        "wire_width": 12
+      },
+      {
+        "clearance": 0.15,
+        "name": "VBUCK",
+        "pcb_color": "rgb(0, 114, 178)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 114, 178)",
+        "track_width": 0.15,
         "wire_width": 12
       }
     ],
@@ -605,84 +631,132 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "GND",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "SENSING",
-        "pattern": "*SENS*"
-      },
-      {
-        "netclass": "VBAT",
-        "pattern": "VBAT"
-      },
-      {
-        "netclass": "PHASES",
-        "pattern": "PH*"
-      },
-      {
-        "netclass": "10V",
-        "pattern": "VBUCK"
-      },
-      {
-        "netclass": "PWR_LOGIC",
-        "pattern": "+3V3"
-      },
-      {
         "netclass": "DEFAULT_NET",
         "pattern": "*"
       },
       {
-        "netclass": "PWR_LOGIC",
-        "pattern": "+5V"
+        "netclass": "PWM",
+        "pattern": "/PWM*"
       },
       {
-        "netclass": "PWR_LOGIC",
-        "pattern": "/VBUS"
+        "netclass": "SENSING",
+        "pattern": "/*SENS*"
       },
       {
-        "netclass": "10V",
-        "pattern": "/VIN"
+        "netclass": "COM",
+        "pattern": "/*SW*"
       },
       {
-        "netclass": "10V",
-        "pattern": "/SW"
+        "netclass": "COM",
+        "pattern": "/EXTERN ICs/JTAG_NRST"
       },
       {
-        "netclass": "10V",
-        "pattern": "/HB1"
+        "netclass": "COM",
+        "pattern": "/*USB*"
+      },
+      {
+        "netclass": "COM",
+        "pattern": "/JTAG_NRST"
+      },
+      {
+        "netclass": "COM",
+        "pattern": "/THROTTLE_CMD"
+      },
+      {
+        "netclass": "COM",
+        "pattern": "/UART*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
       },
       {
         "netclass": "PGND",
         "pattern": "PGND"
       },
       {
-        "netclass": "GATE",
-        "pattern": "/HO"
+        "netclass": "PHASES",
+        "pattern": "PH*"
       },
       {
-        "netclass": "GATE",
-        "pattern": "/LO"
+        "netclass": "3V3",
+        "pattern": "3V3"
       },
       {
-        "netclass": "GATE",
-        "pattern": "/HO1"
+        "netclass": "3V3",
+        "pattern": "/EXTERN ICs/VBUS"
       },
       {
-        "netclass": "GATE",
-        "pattern": "/LO1"
+        "netclass": "3V3",
+        "pattern": "5V_USB"
       },
       {
-        "netclass": "GATE",
-        "pattern": "/GL1"
+        "netclass": "VBUCK",
+        "pattern": "VBUCK"
+      },
+      {
+        "netclass": "VBUCK",
+        "pattern": "/VIN"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "VBAT"
       },
       {
         "netclass": "GND",
-        "pattern": "/GH1"
+        "pattern": "GND_FC"
+      },
+      {
+        "netclass": "COM",
+        "pattern": "/ISENS1_OPAMP_VOUT"
+      },
+      {
+        "netclass": "COM",
+        "pattern": "/BOOT0"
+      },
+      {
+        "netclass": "SENSING",
+        "pattern": "/FB"
+      },
+      {
+        "netclass": "SENSING",
+        "pattern": "/UVLO"
+      },
+      {
+        "netclass": "PHASES",
+        "pattern": "/PHASE */LS"
+      },
+      {
+        "netclass": "SENSING",
+        "pattern": "/PHASE */VS"
       },
       {
         "netclass": "GATE",
-        "pattern": "/GH1"
+        "pattern": "/PHASE*/GL"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/PHASE */LO"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/PHASE */HO"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/PHASE */HB"
+      },
+      {
+        "netclass": "GATE",
+        "pattern": "/PHASE */GH"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "3V3_UART"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "/3V3_LDO"
       }
     ]
   },
@@ -897,6 +971,18 @@
     [
       "30189dae-47a7-45f4-9b84-2dfd500c2612",
       "Root"
+    ],
+    [
+      "d432cf55-dbf1-4f67-a84f-b7543f86b235",
+      "PHASE 1"
+    ],
+    [
+      "35fe4f16-29cf-44cf-82ec-a2ca27cdef4e",
+      "PHASE 2"
+    ],
+    [
+      "ed35cd92-2ffb-408e-b672-57609a885ca6",
+      "PHASE 3"
     ]
   ],
   "text_variables": {}

@@ -824,7 +824,7 @@
 		(uuid "37a5f271-2d85-4d6a-85bc-387e898c8842")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.step"
+	(model "${KIPRJMOD}/ESC-CADLib/UFQFPN-48_7X7X0P55MM.step"
 		(offset
 			(xyz 0 0 0)
 		)

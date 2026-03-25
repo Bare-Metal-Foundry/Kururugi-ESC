@@ -4,10 +4,10 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 1 -2 0)
+		(at -0.075 -3 0)
 		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "cbb3e40f-5b82-49f6-9a4f-2950dde35c60")
+		(layer "F.Fab")
+		(uuid "e3fa2e40-28f7-4a2e-acf6-f91c915cd69d")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 		)
 	)
 	(property "Value" "Kelvin Shunt 1216 (3038)"
-		(at 5 4.1148 0)
+		(at 3.95 3.5148 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "09e79c14-b37e-4aa3-901f-02fe1ced234f")
+		(uuid "d5996818-98ba-4e63-b9b5-144bf3528a72")
 		(effects
 			(font
 				(size 1 1)
@@ -29,10 +29,10 @@
 		)
 	)
 	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7663/HoBB_series.pdf"
-		(at 5 12 0)
+		(at 3.95 11.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "27745df3-acd4-40d5-8caf-5ef050b99305")
+		(uuid "a79feae2-a156-49e1-bea5-188e80b6fc81")
 		(effects
 			(font
 				(size 1 1)
@@ -42,10 +42,10 @@
 		)
 	)
 	(property "Description" "Shunt resistor with kelvin sensing"
-		(at 5 14 0)
+		(at 3.95 13.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5e77a77d-bc67-4824-adb7-389a22375572")
+		(uuid "ea41ebd5-0c1f-4017-99ae-66d49ee0e6bb")
 		(effects
 			(font
 				(size 1 1)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Manufacturer" "Shenzhen Milliohm Electronic"
-		(at 5 8 0)
+		(at 3.95 7.4 0)
 		(layer "F.Fab")
 		(uuid "b982c377-250d-4248-857d-e7998108013b")
 		(effects
@@ -67,7 +67,7 @@
 		)
 	)
 	(property "Manufacturer Part Number" "HoBB1216-5W-0.5mR-1%"
-		(at 5 10 0)
+		(at 3.95 9.4 0)
 		(layer "F.Fab")
 		(uuid "f99f6863-1844-4492-bccd-f36648cc3cf6")
 		(effects
@@ -79,8 +79,154 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -1.875 -1.075)
+		(end -1.875 -2.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92b07eb3-c1b0-48cb-ab0a-5a4899d212ea")
+	)
+	(fp_line
+		(start -1.875 2.15)
+		(end -1.875 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3355039b-5cf7-4b65-8397-e1b995ba9ed3")
+	)
+	(fp_line
+		(start -1.875 2.15)
+		(end -0.875 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d315a1a6-3504-40dc-a6a3-b232e1d05dea")
+	)
+	(fp_line
+		(start -0.875 -2.1)
+		(end -1.875 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e2fa528-85cd-495f-a93f-37f5f3bf1825")
+	)
+	(fp_line
+		(start 0.85 -2.1)
+		(end 1.85 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7889548-4f47-44f7-aa48-21577fd4fd2e")
+	)
+	(fp_line
+		(start 1.875 -1.1)
+		(end 1.875 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8495431-f38f-449f-9ca6-3126e39ad042")
+	)
+	(fp_line
+		(start 1.875 2.15)
+		(end 0.875 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ea0ee7f-f7e5-41dd-bba7-c77267753566")
+	)
+	(fp_line
+		(start 1.875 2.15)
+		(end 1.875 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4c59d29-6293-454f-99f6-90a74b5e9f64")
+	)
+	(fp_rect
+		(start -2 -2.225)
+		(end 2 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "883b66ff-dda3-44d9-a767-954a3baa65ad")
+	)
+	(fp_rect
+		(start -1.65 -2)
+		(end -0.45 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3740cbca-15cd-4a04-91fb-27d9a33a3b02")
+	)
+	(fp_rect
+		(start -1.65 -2)
+		(end 1.65 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1175aa5d-82a7-4c2e-a367-f310e311f433")
+	)
+	(fp_rect
+		(start -1.65 -0.8)
+		(end -0.45 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b885da47-b5ed-4a0e-b9bf-48428094ce22")
+	)
+	(fp_rect
+		(start 0.45 -2)
+		(end 1.65 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "323c5e7a-c5a7-4816-b5a2-2b8a1d91e5a0")
+	)
+	(fp_rect
+		(start 0.45 -0.8)
+		(end 1.65 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ed7c31f4-08ab-470e-8717-bfdecd0a68fb")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 5 6 0)
+		(at 3.95 5.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c3f4d6bd-f0c5-41ab-bf7d-627e07dad164")
@@ -93,32 +239,43 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0 0)
-		(size 1.5 0.7)
+		(at -1.05 -1.6375)
+		(size 1.5 0.775)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "23ea9544-2fa6-46c2-ad71-41f5231f7366")
 	)
-	(pad "1" smd roundrect
-		(at 0 2.325)
-		(size 1.5 2.95)
+	(pad "2" smd roundrect
+		(at -1.05 0.6125)
+		(size 1.5 2.975)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "5ffc0394-6f3c-4c78-ba2e-067226a3ade5")
 	)
-	(pad "2" smd roundrect
-		(at 2.1 0)
-		(size 1.5 0.7)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(uuid "56cb49fd-06d0-4196-bd6b-cf35e77188d3")
-	)
-	(pad "2" smd roundrect
-		(at 2.1 2.325)
-		(size 1.5 2.95)
+	(pad "3" smd roundrect
+		(at 1.05 0.6125)
+		(size 1.5 2.975)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "c603671b-725e-416e-b78c-aa55ef4b08ed")
 	)
+	(pad "4" smd roundrect
+		(at 1.05 -1.6375)
+		(size 1.5 0.775)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "56cb49fd-06d0-4196-bd6b-cf35e77188d3")
+	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/ESC-CADLib/HoBB1216-5W-0.5mR-1%.step"
+		(offset
+			(xyz -1.5 -1.95 1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
 )

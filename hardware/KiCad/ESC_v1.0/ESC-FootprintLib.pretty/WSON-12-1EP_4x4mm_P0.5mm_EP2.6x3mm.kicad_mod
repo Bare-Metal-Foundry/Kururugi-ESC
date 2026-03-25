@@ -348,7 +348,7 @@
 		(uuid "aca45880-c8d7-4c17-a9e9-6bf02ca0018b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm.step"
+	(model "${KIPRJMOD}/ESC-CADLib/DNT0012B.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -398,4 +398,15 @@
 		(uuid "a641df3f-3d48-4e57-b49f-2c6f554f6db3")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/ESC-CADLib/19-337C_RSBHGHC-A88_4T.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

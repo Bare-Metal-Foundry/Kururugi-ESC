@@ -162,4 +162,15 @@
 		(uuid "eb6e8e9a-d215-4959-8d90-6db52aadf1e0")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/ESC-CADLib/XAL4030-472MEC_COC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
 )
