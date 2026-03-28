@@ -5,9 +5,10 @@
 	(layer "F.Cu")
 	(tags "19-337C/RSBHGHC-A88/4T ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.35 2.575 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "d4aa4ac8-274b-425e-8d06-4aefbcd632ae")
 		(effects
 			(font
@@ -57,7 +58,7 @@
 		(start -1.354 -0.504)
 		(end -1.354 0.504)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -67,7 +68,7 @@
 		(start -1.354 0.504)
 		(end -1.204 0.504)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -77,7 +78,7 @@
 		(start -1.204 -1.179)
 		(end -1.204 -0.504)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -87,7 +88,7 @@
 		(start -1.204 -0.504)
 		(end -1.354 -0.504)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -97,7 +98,7 @@
 		(start -1.204 0.504)
 		(end -1.204 1.179)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -107,7 +108,7 @@
 		(start -1.204 1.179)
 		(end -0.146 1.179)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -117,7 +118,7 @@
 		(start -0.146 -1.179)
 		(end -1.204 -1.179)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -127,7 +128,7 @@
 		(start -0.146 -1.0541)
 		(end -0.146 -1.179)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -137,7 +138,7 @@
 		(start -0.146 1.0541)
 		(end 0.146 1.0541)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -147,7 +148,7 @@
 		(start -0.146 1.179)
 		(end -0.146 1.0541)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -157,7 +158,7 @@
 		(start 0.146 -1.179)
 		(end 0.146 -1.0541)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -167,7 +168,7 @@
 		(start 0.146 -1.0541)
 		(end -0.146 -1.0541)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -177,7 +178,7 @@
 		(start 0.146 1.0541)
 		(end 0.146 1.179)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -187,7 +188,7 @@
 		(start 0.146 1.179)
 		(end 1.204 1.179)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -197,7 +198,7 @@
 		(start 1.204 -1.179)
 		(end 0.146 -1.179)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -207,7 +208,7 @@
 		(start 1.204 -0.504)
 		(end 1.204 -1.179)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -217,7 +218,7 @@
 		(start 1.204 0.504)
 		(end 1.354 0.504)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -227,7 +228,7 @@
 		(start 1.204 1.179)
 		(end 1.204 0.504)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -237,7 +238,7 @@
 		(start 1.354 -0.504)
 		(end 1.204 -0.504)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -247,7 +248,7 @@
 		(start 1.354 0.504)
 		(end 1.354 -0.504)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -302,29 +303,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "7695514b-a6db-4fec-9e69-da6fbfede9ca")
-	)
-	(fp_text user "*"
-		(at 1.4478 -0.8128 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "83e01d22-b450-4492-8b0c-9198857b33c9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at 1.4478 -0.8128 0)
-		(layer "F.SilkS")
-		(uuid "d4585a5a-a42e-476e-88c9-2464f36b688c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "*"
 		(at 0.235 -0.725 0)

@@ -1,4 +1,4 @@
-26657667076824778
+26661216228442141
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61424,6 +61424,20 @@ TRANS_CSD18540Q5B
 0
 5
 3
+ESC-FootprintLib
+Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
+tag connect programming header pogo pins
+0
+6
+6
+ESC-FootprintLib
+TestPoint_Pad_2.0x2.0mm
+SMD rectangular pad as test Point, square 2.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
 ESC-FootprintLib
 TestPoint_Pad_D1.0mm
 SMD pad as test Point, diameter 1.0mm

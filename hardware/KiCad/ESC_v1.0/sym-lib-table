@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "ESC-SchemSymLib")(type "KiCad")(uri "${KIPRJMOD}/ESC-SchemSymLib.kicad_sym")(options "")(descr ""))
-  (lib (name "FC-SchemSymbolLib")(type "KiCad")(uri "C:/Users/binon/Downloads/Shirley-FC-Dev-Board-main/Shirley-FC-Dev-Board-main/hardware/KiCad/FC_v1.0/FC-SchemSymbolLib.kicad_sym")(options "")(descr ""))
 )

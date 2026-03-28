@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.448 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "ed08342a-eaee-43e9-b96e-1dd00b47763e")
 		(effects
 			(font
@@ -67,7 +68,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 0.7 0)
+		(end 0.6 0)
 		(stroke
 			(width 0.05)
 			(type solid)

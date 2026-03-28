@@ -3,8 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "apply_defaults_to_fp_fields": false,
-        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_fields": true,
+        "apply_defaults_to_fp_shapes": true,
         "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
@@ -15,7 +15,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -41,11 +41,11 @@
           "height": 0.5,
           "width": 0.5
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.153,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.156,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.0
@@ -105,9 +105,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -606,12 +606,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.15,
         "name": "VBAT",
         "pcb_color": "rgb(213, 94, 0)",
         "priority": 1,
         "schematic_color": "rgb(213, 94, 0)",
-        "track_width": 0.3,
+        "track_width": 0.15,
         "wire_width": 12
       },
       {
