@@ -93,7 +93,7 @@
 	)
 	(tbtext "Date: ${ISSUE_DATE}"
 		(name "")
-		(pos 109 7.4002)
+		(pos 107.5 7.4002)
 	)
 	(line
 		(name "")
@@ -117,7 +117,7 @@
 	)
 	(tbtext "Size: ${PAPER}"
 		(name "")
-		(pos 109 3.9002)
+		(pos 107.5 3.9002)
 		(comment "Paper format name")
 	)
 	(tbtext "Sheet: ${#}/${##}"
@@ -132,14 +132,14 @@
 	)
 	(tbtext "${TITLE}"
 		(name "")
-		(pos 110 25.2002)
+		(pos 108 25.2)
 		(font
 			(face "KiCad Font")
-			(size 5 5) bold italic)
+			(size 5 5) bold)
 	)
 	(tbtext "File: ${FILENAME}"
 		(name "")
-		(pos 84.5 3.8002)
+		(pos 80 3.8002)
 	)
 	(line
 		(name "")
@@ -148,21 +148,20 @@
 	)
 	(tbtext "Path: ${SHEETPATH}"
 		(name "")
-		(pos 84.5 7.5002)
+		(pos 80 7.5002)
 	)
 	(tbtext "Bare Metal Foundry"
 		(name "")
-		(pos 109 16.0002)
+		(pos 107.5 16)
 		(font
 			(face "KiCad Font")
-			(size 3 3)
-		)
+			(size 3 3) italic)
 		(comment "Company name")
 	)
 	(line
 		(name "")
-		(start 85.489 9.0022)
-		(end 85.489 2.0022)
+		(start 81.989 9.0022)
+		(end 81.989 2.0022)
 	)
 	(line
 		(name "")
@@ -1259,8 +1258,8 @@
 		(start 28.989 12.5022)
 		(end 28.989 34.0022)
 	)
-	(tbtext "Author: Stépane Binon"
+	(tbtext "Author: Stepane Binon [looking for a job]"
 		(name "")
-		(pos 108.989 10.502)
+		(pos 107.489 11.0022)
 	)
 )
