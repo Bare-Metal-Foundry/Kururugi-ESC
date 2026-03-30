@@ -1,0 +1,283 @@
+\documentclass[11pt,a4paper]{article}
+
+% =========================================================
+% Packages
+% =========================================================
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage{amsmath, amssymb}
+\usepackage{siunitx}
+\usepackage{physics}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage[nameinlink]{cleveref}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{siunitx}
+
+% =========================================================
+% Hyperref setup
+% =========================================================
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+    pdftitle={ESC Design Report},
+    pdfauthor={Your Name},
+    pdfsubject={Electronic Speed Controller Design},
+    pdfkeywords={ESC, power electronics, PCB, motor control, STM32}
+}
+
+% =========================================================
+% siunitx setup
+% =========================================================
+\sisetup{
+    per-mode=symbol,
+    separate-uncertainty=true,
+    range-phrase=--,
+    range-units=single
+}
+
+% =========================================================
+% Custom commands
+% =========================================================
+\newcommand{\projectname}{Kururugi ESC}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+\newcommand{\secref}[1]{Section~\ref{#1}}
+
+% =========================================================
+% Title
+% =========================================================
+\title{\textbf{\projectname}\\Design and Sizing Report}
+\author{Your Name}
+\date{\today}
+
+% =========================================================
+% Document
+% =========================================================
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% =========================================================
+\begin{abstract}
+This document presents the design, sizing, schematic capture, and PCB implementation of the \projectname.
+The objective is to justify the main design choices, validate the electrical calculations, and document the final hardware implementation. To speed up the process, this document was co-written with an AI assistant.
+\end{abstract}
+
+% =========================================================
+\section{Introduction}
+\label{sec:introduction}
+
+\subsection{Project context}
+
+Electronic Speed Controllers (ESCs) are critical components in electric propulsion systems, converting battery power into controlled three-phase signals to drive brushless DC (BLDC) motors. In high-performance applications such as FPV drones, ESCs must operate under demanding conditions including high current peaks, fast switching frequencies, limited PCB area, and strong electromagnetic constraints.
+
+This project focuses on the design of a compact and high-performance ESC tailored for aggressive drone operation. The target system requires reliable operation over a wide input voltage range (4S to 6S LiPo), high efficiency at elevated switching frequencies, and precise current sensing for advanced motor control strategies.
+
+Beyond its functional objective, this ESC was also developed as a foundational learning project to gain hands-on experience in PCB design and low-level embedded development. It is conducted alongside the \href{https://github.com/Gui-arain/Shirley-FC-Dev-Board/tree/main/resources}{Shirley-FC development board} by \textit{Guilhem Andrieu}, forming a coherent hardware and firmware development platform.
+
+These projects aim to serve as the technological basis for the development of fast, fully autonomous drones, and constitute the initial building blocks of the \textit{Bare Metal Foundry}, an initiative focused on mastering embedded systems from hardware to high-level software.
+
+\subsection{Objectives}
+
+The objective of this project is to design a compact ESC for a 6-inch FPV drone, capable of reliable operation under high electrical and dynamic stress.
+
+The ESC must operate from 13--25.2~V, with tolerance to voltage spikes up to 45~V (battery) and 35~V (phase). It shall sustain continuous phase currents of 12.5--15~A, with peaks up to 20--25~A and transient spikes up to 50--60~A. 
+High-frequency operation is targeted, up to 64~kHz (V1.0) and 96~kHz (V2), with duty cycles up to 90--95\%.
+
+Thermally, the design must ensure safe operation through proper loss distribution, efficient PCB heat spreading, and temperature monitoring using a thermistor. Mechanically, the ESC must fit a compact layout with minimized power loops and compatibility with standard drone integration.
+
+Functionally, it must provide accurate sensing, robust transient behavior, and support low-level firmware for high-performance motor control.
+
+% =========================================================
+\section{System Overview}
+\label{sec:overview}
+
+\subsection{Functional description}
+
+The ESC converts DC battery power into controlled three-phase signals to drive a BLDC motor. It regulates motor speed and torque through high-frequency PWM, while monitoring current, voltage, and temperature to ensure safe and efficient operation.
+
+The system integrates power conversion, control, sensing, and protection functions within a compact PCB suitable for FPV drone applications.
+
+\subsection{Top-level architecture}
+
+The ESC is organized around the following main blocks:
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item STM32G4 MCU: control, PWM, acquisition
+    \item Gate driver: MOSFET control
+    \item Three-phase bridge: power stage
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item Sensing: current, voltage, temperature
+    \item Power supplies: regulated rails
+    \item Interfaces: UART, JTAG (debug/config)
+\end{itemize}
+\end{minipage}
+
+\subsection{Main design specifications}
+
+\begin{table}[H]
+    \centering
+    \caption{Main design specifications}
+    \begin{tabularx}{\textwidth}{>{\bfseries}l X}
+        \toprule
+        Parameter & Value / Description \\
+        \midrule
+        Input voltage & 13--25.2~V nominal (4S--6S LiPo), up to 45~V transient \\
+        Continuous current & 12.5--15~A per phase \\
+        Peak current & 20--25~A short duration, up to 50--60~A transient \\
+        PWM frequency & Up to 64~kHz (V1.0), 96~kHz (V2) \\
+        Control MCU & STM32G4 series (advanced timers, ADC, op-amps) \\
+        Gate driver & Infineon 2EDL8024 \\
+        MOSFETs & Low R\textsubscript{DS(on)} N-channel power MOSFETs (e.g. 60~V class) \\
+        PCB dimensions & Compact ESC form factor for 6-inch drone (approx. 30~mm class) \\
+        \bottomrule
+    \end{tabularx}
+    \label{tab:specs}
+\end{table}
+
+% =========================================================
+\subsection{Design inputs and assumptions}
+
+The first hardware revision targets a 4S--6S LiPo FPV ESC. The main design assumptions are:
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item Input voltage from 13--25.2~V, with transients up to 45~V (battery) and 35~V (phase),
+    \item Gate-driver supply around 10~V,
+    \item PWM frequency up to 64~kHz (V1.0), with higher frequencies as future targets,
+    \item Maximum duty cycle up to 95\%,
+    \item Phase current in the 12.5--15~A range, with higher transient peaks,
+    \item Conservative derating for temperature and MLCC DC bias.
+\end{itemize}
+
+A 10~V rail is generated from VBAT via a buck converter and post-regulated to 3.3~V for logic.
+
+% =========================================================
+\section{Electrical sizing}
+
+Please refer to the sizing Excel.
+
+% =========================================================
+
+% =========================================================
+\section{Schematic Design}
+\label{sec:schematic}
+
+\subsection{Schematic organization}
+
+The schematic is structured into functional blocks reflecting the system architecture: power stage, gate driver, sensing, power supply, and control. This modular approach improves readability, reuse, and validation of each subsystem.
+
+\subsection{Gate driver and power stage}
+
+The power stage consists of a three-phase MOSFET bridge driven by the Infineon 2EDL8024 gate driver. Each half-bridge integrates bootstrap circuitry and asymmetric gate resistors to control switching speed and mitigate EMI. Particular attention is given to minimizing parasitic inductance in the switching loops and ensuring reliable high-duty-cycle operation.
+
+\subsection{Sensing circuits}
+
+Current sensing is implemented using low-value shunt resistors with analog amplification before ADC acquisition. Voltage sensing relies on resistive dividers with local RC filtering to ensure accurate sampling under fast switching conditions. Temperature monitoring is achieved using an NTC thermistor placed near a power MOSFET, enabling thermal supervision and derating.
+
+\subsection{Power supply section}
+
+The power supply is divided into two stages: a buck converter generating a 11.5~V intermediate rail from VBAT, followed by an LDO providing a clean 3.3~V rail for the MCU and analog circuits. Decoupling is applied locally at each critical node to ensure stability and reduce noise coupling. The 11.5V guarantee that, even with voltage drop from the overall circuit, the gate are driven at 10V, ensure rapid switching and thus minimizing switching losses.
+
+\subsection{Microcontroller section}
+
+The design uses an STM32G4 microcontroller, leveraging advanced timers for PWM generation and ADCs for synchronized measurements. Internal op-amps and comparators are used where appropriate to reduce external component count. Standard interfaces such as UART and JTAG are included for communication and debugging.
+
+\subsection{Protection and robustness features}
+
+The schematic integrates protection mechanisms including input voltage filtering, undervoltage lockout through the power stage, and careful layout of sensitive analog nodes. RC filtering and proper decoupling are used to mitigate switching noise. The design also considers robustness against transient events such as arming/disarming and load steps.
+
+\subsection{Design review summary}
+
+The schematic reflects a trade-off between performance, compactness, and robustness. Low $R_{\mathrm{DS(on)}}$ MOSFETs reduce conduction losses but increase switching constraints, requiring careful gate-drive design. Analog sensing accuracy is balanced against noise sensitivity, and the power architecture prioritizes clean supply rails over maximum efficiency. Overall, the design is consistent with the targeted operating conditions and provides a solid foundation for PCB implementation.
+
+% =========================================================
+\section{PCB Design}
+\label{sec:pcb}
+
+\subsection{Board constraints and objectives}
+\todo{Size, layer count, current capability, manufacturability.}
+
+\subsection{Stack-up definition}
+\todo{Describe layers and their functions.}
+
+\subsection{Component placement strategy}
+\todo{Critical loops, thermal distribution, accessibility.}
+
+\subsection{Power routing}
+\todo{Phase paths, battery paths, copper width, polygon use, via stitching.}
+
+\subsection{Signal routing}
+\todo{Gate signals, ADC traces, sensitive nets, debug interfaces.}
+
+\subsection{Grounding strategy}
+\todo{Power ground vs quiet ground, return paths, stitching.}
+
+\subsection{Thermal design features}
+\todo{Copper areas, thermal vias, heat spreading.}
+
+\subsection{Manufacturing and assembly considerations}
+\todo{Courtyard, clearances, fiducials, test pads, DFM choices.}
+
+\subsection{PCB review summary}
+\todo{Main layout achievements and remaining limitations.}
+
+% =========================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+\subsection{Summary of the design}
+\todo{Summarize the final ESC design and key results.}
+
+\subsection{Main challenges and tradeoffs}
+\todo{Discuss compromises made in sizing, schematic, and PCB.}
+
+\subsection{Future improvements}
+\todo{Possible hardware and firmware improvements.}
+
+% =========================================================
+\appendix
+
+\section{Component List}
+\label{app:bom}
+\todo{Optional: add main BOM table.}
+
+\section{Calculation Notes}
+\label{app:calc}
+\todo{Optional: add extra derivations not kept in main text.}
+
+\section{Figures and Schematics}
+\label{app:figures}
+\todo{Optional: full-page schematic or PCB images.}
+
+% =========================================================
+\bibliographystyle{ieeetr}
+% \bibliography{references}
+
+\end{document}

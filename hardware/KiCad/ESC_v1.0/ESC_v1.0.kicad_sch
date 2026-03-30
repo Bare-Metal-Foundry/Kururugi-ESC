@@ -591,7 +591,132 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:0402WGF1000TCE"
+		(symbol "KururugiESC-Symbols-Lib:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:0402WGF1000TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -776,7 +901,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:0402WGF1001TCE"
+		(symbol "KururugiESC-Symbols-Lib:0402WGF1001TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -961,7 +1086,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:0402WGF1002TCE"
+		(symbol "KururugiESC-Symbols-Lib:0402WGF1002TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1146,7 +1271,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:0402WGF1202TCE"
+		(symbol "KururugiESC-Symbols-Lib:0402WGF1202TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1331,7 +1456,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:0402WGF2003TCE"
+		(symbol "KururugiESC-Symbols-Lib:0402WGF2003TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1516,7 +1641,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:0402WGF2202TCE"
+		(symbol "KururugiESC-Symbols-Lib:0402WGF2202TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1701,7 +1826,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:0402WGF330JTCE"
+		(symbol "KururugiESC-Symbols-Lib:0402WGF330JTCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1886,7 +2011,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:0402WGF5102TCE"
+		(symbol "KururugiESC-Symbols-Lib:0402WGF5102TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2071,7 +2196,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:0603WAF1203T5E"
+		(symbol "KururugiESC-Symbols-Lib:0603WAF1203T5E"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2256,7 +2381,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:CL05A105KA5NQNC"
+		(symbol "KururugiESC-Symbols-Lib:CL05A105KA5NQNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2456,7 +2581,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:CL05B103KB5NNNC"
+		(symbol "KururugiESC-Symbols-Lib:CL05B103KB5NNNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2648,7 +2773,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:CL05B104KO5NNNC"
+		(symbol "KururugiESC-Symbols-Lib:CL05B104KO5NNNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2840,7 +2965,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:CL05C100JB5NNNC"
+		(symbol "KururugiESC-Symbols-Lib:CL05C100JB5NNNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3032,7 +3157,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:CL10A105KB8NNNC"
+		(symbol "KururugiESC-Symbols-Lib:CL10A105KB8NNNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3216,7 +3341,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:CL31B225KBHNNNE"
+		(symbol "KururugiESC-Symbols-Lib:CL31B225KBHNNNE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3416,7 +3541,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:Conn_01x01"
+		(symbol "KururugiESC-Symbols-Lib:Conn_01x01"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3532,7 +3657,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:Conn_01x01_Phase"
+		(symbol "KururugiESC-Symbols-Lib:Conn_01x01_Phase"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3648,7 +3773,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:Conn_ARM_SWD_TagConnect_TC2030-NL"
+		(symbol "KururugiESC-Symbols-Lib:Conn_ARM_SWD_TagConnect_TC2030-NL"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -3844,7 +3969,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:GND"
+		(symbol "KururugiESC-Symbols-Lib:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -3945,7 +4070,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:KT-0603W"
+		(symbol "KururugiESC-Symbols-Lib:KT-0603W"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4183,7 +4308,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:LED_19-337C"
+		(symbol "KururugiESC-Symbols-Lib:LED_19-337C"
 			(pin_names
 				(offset 0.254)
 			)
@@ -9723,7 +9848,7 @@
 				)
 			)
 		)
-		(symbol "ESC-SchemSymLib:LM5160ADNTR"
+		(symbol "KururugiESC-Symbols-Lib:LM5160ADNTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10098,7 +10223,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:LVS404018-220M-N"
+		(symbol "KururugiESC-Symbols-Lib:LVS404018-220M-N"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10329,7 +10454,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:NTCG103JF103FT1"
+		(symbol "KururugiESC-Symbols-Lib:NTCG103JF103FT1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10648,7 +10773,108 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:RB161QS-40T18R"
+		(symbol "KururugiESC-Symbols-Lib:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:RB161QS-40T18R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10860,7 +11086,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:STM32G484CEU6"
+		(symbol "KururugiESC-Symbols-Lib:STM32G484CEU6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11866,7 +12092,7 @@
 			)
 			(symbol "STM32G484CEU6_1_1"
 				(text "STM32G484CEU6\nUFQFPN48"
-					(at 21.59 -36.83 0)
+					(at 24.13 -34.29 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11878,7 +12104,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:TPS7B92033"
+		(symbol "KururugiESC-Symbols-Lib:TPS7B92033"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12095,7 +12321,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:TestPoint"
+		(symbol "KururugiESC-Symbols-Lib:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
@@ -12202,7 +12428,132 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:VDC"
+		(symbol "KururugiESC-Symbols-Lib:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:VDC"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -12327,7 +12678,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESC-SchemSymLib:X322516MLB4SI"
+		(symbol "KururugiESC-Symbols-Lib:X322516MLB4SI"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -12636,357 +12987,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 39.37 107.95)
@@ -13111,101 +13111,105 @@
 	)
 	(text "UART\n"
 		(exclude_from_sim no)
-		(at 216.408 184.658 0)
+		(at 211.836 182.88 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
+			(justify left top)
 		)
 		(uuid "20f03d98-fb8d-466e-9285-1d296c8686b1")
 	)
 	(text "JTAG"
 		(exclude_from_sim no)
-		(at 210.566 225.044 0)
+		(at 211.836 221.488 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "219d2790-6cab-4902-9a5b-67be5bab85c8")
 	)
 	(text "THROTTLE"
 		(exclude_from_sim no)
-		(at 116.586 226.06 0)
+		(at 106.68 225.044 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
+			(justify left top)
 		)
 		(uuid "4f4e75a2-ce8e-4e90-964b-2a4ba361fc06")
 	)
 	(text "RGB LED\n"
 		(exclude_from_sim no)
-		(at 41.148 226.568 0)
+		(at 31.496 225.044 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
+			(justify left top)
 		)
 		(uuid "5d99f820-3308-4dc8-91c5-09a91834a763")
 	)
-	(text "Crystal"
+	(text "CRYSTAL"
 		(exclude_from_sim no)
-		(at 30.734 172.212 0)
+		(at 31.242 169.418 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "66af81cc-881b-47be-9163-1ed9922bc8f4")
 	)
 	(text "BATTERY INPUT"
 		(exclude_from_sim no)
-		(at 58.928 54.102 0)
+		(at 41.402 52.324 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
+			(justify left top)
 		)
 		(uuid "6fbd7f8d-33ff-4545-9b3f-ad574bff0754")
 	)
-	(text "VM to VBUCK"
+	(text "VGATE BUCK"
 		(exclude_from_sim no)
-		(at 71.628 113.792 0)
+		(at 41.91 111.252 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left top)
 		)
 		(uuid "80c0ebbc-69af-4f1d-a6e3-0d51e24743cd")
 	)
 	(text "TEMP SENSING"
 		(exclude_from_sim no)
-		(at 320.294 204.216 0)
+		(at 320.802 200.914 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "a0f22a63-837c-4c97-be4b-bee72892bbdb")
 	)
@@ -13224,16 +13228,16 @@
 		)
 		(uuid "ba026398-8ec4-4b7f-baee-6f9abfd9b900")
 	)
-	(text "\n3V3 LDO"
+	(text "3V3 LDO"
 		(exclude_from_sim no)
-		(at 125.222 172.212 0)
+		(at 105.918 168.656 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left top)
 		)
 		(uuid "d1cdc0ff-b69c-4927-9510-38d24903ae7e")
 	)
@@ -15334,7 +15338,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 82.55) (xy 128.27 81.28)
+			(xy 128.27 83.82) (xy 128.27 81.28)
 		)
 		(stroke
 			(width 0)
@@ -16873,7 +16877,7 @@
 		(uuid "ffaa23eb-6e03-48f8-8e9b-1db205106c6b")
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1002TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
 		(at 123.19 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17012,7 +17016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:KT-0603W")
+		(lib_id "KururugiESC-Symbols-Lib:KT-0603W")
 		(at 62.23 146.05 270)
 		(mirror x)
 		(unit 1)
@@ -17155,7 +17159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05A105KA5NQNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05A105KA5NQNC")
 		(at 114.3 186.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17294,7 +17298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:LED_19-337C")
+		(lib_id "KururugiESC-Symbols-Lib:LED_19-337C")
 		(at 72.39 241.3 0)
 		(mirror y)
 		(unit 1)
@@ -17431,7 +17435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:X322516MLB4SI")
+		(lib_id "KururugiESC-Symbols-Lib:X322516MLB4SI")
 		(at 53.34 190.5 0)
 		(mirror y)
 		(unit 1)
@@ -17601,7 +17605,7 @@
 	)
 	(symbol
 		(lib_name "Conn_01x01_Phase_1")
-		(lib_id "ESC-SchemSymLib:Conn_01x01_Phase")
+		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_Phase_1")
 		(at 68.58 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17668,7 +17672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:Conn_01x01_Phase")
+		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_Phase")
 		(at 68.58 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17735,7 +17739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 342.9 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17802,7 +17806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1001TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1001TCE")
 		(at 62.23 138.43 0)
 		(mirror y)
 		(unit 1)
@@ -17942,7 +17946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF2202TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF2202TCE")
 		(at 143.51 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18081,7 +18085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05A105KA5NQNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05A105KA5NQNC")
 		(at 130.81 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18220,7 +18224,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B104KO5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
 		(at 294.64 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18343,7 +18347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 294.64 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18410,7 +18414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 210.82 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18477,7 +18481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "KururugiESC-Symbols-Lib:+3.3V")
 		(at 81.28 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18542,7 +18546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:LM5160ADNTR")
+		(lib_id "KururugiESC-Symbols-Lib:LM5160ADNTR")
 		(at 113.03 127 0)
 		(mirror y)
 		(unit 1)
@@ -18706,7 +18710,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 121.92 152.4 0)
 		(mirror y)
 		(unit 1)
@@ -18775,7 +18779,7 @@
 	)
 	(symbol
 		(lib_name "Conn_01x01_3")
-		(lib_id "ESC-SchemSymLib:Conn_01x01")
+		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_3")
 		(at 231.14 203.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18842,7 +18846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 294.64 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18907,7 +18911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 68.58 151.13 0)
 		(mirror y)
 		(unit 1)
@@ -18975,7 +18979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 74.93 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19041,7 +19045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 382.27 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19107,7 +19111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 185.42 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19174,7 +19178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B103KB5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05B103KB5NNNC")
 		(at 85.09 135.89 0)
 		(mirror y)
 		(unit 1)
@@ -19306,7 +19310,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 191.77 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19372,7 +19376,7 @@
 	)
 	(symbol
 		(lib_name "Conn_01x01_4")
-		(lib_id "ESC-SchemSymLib:Conn_01x01")
+		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_4")
 		(at 231.14 198.12 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19439,7 +19443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 53.34 207.01 0)
 		(mirror y)
 		(unit 1)
@@ -19507,7 +19511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
 		(at 123.19 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19574,7 +19578,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF5102TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF5102TCE")
 		(at 68.58 138.43 0)
 		(mirror y)
 		(unit 1)
@@ -19714,7 +19718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 114.3 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19780,7 +19784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05C100JB5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05C100JB5NNNC")
 		(at 64.77 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19940,7 +19944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 384.81 41.91 270)
 		(mirror x)
 		(unit 1)
@@ -20006,7 +20010,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0603WAF1203T5E")
+		(lib_id "KururugiESC-Symbols-Lib:0603WAF1203T5E")
 		(at 121.92 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20145,7 +20149,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 185.42 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20212,7 +20216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B104KO5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
 		(at 358.14 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20335,7 +20339,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05A105KA5NQNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05A105KA5NQNC")
 		(at 128.27 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20475,7 +20479,7 @@
 	)
 	(symbol
 		(lib_name "Conn_01x01_1")
-		(lib_id "ESC-SchemSymLib:Conn_01x01")
+		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_1")
 		(at 146.05 243.84 0)
 		(mirror x)
 		(unit 1)
@@ -20543,7 +20547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1000TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1000TCE")
 		(at 50.8 240.03 0)
 		(mirror x)
 		(unit 1)
@@ -20683,7 +20687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 213.36 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20750,7 +20754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
 		(at 68.58 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20817,7 +20821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 62.23 151.13 0)
 		(mirror y)
 		(unit 1)
@@ -20885,7 +20889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05A105KA5NQNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05A105KA5NQNC")
 		(at 121.92 147.32 0)
 		(mirror y)
 		(unit 1)
@@ -21025,7 +21029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF330JTCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF330JTCE")
 		(at 350.52 214.63 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21164,7 +21168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF2003TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF2003TCE")
 		(at 143.51 129.54 0)
 		(mirror y)
 		(unit 1)
@@ -21304,7 +21308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1000TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1000TCE")
 		(at 52.07 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21441,7 +21445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
 		(at 114.3 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21508,7 +21512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1002TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
 		(at 128.27 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21647,7 +21651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1000TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1000TCE")
 		(at 53.34 240.03 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21787,7 +21791,7 @@
 	)
 	(symbol
 		(lib_name "Conn_01x01_2")
-		(lib_id "ESC-SchemSymLib:Conn_01x01")
+		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_2")
 		(at 146.05 248.92 0)
 		(mirror x)
 		(unit 1)
@@ -21855,7 +21859,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 185.42 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21922,7 +21926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL31B225KBHNNNE")
+		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
 		(at 106.68 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -22062,7 +22066,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 106.68 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22128,7 +22132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL10A105KB8NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL10A105KB8NNNC")
 		(at 250.19 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22251,7 +22255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL31B225KBHNNNE")
+		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
 		(at 83.82 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -22391,7 +22395,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TPS7B92033")
+		(lib_id "KururugiESC-Symbols-Lib:TPS7B92033")
 		(at 146.05 195.58 0)
 		(mirror y)
 		(unit 1)
@@ -22540,7 +22544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 267.97 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22607,7 +22611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:KT-0603W")
+		(lib_id "KururugiESC-Symbols-Lib:KT-0603W")
 		(at 114.3 200.66 270)
 		(mirror x)
 		(unit 1)
@@ -22749,7 +22753,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05C100JB5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05C100JB5NNNC")
 		(at 39.37 198.12 0)
 		(mirror y)
 		(unit 1)
@@ -22910,7 +22914,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 260.35 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22977,7 +22981,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B104KO5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
 		(at 85.09 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23100,7 +23104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL31B225KBHNNNE")
+		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
 		(at 91.44 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -23240,7 +23244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 130.81 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23305,7 +23309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:RB161QS-40T18R")
+		(lib_id "KururugiESC-Symbols-Lib:RB161QS-40T18R")
 		(at 137.16 181.61 0)
 		(mirror x)
 		(unit 1)
@@ -23464,7 +23468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 185.42 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23531,7 +23535,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:LVS404018-220M-N")
+		(lib_id "KururugiESC-Symbols-Lib:LVS404018-220M-N")
 		(at 76.2 132.08 270)
 		(mirror x)
 		(unit 1)
@@ -23678,7 +23682,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "KururugiESC-Symbols-Lib:+3.3V")
 		(at 248.92 231.14 0)
 		(mirror y)
 		(unit 1)
@@ -23744,7 +23748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B104KO5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
 		(at 260.35 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23867,7 +23871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 281.94 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23934,7 +23938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1000TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1000TCE")
 		(at 120.65 196.85 270)
 		(mirror x)
 		(unit 1)
@@ -24072,7 +24076,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 85.09 254 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24139,7 +24143,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 60.96 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24205,7 +24209,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 102.87 152.4 0)
 		(mirror y)
 		(unit 1)
@@ -24273,7 +24277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
 		(at 74.93 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24340,7 +24344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 114.3 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24406,7 +24410,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
+		(lib_id "KururugiESC-Symbols-Lib:VBUS")
 		(at 242.57 203.2 270)
 		(mirror x)
 		(unit 1)
@@ -24472,7 +24476,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1202TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1202TCE")
 		(at 68.58 146.05 0)
 		(mirror y)
 		(unit 1)
@@ -24612,7 +24616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 74.93 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -24678,7 +24682,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 143.51 118.11 0)
 		(mirror y)
 		(unit 1)
@@ -24744,7 +24748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 248.92 254 0)
 		(mirror y)
 		(unit 1)
@@ -24812,7 +24816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05A105KA5NQNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05A105KA5NQNC")
 		(at 153.67 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24951,7 +24955,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B103KB5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05B103KB5NNNC")
 		(at 242.57 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25082,7 +25086,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 114.3 189.23 0)
 		(mirror y)
 		(unit 1)
@@ -25150,7 +25154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 246.38 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25217,7 +25221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 191.77 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25284,7 +25288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:Conn_01x01")
+		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01")
 		(at 231.14 193.04 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25351,7 +25355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 281.94 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25418,7 +25422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL31B225KBHNNNE")
+		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
 		(at 99.06 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -25558,7 +25562,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 62.23 130.81 0)
 		(mirror y)
 		(unit 1)
@@ -25624,7 +25628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 327.66 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25689,7 +25693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1000TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1000TCE")
 		(at 52.07 259.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25826,7 +25830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 358.14 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25893,7 +25897,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 384.81 97.79 270)
 		(mirror x)
 		(unit 1)
@@ -25959,7 +25963,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 260.35 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26024,7 +26028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 153.67 205.74 0)
 		(mirror y)
 		(unit 1)
@@ -26092,7 +26096,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:Conn_ARM_SWD_TagConnect_TC2030-NL")
+		(lib_id "KururugiESC-Symbols-Lib:Conn_ARM_SWD_TagConnect_TC2030-NL")
 		(at 243.84 242.57 0)
 		(mirror y)
 		(unit 1)
@@ -26177,7 +26181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B104KO5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
 		(at 191.77 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26300,7 +26304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:RB161QS-40T18R")
+		(lib_id "KururugiESC-Symbols-Lib:RB161QS-40T18R")
 		(at 130.81 187.96 90)
 		(mirror x)
 		(unit 1)
@@ -26459,7 +26463,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 246.38 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26524,7 +26528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 143.51 144.78 0)
 		(mirror y)
 		(unit 1)
@@ -26592,7 +26596,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:TestPoint")
+		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
 		(at 121.92 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26658,7 +26662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 128.27 152.4 0)
 		(mirror y)
 		(unit 1)
@@ -26726,7 +26730,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
+		(lib_id "KururugiESC-Symbols-Lib:VBUS")
 		(at 143.51 181.61 270)
 		(mirror x)
 		(unit 1)
@@ -26792,7 +26796,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:STM32G484CEU6")
+		(lib_id "KururugiESC-Symbols-Lib:STM32G484CEU6")
 		(at 214.63 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27058,7 +27062,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
 		(at 240.03 203.2 0)
 		(mirror y)
 		(unit 1)
@@ -27126,7 +27130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 130.81 205.74 0)
 		(mirror y)
 		(unit 1)
@@ -27194,7 +27198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 153.67 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27259,7 +27263,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05A105KA5NQNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05A105KA5NQNC")
 		(at 133.35 124.46 0)
 		(mirror y)
 		(unit 1)
@@ -27399,7 +27403,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:VDC")
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
 		(at 384.81 152.4 270)
 		(mirror x)
 		(unit 1)
@@ -27465,7 +27469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
 		(at 74.93 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27532,7 +27536,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 139.7 250.19 0)
 		(mirror y)
 		(unit 1)
@@ -27599,7 +27603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:0402WGF1002TCE")
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
 		(at 335.28 214.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27738,7 +27742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL31B225KBHNNNE")
+		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
 		(at 114.3 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -27878,7 +27882,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
+		(lib_id "KururugiESC-Symbols-Lib:GND")
 		(at 130.81 129.54 0)
 		(mirror y)
 		(unit 1)
@@ -27946,7 +27950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05B104KO5NNNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
 		(at 199.39 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28069,8 +28073,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:GND")
-		(at 128.27 82.55 0)
+		(lib_id "KururugiESC-Symbols-Lib:GND")
+		(at 128.27 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28079,7 +28083,7 @@
 		(fields_autoplaced yes)
 		(uuid "f68b5ab8-3821-4528-b926-12d048ee39b3")
 		(property "Reference" "#PWR05"
-			(at 128.27 88.9 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28088,7 +28092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 87.63 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28097,7 +28101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 82.55 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28106,7 +28110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 82.55 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28115,7 +28119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 82.55 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28136,7 +28140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:NTCG103JF103FT1")
+		(lib_id "KururugiESC-Symbols-Lib:NTCG103JF103FT1")
 		(at 342.9 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28274,7 +28278,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESC-SchemSymLib:CL05A105KA5NQNC")
+		(lib_id "KururugiESC-Symbols-Lib:CL05A105KA5NQNC")
 		(at 128.27 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)

@@ -1,4 +1,4 @@
-326680285655577
+328456465463181
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -749,9 +749,9 @@ Kelvin Shunt 1216 (3038)
 4
 4
 ESC-FootprintLib
-NetTie-Small
-Net tie, 2 pin, 0.5mm square SMD pads
-net tie
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
 0
 2
 2
@@ -832,6 +832,13 @@ WSON NoLead
 0
 17
 13
+ESC-FootprintLib
+YXC-X322516MLB4SI
+SMD2520/4, Crystal, 2.5x2.0mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf
+
+0
+4
+4
 Resistor_SMD
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator

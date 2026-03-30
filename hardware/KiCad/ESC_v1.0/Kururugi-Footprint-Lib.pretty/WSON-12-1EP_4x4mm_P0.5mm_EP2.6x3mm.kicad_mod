@@ -1,0 +1,441 @@
+(footprint "WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WSON, 12 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "WSON NoLead")
+	(property "Reference" "REF**"
+		(at 0 -2.95 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bf711010-db2b-49d4-993c-3fd273cbc17a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LM5160A"
+		(at -0.125 3.65 0)
+		(layer "F.Fab")
+		(uuid "3c4e382a-9268-4311-81f1-12aa94deb12d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5160a.pdf?ts=1769847934762&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5160A%252Fpart-details%252FLM5160ADNTR%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-app_opn_en-cpc-storeic-google-soas_en_pur%2526utm_content%253DDevice%2526ds_k%253DLM5160ADNTR%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D20324393711%2526gbraid%253D0AAAAAC068F0VB-WVQz6CnIvwQItNxuClA%2526gclid%253DCj0KCQiA7fbLBhDJARIsAOAqhsd5KEClwr0JzGD6n7PCBKbJczalRgGHKd5gruPnE0S_DD_dLOS5j80aAmX0EALw_wcB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79bf1777-b5b5-4cd2-b0e4-55b768d72f1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1MHz 2A 4.5V~65V Adjustable Buck, Flyback, WSON-12-EP, -40℃~+125℃@(TJ)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "198f1ef7-841c-4431-a775-27ca2ce74820")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99aef92d-5bc1-4ea4-b714-ba8bd3d73de5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "LM5160ADNTR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e6b018d-e864-4140-8d4f-a25de1156956")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/texas-instruments/LM5160ADNTR/5226705"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e28df955-2183-44c8-8913-985c73718f7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Texas-Instruments/LM5160ADNTR?qs=2iGeymVCXnUWi65aIPD7Bg%3D%3D&srsltid=AfmBOooIBWuGlWUu0_j9k8qem7ilANQ9ygzGzBhxUc8XEIeu9kAvhR2J"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4865ce9a-1c0d-4c60-9790-f710a69741d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C473375"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbf012ad-a7dc-4b6f-98ea-5dac8afdcfe9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25b3e4bb-ba25-4479-a1d6-52fe235842b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -2.11)
+		(end 2 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69df4eab-df77-4530-ae05-e637f8eefb50")
+	)
+	(fp_line
+		(start -2 2.11)
+		(end 2 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b514b90f-47bb-483e-a34f-bfaefb8bea14")
+	)
+	(fp_poly
+		(pts
+			(xy -2.55 -1.55) (xy -3.03 -1.55) (xy -2.55 -2.03)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2e1e7300-f574-4477-9ecd-0883acd8ef2d")
+	)
+	(fp_line
+		(start -2.63 -1.63)
+		(end -2.25 -1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "794cf99f-efea-4cdf-b994-bdb967e9f38e")
+	)
+	(fp_line
+		(start -2.63 1.63)
+		(end -2.63 -1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b4b18fb-44d0-4e4e-a920-2473784888ed")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03e17387-2451-4ec4-aad9-de0dfd061654")
+	)
+	(fp_line
+		(start -2.25 -1.63)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f53e52b-af11-409f-9f18-a3b7cb49339e")
+	)
+	(fp_line
+		(start -2.25 1.63)
+		(end -2.63 1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9095bc44-b99e-48c7-bf2f-d1934a17ce18")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b775e78-5e4d-45a6-afa8-8872b132ef6b")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 -1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4df1209-5b52-4c6a-8145-62418ee2edc6")
+	)
+	(fp_line
+		(start 2.25 -1.63)
+		(end 2.63 -1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e72d7104-8a96-470d-a4fa-d2e10ff135a2")
+	)
+	(fp_line
+		(start 2.25 1.63)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4fd69765-e6ff-4287-b826-6f78c15f0e1b")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "addd587c-24da-4e47-a4d3-66ab599ae3cf")
+	)
+	(fp_line
+		(start 2.63 -1.63)
+		(end 2.63 1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "110d9109-ecbe-4935-8418-c4879775251d")
+	)
+	(fp_line
+		(start 2.63 1.63)
+		(end 2.25 1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe3c2537-bf51-4c9f-9cac-fe5ffd55eab1")
+	)
+	(fp_poly
+		(pts
+			(xy -2 -1) (xy -2 2) (xy 2 2) (xy 2 -2) (xy -1 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2ea17e8d-7354-4c92-9175-94fb3e9c222e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 5.775 0)
+		(layer "F.Fab")
+		(uuid "7180d7c5-5d9f-4ce2-aff1-39075331f921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.65 -0.75)
+		(size 1.05 1.21)
+		(layers "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "d24f27f0-199d-4a5a-9bfe-fd68702efe42")
+	)
+	(pad "" smd roundrect
+		(at -0.65 0.75)
+		(size 1.05 1.21)
+		(layers "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "8fe47261-7aaf-4d2e-8611-c1177a03e1d6")
+	)
+	(pad "" smd roundrect
+		(at 0.65 -0.75)
+		(size 1.05 1.21)
+		(layers "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "3dac29df-f807-4c09-a669-df7e54028258")
+	)
+	(pad "" smd roundrect
+		(at 0.65 0.75)
+		(size 1.05 1.21)
+		(layers "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "dba639f0-128c-4ec9-b767-55bc718c3494")
+	)
+	(pad "1" smd roundrect
+		(at -1.9375 -1.25)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1cb26478-2fec-419c-aac8-ef86111bb4eb")
+	)
+	(pad "2" smd roundrect
+		(at -1.9375 -0.75)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4edb3a20-84f6-4e69-8172-f6638d32926a")
+	)
+	(pad "3" smd roundrect
+		(at -1.9375 -0.25)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8458b133-1f04-4cc4-a234-e4e809a2cc6d")
+	)
+	(pad "4" smd roundrect
+		(at -1.9375 0.25)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "36e0b201-7657-41d9-9e59-be5d368ca6e0")
+	)
+	(pad "5" smd roundrect
+		(at -1.9375 0.75)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "90563224-092e-47a3-a79d-e305420e12f2")
+	)
+	(pad "6" smd roundrect
+		(at -1.9375 1.25)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "eabc0db4-41a8-45ab-bb29-227a018595d1")
+	)
+	(pad "7" smd roundrect
+		(at 1.9375 1.25)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b2cc4286-ae7d-4bfb-a17a-fc5435ae20eb")
+	)
+	(pad "8" smd roundrect
+		(at 1.9375 0.75)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ce9c4e76-7094-4b3f-98cd-082af2ec344c")
+	)
+	(pad "9" smd roundrect
+		(at 1.9375 0.25)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4f8c3c53-f8b8-4c2b-9d5b-b0d8a46947b6")
+	)
+	(pad "10" smd roundrect
+		(at 1.9375 -0.25)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e1d37551-af0c-4975-8f6e-fd88b55f41a9")
+	)
+	(pad "11" smd roundrect
+		(at 1.9375 -0.75)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d96d9f66-d940-4091-b327-ffbf8a36455f")
+	)
+	(pad "12" smd roundrect
+		(at 1.9375 -1.25)
+		(size 0.875 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "be27cda3-f87b-4630-8885-60115666d5bf")
+	)
+	(pad "PAD" smd rect
+		(at 0 0)
+		(size 2.6 3)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "4a22d6a8-836d-476c-b322-546eb14be633")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/ESC-CADLib/DNT0012B.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

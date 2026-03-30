@@ -1,0 +1,284 @@
+(footprint "YXC-X322516MLB4SI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD2520/4, Crystal, 2.5x2.0mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf")
+	(property "Reference" "REF**"
+		(at 0 -2.2 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3c254fd7-5387-465d-9420-e1c3c86df7a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.156)
+			)
+		)
+	)
+	(property "Value" "16MHz"
+		(at 0 2.2 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ab13a044-dcc6-47d1-95a4-4aacc8bab3c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588879072148017152"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e864d1e-b1f5-4157-a2be-95fa0da1eb0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 16MHz 9pF ±10ppm ±20ppm 3225-4P Crystals"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ea73a0c-f7b5-4688-b8f4-f23aa562f555")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "YXC Crystal Oscillators"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28639937-a6ac-430d-a1a8-b48413c37bc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "X322516MLB4SI"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a97540ee-04a0-4eb0-9527-041ffa9009d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Link 1" "https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322516MLB4SI/C13738"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61746e36-1267-45e8-9e3a-221bcab60369")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Link 2" "https://www.lcsc.com/product-detail/C13738.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f1d9404-2837-4fa2-8bfd-7cb8b41ad24c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C13738"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c4a010e-f8fa-4cab-8471-ef626ced13c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46175fa2-63f2-4e75-8828-04adbc51d1c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9fe0a6e-9435-4e0f-a92a-3823d4a0c991")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C13738.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5eaec965-0372-4e00-97b0-29002cf70b02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://www.pcbx.com/component-detail/X322516MLB4SI-Yangxing%20Technology-500108988"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63806d70-50c7-4252-bb5a-1a6ff37960eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.71 1.46)
+		(end 1.71 1.46)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c970741d-3062-46c9-a367-1cce4eb87813")
+	)
+	(fp_line
+		(start -1.71 -1.46)
+		(end -1.71 1.46)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72f0b9d6-8683-4b2a-ae93-5d32530d40cc")
+	)
+	(fp_rect
+		(start -1.9 -1.55)
+		(end 1.9 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "da305caa-b966-465b-af98-648a4a15e145")
+	)
+	(fp_poly
+		(pts
+			(xy -1.25 -1) (xy -1.25 0.5) (xy -0.75 1) (xy 1.25 1) (xy 1.25 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "413985b3-8574-4e81-a645-fdfb5d19c450")
+	)
+	(fp_rect
+		(start -1.65 -1.3)
+		(end 1.65 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "239e9fd0-653d-4c1b-a3dd-333be8f84e4a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "792380c6-b440-4fa8-8d58-6da5c52ce5b0")
+		(effects
+			(font
+				(size 0.62 0.62)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 0.85 180)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.08333333333)
+		(solder_mask_margin 0.05)
+		(uuid "6a244373-dee0-475e-aaa2-1d0a16663da6")
+	)
+	(pad "2" smd roundrect
+		(at 1.1 0.85 180)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.08333333333)
+		(solder_mask_margin 0.05)
+		(uuid "35502d8c-1857-4163-a898-829ebf33409c")
+	)
+	(pad "3" smd roundrect
+		(at 1.1 -0.85 180)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.08333333333)
+		(solder_mask_margin 0.05)
+		(uuid "bf20f489-33ec-47ca-8cd9-3c43a24e3361")
+	)
+	(pad "4" smd roundrect
+		(at -1.1 -0.85 180)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.08333333333)
+		(solder_mask_margin 0.05)
+		(uuid "aeddfae7-ea91-4122-b9aa-9d17bc30f2a9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2520-4Pin_2.5x2.0mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
