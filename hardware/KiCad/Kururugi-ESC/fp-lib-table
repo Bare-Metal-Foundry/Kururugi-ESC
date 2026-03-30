@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KururugiESC-Footprints-Lib")(type "KiCad")(uri "${KIPRJMOD}/Libraries/KururugiESC-Footprints-Lib.pretty")(options "")(descr ""))
+)

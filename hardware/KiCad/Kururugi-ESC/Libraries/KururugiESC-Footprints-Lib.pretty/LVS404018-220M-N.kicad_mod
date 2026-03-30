@@ -1,0 +1,266 @@
+(footprint "LVS404018-220M-N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.01 -2.921 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a4d69e47-e842-4cee-8732-1c655c9f8086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.156)
+			)
+		)
+	)
+	(property "Value" "22u"
+		(at 0.02 -6.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75a26212-4460-4aaf-b80f-6456cfe29e24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C116614.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab325a9c-5435-460e-a9e6-aa7f7511657f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "22uH 420mΩ 760mA 810mA Shielded ±20% SMD,4x4mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8fc8939-eb26-4838-893a-fd0beb43d340")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Chilisin Elec"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45bfe6f3-684e-43cb-9200-a4933235db52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "LVS404018-220M-N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9554a0a-857a-47bb-a9fe-5560dc51b380")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C116614.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e860087e-dce5-43d7-a5d9-956c43413cba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Pulse-Electronics/BWVS00404018220M00?qs=DRkmTr78QAQDn%252B1PqgPhGw%3D%3D&utm_source=digipart&utm_medium=aggregator&utm_campaign=BWVS00404018220M00&utm_term=LVS404018-220M-N&utm_content=Pulse"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7f63bdb-4221-4ed9-bc86-1cfa89cd2a7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" " C116614"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e405c71e-4940-4b5c-9acd-22285383ac46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Irms" "760mA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95a14de8-6ae1-485e-8637-6e1ac58919b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "582c7dff-2487-4bc0-8321-01ce96eb00e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.131 2.125)
+		(end -2.131 1.49)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "56b2d10b-0078-4c7a-b2ec-fb95a39b1b4f")
+	)
+	(fp_line
+		(start -2.125 -2.125)
+		(end -2.125 -1.49)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5895f42a-4c0d-4b70-bdbc-d3bf6e389555")
+	)
+	(fp_line
+		(start -1.369 2.125)
+		(end -2.131 2.125)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "38c4d265-8c03-49b3-ade9-5ae92daca342")
+	)
+	(fp_line
+		(start -1.363 -2.125)
+		(end -2.125 -2.125)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e7a202e9-eef0-4d7e-9e97-baa8164e4048")
+	)
+	(fp_line
+		(start 1.363 -2.125)
+		(end 2.125 -2.125)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3fa8e291-8a4d-450f-9187-e14ab297ed03")
+	)
+	(fp_line
+		(start 2.125 -2.125)
+		(end 2.125 -1.49)
+		(stroke
+			(width 0.153)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "188168e1-56e5-457e-851a-3cef4d061439")
+	)
+	(fp_rect
+		(start -2.35 -2.35)
+		(end 2.35 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "81087c7e-d7d0-4627-b960-0a6cbfe28c39")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c26afe0b-fa13-455c-b319-ed6744a93df6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.02 -5.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae2a18a5-0417-41c2-a622-bb941a269261")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.4)
+		(size 3.7 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c40ccb22-5031-41af-af14-eb53833fcc38")
+	)
+	(pad "2" smd rect
+		(at 0 1.4)
+		(size 3.7 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f3cf33a5-257c-4912-843f-a4fa7abf015c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3Dmodels/LVS404018-220M-N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

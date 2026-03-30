@@ -1,0 +1,335 @@
+(footprint "HoBB1216-5W-0.5mR-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.075 -3 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e795f8ad-8d04-45df-8208-083a908b7cd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0.5m"
+		(at 3.95 3.5148 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a44fed0-5601-45bf-b324-905373ee851e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7663/HoBB_series.pdf"
+		(at 3.95 11.4 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f35f66a4-3fa6-452a-9044-94b9416099c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Description" "Shunt resisto 0.5mΩ 5W ±1% ±50ppm/℃ 1216"
+		(at 3.95 13.4 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6946d30f-e485-4c6f-bb6d-f4fbf3e3b125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Manufacturer" "Shenzhen Milliohm Electronic"
+		(at 3.95 7.4 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09fa166b-75a5-4145-a57c-f700108bd1c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Manufacturer Part Number" "HoBB1216-5W-0.5mR-1%"
+		(at 3.95 9.4 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5c9132a3-881d-4576-b1a4-f7f99907d016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/shenzhen-milliohm-electronic-co-ltd/HoBB1216-3038-5W-0-5mR-1/24386989"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e18ad749-2356-473d-841f-90786367c223")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://www.alibaba.com/product-detail/HoBB1216-5W-0-5mR-1-Current_1601632325091.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d5444e7-5d35-4102-a02e-e7868510a663")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C17701556"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c35dfe3-3421-49bf-9bd8-31cd0cd78a03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c7828b7-1f6f-42c2-833f-597e46085d58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.875 -1.075)
+		(end -1.875 -2.075)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8df8294a-30e7-4e9f-b061-9b8565a71269")
+	)
+	(fp_line
+		(start -1.875 2.15)
+		(end -1.875 1.15)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "342bb09b-da8c-46ab-b0a6-0942ffa02571")
+	)
+	(fp_line
+		(start -1.875 2.15)
+		(end -0.875 2.15)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5cbca60e-428e-4cec-be25-039097ed1ab9")
+	)
+	(fp_line
+		(start -0.875 -2.1)
+		(end -1.875 -2.1)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dee77c83-8714-42c0-bf39-cff386d5892e")
+	)
+	(fp_line
+		(start 0.85 -2.1)
+		(end 1.85 -2.1)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18ec3e04-0565-4dc7-ab0e-77bb2481d593")
+	)
+	(fp_line
+		(start 1.875 -1.1)
+		(end 1.875 -2.1)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e0685cf-a96d-420e-9346-e4f8c322ee7e")
+	)
+	(fp_line
+		(start 1.875 2.15)
+		(end 0.875 2.15)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73417a90-67ee-4f01-a7b1-151a68e026ae")
+	)
+	(fp_line
+		(start 1.875 2.15)
+		(end 1.875 1.15)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abebb346-8662-413f-b1ad-0b27187223a3")
+	)
+	(fp_rect
+		(start -2 -2.225)
+		(end 2 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1f88977b-ff1e-4786-900d-ab6bd63b9a4e")
+	)
+	(fp_rect
+		(start -1.65 -2)
+		(end -0.45 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "09e8f581-2a7d-461a-afa3-65c2a44a61d1")
+	)
+	(fp_rect
+		(start -1.65 -2)
+		(end 1.65 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "88b6d10a-6b13-4d9f-9355-75cc99f555db")
+	)
+	(fp_rect
+		(start -1.65 -0.8)
+		(end -0.45 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "246445b0-851d-4c51-92ae-33fa7c333228")
+	)
+	(fp_rect
+		(start 0.45 -2)
+		(end 1.65 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fe4b90df-5166-46b4-ba79-3f5237e04a23")
+	)
+	(fp_rect
+		(start 0.45 -0.8)
+		(end 1.65 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "68baee20-31ff-4829-820a-e2ece097ba7c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.95 5.4 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f99dfa3b-ffdf-41c8-9f0f-a2e0e704a970")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.05 -1.6375 180)
+		(size 1.5 0.775)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "84e23874-87c2-4d30-bcc7-2ed42975d9b8")
+	)
+	(pad "2" smd roundrect
+		(at -1.05 0.6125 180)
+		(size 1.5 2.975)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "4a3c2217-2a55-4843-b147-386e388ce1c8")
+	)
+	(pad "3" smd roundrect
+		(at 1.05 0.6125 180)
+		(size 1.5 2.975)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "852e2d43-1547-41a9-bccf-6065585d1548")
+	)
+	(pad "4" smd roundrect
+		(at 1.05 -1.6375 180)
+		(size 1.5 0.775)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "622c046d-079a-4a2c-94ec-38c69c44b652")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/3Dmodels/HoBB1216-5W-0.5mR-1.step"
+		(offset
+			(xyz -1.5 -1.95 1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

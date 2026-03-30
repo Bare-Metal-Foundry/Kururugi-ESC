@@ -1,0 +1,148 @@
+37271749740772
+KururugiESC-Footprints-Lib
+2EDL8024
+DFN, 8 Pin (https://www.st.com/resource/en/datasheet/ld1086.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+13
+9
+KururugiESC-Footprints-Lib
+CSD18540Q5B
+
+
+0
+5
+3
+KururugiESC-Footprints-Lib
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+KururugiESC-Footprints-Lib
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+KururugiESC-Footprints-Lib
+C_1206_3216Metric
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+KururugiESC-Footprints-Lib
+Fiducial_0.5mm_Mask1mm
+Fiducial, circular marking, 0.5mm bare copper, 1mm soldermask opening (Level C)
+fiducial
+0
+1
+0
+KururugiESC-Footprints-Lib
+HoBB1216-5W-0.5mR-1
+
+
+0
+4
+4
+KururugiESC-Footprints-Lib
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+KururugiESC-Footprints-Lib
+LM5160ADNTR
+WSON, 12 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+17
+13
+KururugiESC-Footprints-Lib
+LVS404018-220M-N
+
+
+0
+2
+2
+KururugiESC-Footprints-Lib
+Phase4x4
+SMD rectangular pad as test Point, square 4.0mm side length
+test point SMD pad rectangle square
+0
+2
+1
+KururugiESC-Footprints-Lib
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+KururugiESC-Footprints-Lib
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+KururugiESC-Footprints-Lib
+Rohm_SMD1006
+SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf
+Diode SOD882 DFN1006-2
+0
+2
+2
+KururugiESC-Footprints-Lib
+SMD-B_19-337C_EVE
+
+19-337C/RSBHGHC-A88/4T 
+0
+6
+6
+KururugiESC-Footprints-Lib
+STM32G484CEU6
+QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead ST_UFQFPN48 Analog_CP-48-13 JEDEC_MO-220-WKKD-4
+0
+65
+49
+KururugiESC-Footprints-Lib
+TI-SOT-23 (5p)
+SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
+KururugiESC-Footprints-Lib
+Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
+tag connect programming header pogo pins
+0
+6
+6
+KururugiESC-Footprints-Lib
+TestPoint_Pad_2.0x2.0mm
+SMD rectangular pad as test Point, square 2.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+KururugiESC-Footprints-Lib
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+KururugiESC-Footprints-Lib
+YXC-X322516MLB4SI
+SMD2520/4, Crystal, 2.5x2.0mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf
+
+0
+4
+4

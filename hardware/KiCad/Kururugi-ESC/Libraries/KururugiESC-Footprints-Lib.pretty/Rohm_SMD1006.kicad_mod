@@ -1,0 +1,285 @@
+(footprint "Rohm_SMD1006"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf")
+	(tags "Diode SOD882 DFN1006-2")
+	(property "Reference" "REF**"
+		(at -0.05 -3.875 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f5b871d6-7b13-4564-94ca-e9e5dcf8b932")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.156)
+			)
+		)
+	)
+	(property "Value" "RB161QS-40T18R"
+		(at 0.45 2.875 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f66294b6-ff29-4a6b-9624-7288bb4412f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042142308683776"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c88a276-f5f7-43e8-a6af-f5fac98112ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Schottky 1Acontinuous 40V 40uA@40V 600mV@1A 3A@0.25D,3ms SMD1006(0402) -55℃~+125℃"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85b4dcae-abe3-4ffe-ad46-08a68080d899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "ROHM Semicon"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fc03f08-8575-440d-a812-623d3786cc5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "RB161QS-40T18R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d37615f5-9f3b-496b-b871-bec635fe77f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd19d5d3-bb6f-4c16-b0ce-e842760afb85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dea6bbb9-d6a5-46e1-8d49-6cfed4a0a63d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" " C2837790"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24bd6437-343d-4f1e-8fc2-f27f4a176b09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dd7feb7-f3f8-4433-ad19-f942bb58954e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ff9cc15-b983-49f7-be8c-424c709608d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d8120b9-861f-438d-ac3e-b76f53484e4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.725 -0.525)
+		(end -0.725 0.525)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f5b651e-6259-419e-9464-1808751936d8")
+	)
+	(fp_line
+		(start -0.725 -0.525)
+		(end 0.425 -0.525)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00ddcb26-5df5-4c25-baa5-341e86dc9157")
+	)
+	(fp_line
+		(start -0.725 0.525)
+		(end 0.425 0.525)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18f48257-5f37-4d87-80b1-97e8cb306077")
+	)
+	(fp_line
+		(start -0.85 -0.65)
+		(end -0.85 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "909bee85-9f38-490f-b907-0bc91bc72a82")
+	)
+	(fp_line
+		(start -0.85 -0.65)
+		(end 0.85 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b82e478-a285-4afe-8af7-6ef3eb56fbe5")
+	)
+	(fp_line
+		(start 0.85 -0.65)
+		(end 0.85 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "642a6462-2b08-4ba3-b9da-124d6b6c9182")
+	)
+	(fp_line
+		(start 0.85 0.65)
+		(end -0.85 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4677899-2e6f-49ae-85d1-d4711a3320bc")
+	)
+	(fp_rect
+		(start -0.65 -0.45)
+		(end 0.65 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "55522736-4df7-4d62-b2de-b85669c109d4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.325 -2.375 0)
+		(layer "F.Fab")
+		(uuid "868d8d2f-eff5-4ffd-9f84-fdd2c5c7a076")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.35 0 180)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(uuid "af933191-222a-48e3-8a43-2747de2f5cc1")
+	)
+	(pad "2" smd roundrect
+		(at 0.35 0 180)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(uuid "f1315aaa-831a-4d69-997a-05dc6d808112")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-882.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

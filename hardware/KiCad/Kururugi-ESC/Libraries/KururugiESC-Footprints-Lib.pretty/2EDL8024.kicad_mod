@@ -1,0 +1,421 @@
+(footprint "2EDL8024"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN, 8 Pin (https://www.st.com/resource/en/datasheet/ld1086.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "DFN NoLead")
+	(property "Reference" "REF**"
+		(at 0 -2.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3f3b0d2f-1a0d-412f-b0dd-6d1e80c86c1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.156)
+			)
+		)
+	)
+	(property "Value" "2EDL8024"
+		(at 0 2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27718c02-3733-45c1-8c63-0e8f3492a456")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-2edl8x2x-datasheet-en.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ded6bc1c-accd-4be4-a14e-47da7bf18b66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Gate Driver, 4A/4A HS/LS pull-up, 5A/6A HS/LS pull-down, Vgate 8V~17V, -40℃~+125℃, VDSON-8"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70ba5d7e-05f1-4c07-a14b-d8176db0c0e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" " Infineon Technologies"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd998ee9-ec08-4c6a-8f26-c745d54a63ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" " 2EDL8024G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b15d0170-6540-49af-bc05-7099d3159178")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/infineon-technologies/2EDL8024G3CXTMA1/16254499"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b0980b4-0bee-464b-b7af-48432204e51e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Infineon-Technologies/2EDL8024GXUMA1?qs=sPbYRqrBIVkZchsE9G8%2FYw%3D%3D&srsltid=AfmBOorq0SP_XBCdOHYc-mCSlUkowttu_6IYWC5F55non9fBJ5gcZnad"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37f50679-ee88-4930-a8df-c3eda0a5c1f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" " C3655215"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b2abb03-f327-4afe-b3d6-31e89ac2220d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ade891d-344a-4453-b97c-82a94f51a193")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -2.11)
+		(end 2 -2.11)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97e95106-86e2-4f81-8f92-ac197f03350c")
+	)
+	(fp_line
+		(start -2 2.11)
+		(end 2 2.11)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "846fcd46-91dc-4393-a018-1645235b4c4a")
+	)
+	(fp_poly
+		(pts
+			(xy -2.54 -1.54) (xy -3.02 -1.54) (xy -2.54 -2.02)
+		)
+		(stroke
+			(width 0.153)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1a5c49f6-4c3a-4e71-aede-9d3e4a107021")
+	)
+	(fp_line
+		(start -2.63 -1.63)
+		(end -2.25 -1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8dd93269-5331-4ec6-8a1e-d534a392c011")
+	)
+	(fp_line
+		(start -2.63 1.63)
+		(end -2.63 -1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07a16adb-d48c-4138-bdae-8e1decae329d")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7bfc0b00-cbf9-413d-a806-2eaf16e3de50")
+	)
+	(fp_line
+		(start -2.25 -1.63)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab2b97fa-1583-4afb-b00c-6038218be27a")
+	)
+	(fp_line
+		(start -2.25 1.63)
+		(end -2.63 1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "afcd7146-e4c1-43d7-9f64-b9a5d81a0081")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end -2.25 1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8c50992-4112-4b98-8a1c-efdc469960fe")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end 2.25 -1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "937f3892-dae8-4d05-a186-acfe85ce524f")
+	)
+	(fp_line
+		(start 2.25 -1.63)
+		(end 2.63 -1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22849f96-a7a7-412f-a3c8-880c20ec3748")
+	)
+	(fp_line
+		(start 2.25 1.63)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "856b0706-0129-48f4-a612-a2f5c52c2641")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c5cf217-4c18-4c66-b105-e1e8e41d8c06")
+	)
+	(fp_line
+		(start 2.63 -1.63)
+		(end 2.63 1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da5ea264-b4b4-4aff-ab5b-402a15f3ba89")
+	)
+	(fp_line
+		(start 2.63 1.63)
+		(end 2.25 1.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a731a68-ef0c-4155-8ef5-6747f1b615ff")
+	)
+	(fp_poly
+		(pts
+			(xy -2 -1) (xy -2 2) (xy 2 2) (xy 2 -2) (xy -1 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5411f7e4-3ba6-4cba-ac47-92629698ff7d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.15 4.575 0)
+		(layer "F.Fab")
+		(uuid "2f818507-f5a5-47a2-8759-76642202d222")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -0.55 -0.775 180)
+		(size 0.9 1.35)
+		(layers "F.Paste")
+		(uuid "9d6414a5-8b2d-48d0-9d67-31741420a9c4")
+	)
+	(pad "" smd rect
+		(at -0.55 0.775 180)
+		(size 0.9 1.35)
+		(layers "F.Paste")
+		(uuid "79175cf4-5c95-452f-b97b-69ef5b770126")
+	)
+	(pad "" smd rect
+		(at 0.55 -0.775 180)
+		(size 0.9 1.35)
+		(layers "F.Paste")
+		(uuid "cd5e028b-0eeb-4cfe-8575-79cd81580826")
+	)
+	(pad "" smd rect
+		(at 0.55 0.775 180)
+		(size 0.9 1.35)
+		(layers "F.Paste")
+		(uuid "5ef5420b-f8a7-4aac-afe3-8b134a2ce5f0")
+	)
+	(pad "1" smd roundrect
+		(at -1.9 -1.2 180)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "5c22b8b9-e600-4f0d-8e7e-65971ec22e97")
+	)
+	(pad "2" smd roundrect
+		(at -1.9 -0.4 180)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "f58e9458-e678-4def-a2b5-2d05859e5211")
+	)
+	(pad "3" smd roundrect
+		(at -1.9 0.4 180)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "106d30ec-cdc5-44f8-83e4-76c1ad977400")
+	)
+	(pad "4" smd roundrect
+		(at -1.9 1.2 180)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "f563d345-f884-41f3-905c-4312570dcd3b")
+	)
+	(pad "5" smd roundrect
+		(at 1.9 1.2 180)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "17b160e2-dad7-43ea-844b-c0e57de34fc2")
+	)
+	(pad "6" smd roundrect
+		(at 1.9 0.4 180)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "b1d14bba-0c93-4be9-835f-9a83c1774a16")
+	)
+	(pad "7" smd roundrect
+		(at 1.9 -0.4 180)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "5bd846cb-5ff2-439b-9822-c2e47216b4b0")
+	)
+	(pad "8" smd roundrect
+		(at 1.9 -1.2 180)
+		(size 0.7 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "ce14c6ff-b291-487a-b00d-a98a03149c85")
+	)
+	(pad "PAD" smd rect
+		(at 0 0 180)
+		(size 2.45 3.38)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.05)
+		(zone_connect 2)
+		(uuid "433a7d56-3b19-49ed-86b4-f7b6bf9333c7")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/binon/Downloads/https___www.infineon.com_assets_row_public_packages_73_3d_model_infineon-pg-vdson-8-4-3d-01-stp-package-en.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

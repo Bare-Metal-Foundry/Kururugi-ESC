@@ -1,0 +1,7632 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d4e4e2f4-0c4b-49fb-9fd2-12f5497c05b4")
+	(paper "A4")
+	(title_block
+		(title "Kururugi-ESC")
+		(date "2026-03-29")
+		(rev "v1.0")
+		(company "Bare Metal Foundry")
+	)
+	(lib_symbols
+		(symbol "KururugiESC-Symbols-Lib:0402WGF1001TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+				(at 5.08 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+				(at 5.08 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF1001TCE"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C11702.html"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOorctHxNIZVQJ06L5eGuDiS0hgHcHH7PHdqEmtn8IMXSZtq7t3YH"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C11702"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF1001TCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF1001TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:0402WGF1002TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+				(at 5.08 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+				(at 5.08 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF1002TCE"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOooD89S2fpB_5J-CcNjlaQetS0LmpR6JBQE2fik-v9thnKrptRlQ"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" ""
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25744"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF1002TCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF1002TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:0402WGF100JTCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+				(at 5.08 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25077.pdf"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "10Ω 50V 62.5mW ±1% ±200ppm/℃ 0402 -55℃~+155℃"
+				(at 5.08 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF100JTCE"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25077.html"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF100JTCE?qs=e8oIoAS2J1QAAO%2FSWneTcg%3D%3D&srsltid=AfmBOopjZ3h9hUjNcTvTvTaZHDDo-jFx6PBPiQ0lS5BfMh3UHInc2MTn"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25077"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF100JTCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF100JTCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:0402WGF330JTCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "33"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+				(at 5.08 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25752.pdf"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "33Ω 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+				(at 5.08 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGF330JTCE"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25752.html"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1202TCE?qs=e8oIoAS2J1TbzeOLq8Dgag%3D%3D&srsltid=AfmBOooxXK0__6IOmu3tn9WKkPyZeP2GP4_kFRBu8ywBg85UG2JDSygR"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25752"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF330JTCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF330JTCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:0402WGJ033JTCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.3"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+				(at 5.08 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
+				(at 5.08 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "0402WGJ033JTCE"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25165"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGJ033JTCE_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGJ033JTCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:2EDL8024"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "2EDL8024"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:2EDL8024"
+				(at 17.78 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-2edl8x2x-datasheet-en.pdf"
+				(at 17.78 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Gate Driver, 4A/4A HS/LS pull-up, 5A/6A HS/LS pull-down, Vgate 8V~17V, -40℃~+125℃, VDSON-8"
+				(at 17.78 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" " Infineon Technologies"
+				(at 17.78 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" " 2EDL8024G"
+				(at 17.78 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/infineon-technologies/2EDL8024G3CXTMA1/16254499"
+				(at 17.78 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Infineon-Technologies/2EDL8024GXUMA1?qs=sPbYRqrBIVkZchsE9G8%2FYw%3D%3D&srsltid=AfmBOorq0SP_XBCdOHYc-mCSlUkowttu_6IYWC5F55non9fBJ5gcZnad"
+				(at 17.78 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" " C3655215"
+				(at 17.78 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "2EDL8024_0_1"
+				(rectangle
+					(start 0 0)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "2EDL8024_1_0"
+				(pin power_in line
+					(at -5.08 -1.27 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "HI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "LI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -11.43 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -11.43 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "HB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "HO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "HS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:CL05B104KO5NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "100n"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
+				(at 10.16 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+				(at 10.16 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
+				(at 10.16 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 10.16 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+				(at 10.16 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
+				(at 10.16 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
+				(at 10.16 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1525"
+				(at 10.16 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL05B104KO5NNNC_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL05B104KO5NNNC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:CL05B224KO5NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "220n"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
+				(at 9.906 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B224KO5NNN.do"
+				(at 10.16 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "16V 220nF X7R ±10% 0402"
+				(at 9.906 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 10.16 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CL05B224KO5NNNC"
+				(at 10.16 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B224KO5NNNC/3886834"
+				(at 9.906 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B224KO5NNNC?qs=X6jEic%2FHinCN6V6mK7LtLg%3D%3D&srsltid=AfmBOoqpRm1R1Kd1E_4Crh9KI9O_d4ZwEyKWj6L1L2exLibfrO0hiuRd"
+				(at 9.906 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C16772"
+				(at 9.906 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL05B224KO5NNNC_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL05B224KO5NNNC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:CL10A105KB8NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:C_0603_1608Metric"
+				(at 23.876 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do"
+				(at 37.592 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1uF 50V X5R ±10% 0603 MLCC"
+				(at 22.86 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 21.082 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" " CL10A105KB8NNNC"
+				(at 16.51 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A105KB8NNNC?qs=ktYoCbbtCSJz4pFCLWXd5g%3D%3D&srsltid=AfmBOoo2CFIeGAzAeX-EehEIaJFirySoaJxU9DtNhZNzRaMOvefS8sgE"
+				(at 105.156 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
+				(at 58.928 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C15849"
+				(at 10.922 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL10A105KB8NNNC_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10A105KB8NNNC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:CSD18540Q5B"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CSD18540Q5B"
+				(at 7.62 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:CSD18540Q5B"
+				(at 7.62 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf?ts=1771072039101&ref_url=https%253A%252F%252Fwww.google.com%252F"
+				(at 7.62 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.6mΩ41nC@10V 60V -55℃~+175℃"
+				(at 7.62 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 7.62 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CSD18540Q5B"
+				(at 7.62 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/texas-instruments/CSD18540Q5B/5181315?srsltid=AfmBOorS9x5M3hx4JsOLWhVnzjEbhGJooyYrWec1O2dTLPiL0HaUSryJ"
+				(at 7.62 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Texas-Instruments/CSD18540Q5B?qs=NRIcxvoDUteMaKTIEMaARQ%3D%3D&srsltid=AfmBOorWANCjy51257Sfy9L-WxJN5-D3CYcT6USvEp3NbO_uWY5w8ISc"
+				(at 7.62 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C86513"
+				(at 7.62 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CSD18540Q5B_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CSD18540Q5B_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:Conn_01x01_Phase"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:Phase4x4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Phase_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:HoBB1216-5W-0.5mR-1%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0.5m"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:HoBB1216-5W-0.5mR-1"
+				(at -1.778 0 90)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7663/HoBB_series.pdf"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shunt resisto 0.5mΩ 5W ±1% ±50ppm/℃ 1216"
+				(at 5.08 -2.54 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Shenzhen Milliohm Electronic"
+				(at 5.08 -5.08 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "HoBB1216-5W-0.5mR-1%"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/shenzhen-milliohm-electronic-co-ltd/HoBB1216-3038-5W-0-5mR-1/24386989"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link 2" "https://www.alibaba.com/product-detail/HoBB1216-5W-0-5mR-1-Current_1601632325091.html"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C17701556"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HoBB1216-5W-0.5mR-1%_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HoBB1216-5W-0.5mR-1%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:RB161QS-40T18R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RB161QS-40T18R"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KururugiESC-Footprints-Lib:Rohm_SMD1006"
+				(at 2.54 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042142308683776"
+				(at 2.54 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky 1Acontinuous 40V 40uA@40V 600mV@1A 3A@0.25D,3ms SMD1006(0402) -55℃~+125℃"
+				(at 2.54 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ROHM Semicon"
+				(at 2.54 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "RB161QS-40T18R"
+				(at 2.54 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
+				(at 2.54 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
+				(at 2.54 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" " C2837790"
+				(at 2.54 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RB161QS-40T18R_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RB161QS-40T18R_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KururugiESC-Symbols-Lib:VDC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with nme \"VDC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 180.467 50.419)
+		(end 242.697 83.185)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 295f5249-8cca-4cd0-97a8-a1cdd874df5e)
+	)
+	(rectangle
+		(start 180.34 92.71)
+		(end 242.57 138.43)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3133c470-89a3-40e0-a8fa-650ad763247d)
+	)
+	(rectangle
+		(start 39.37 66.04)
+		(end 170.18 130.81)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c2fff729-df72-4480-928a-95b7d0e2f67a)
+	)
+	(text "PHASE"
+		(exclude_from_sim no)
+		(at 42.672 69.596 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "020337f1-5dc9-48f0-86be-536dddc7992d")
+	)
+	(text "BLDC PAD"
+		(exclude_from_sim no)
+		(at 182.626 52.832 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7914dd58-a24e-40ee-b56e-0bf16368e741")
+	)
+	(text "VOLTAGE SENSING"
+		(exclude_from_sim no)
+		(at 183.388 96.012 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fcff579e-375f-41ed-bc5d-c1d6c385658f")
+	)
+	(junction
+		(at 107.95 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e222f97-5872-4a1c-8329-5c3c75827109")
+	)
+	(junction
+		(at 203.2 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33e1ff4a-ee24-4ca8-852a-17420217cc75")
+	)
+	(junction
+		(at 133.35 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4072dfd8-d820-4458-900a-06ba64cbfdaf")
+	)
+	(junction
+		(at 133.35 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cf52cc0-4f64-4b70-b97f-a6f83982c109")
+	)
+	(junction
+		(at 148.59 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64847042-5629-4775-8ce9-b108e6a58891")
+	)
+	(junction
+		(at 52.07 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754e0c49-1295-444b-8d6c-71a3425e15b2")
+	)
+	(junction
+		(at 95.25 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79e33b39-7cb7-47e6-a350-39e4b3e7d941")
+	)
+	(junction
+		(at 52.07 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e6e391f-851b-4742-80c6-1c66dfbf107a")
+	)
+	(junction
+		(at 133.35 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe0e88c-363d-48c7-8ea5-14441020e1f8")
+	)
+	(junction
+		(at 218.44 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a046a773-5fc3-41fc-9f12-abf2c94250d1")
+	)
+	(junction
+		(at 68.58 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afcd3ca3-f6d1-499c-93c2-7e2afe470ef1")
+	)
+	(junction
+		(at 208.28 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9b6ba27-5647-4e0e-b641-3b3fb4f300b7")
+	)
+	(junction
+		(at 107.95 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5f9af15-46e2-4327-89a0-10ce61c74bd5")
+	)
+	(junction
+		(at 133.35 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e136377b-a5cf-4309-adc6-4a217ba613ad")
+	)
+	(junction
+		(at 99.06 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f252ac3c-6447-48f5-ae45-9cdfa2688743")
+	)
+	(wire
+		(pts
+			(xy 66.04 93.98) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076ef210-d8b9-4102-a92a-617f436e2190")
+	)
+	(wire
+		(pts
+			(xy 203.2 119.38) (xy 203.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c00ff3b-6f52-4a20-a4f2-bd83229954f1")
+	)
+	(wire
+		(pts
+			(xy 52.07 86.36) (xy 52.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107527ba-dd7a-4e07-a006-74b3f0833a00")
+	)
+	(wire
+		(pts
+			(xy 222.25 119.38) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185c5457-6da0-4ad8-b0ac-cb8f7901c3d3")
+	)
+	(wire
+		(pts
+			(xy 68.58 81.28) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a932ac-f3b0-4a2d-9e0c-541f5a05df3b")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6cc10b-7c47-4a55-8ebb-8fa57249ddcb")
+	)
+	(wire
+		(pts
+			(xy 88.9 91.44) (xy 107.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b05d67d-9b1b-44df-ae44-0f531171de09")
+	)
+	(wire
+		(pts
+			(xy 107.95 107.95) (xy 107.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20321334-a544-40b3-b783-684e5338120b")
+	)
+	(wire
+		(pts
+			(xy 120.65 107.95) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28587a5a-6a9f-4cbe-b761-f3643a1c4a0d")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286d66cb-bbc6-48b1-88aa-95af2239f610")
+	)
+	(wire
+		(pts
+			(xy 133.35 86.36) (xy 140.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7a3b12-7305-44bc-8862-ef076bb56d4f")
+	)
+	(wire
+		(pts
+			(xy 52.07 97.79) (xy 52.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eacb4e4-9f62-4bd3-93d0-94a86bd0e88b")
+	)
+	(wire
+		(pts
+			(xy 133.35 115.57) (xy 133.35 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303afcb4-7409-4040-8fd2-a253f7c265cb")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308d4465-a75c-484d-8d9c-2b889b2862c2")
+	)
+	(wire
+		(pts
+			(xy 207.01 119.38) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3849dc2f-bbdd-4f98-8f6d-8c1db504459c")
+	)
+	(wire
+		(pts
+			(xy 203.2 129.54) (xy 203.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adc8cae-4548-4919-93e3-2e77615db096")
+	)
+	(wire
+		(pts
+			(xy 88.9 96.52) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452fbd6e-9a99-404d-9968-34bf754579d1")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4792e49c-1b3d-467d-b654-924fce9745f4")
+	)
+	(wire
+		(pts
+			(xy 128.27 107.95) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a77276f-6869-44e1-9e64-70f0903cfbe8")
+	)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7f952b-619a-48b9-ac4e-381b29b44bb2")
+	)
+	(wire
+		(pts
+			(xy 208.28 69.85) (xy 212.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c7bbbb-df2d-489f-aba0-c179f2587ea8")
+	)
+	(wire
+		(pts
+			(xy 203.2 116.84) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5542f2a6-ab82-48c2-ac0c-3f87df05441b")
+	)
+	(wire
+		(pts
+			(xy 148.59 91.44) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d312c89-5f76-46cf-959b-13c136fb3dfc")
+	)
+	(wire
+		(pts
+			(xy 52.07 97.79) (xy 68.58 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653752a6-e19e-4ac9-b851-f693007e4677")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f2503d-9e32-4efe-acb6-ed2a9ff92098")
+	)
+	(wire
+		(pts
+			(xy 148.59 106.68) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671e1e5a-4d94-490c-a668-9076f4de33e9")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73387719-676f-4301-8505-d4e2155a4e18")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7339422c-21e9-42c9-a9bc-2e1727ea831a")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73749587-1557-4c31-a494-d9544312ecd9")
+	)
+	(wire
+		(pts
+			(xy 107.95 86.36) (xy 107.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78de7fa8-15de-4ed9-a9b9-c06a40e1034d")
+	)
+	(wire
+		(pts
+			(xy 128.27 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bab761-9d94-4190-bed3-afc33c75cf34")
+	)
+	(wire
+		(pts
+			(xy 95.25 81.28) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cdcaea3-995e-437a-9e00-64aa5300f83c")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f29b402-353b-4add-9842-1dda625b0395")
+	)
+	(wire
+		(pts
+			(xy 107.95 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a361c0-8134-4e70-afee-7c95547f32a0")
+	)
+	(wire
+		(pts
+			(xy 81.28 81.28) (xy 78.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891bed24-c80f-4d1b-806d-6e74c1d445d2")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e565609-a0b5-4472-898c-64e29b9ce799")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99039b59-39a0-4a89-a51d-afb727737fec")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbead9c-ec69-46b7-bdd5-a0ef4d230a39")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0b5fef-daee-4e24-ab8f-1c0221550212")
+	)
+	(wire
+		(pts
+			(xy 151.13 113.03) (xy 154.94 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93f266b-ce0d-41ac-8977-27098bce2760")
+	)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b099ae96-adde-4cde-9d46-1f2d07e47002")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ebb9c9-ae1a-49db-bb31-70c5bac44721")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73c05e2-39d1-496f-8f86-97e2af49eb04")
+	)
+	(wire
+		(pts
+			(xy 52.07 96.52) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7662d0-c02d-4c95-9553-03eb876f061f")
+	)
+	(wire
+		(pts
+			(xy 204.47 69.85) (xy 208.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56e95e1-0588-47ab-906e-acaa1f8cb499")
+	)
+	(wire
+		(pts
+			(xy 205.74 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7208b0e-d7b5-4813-8697-2608fc4c218b")
+	)
+	(wire
+		(pts
+			(xy 66.04 91.44) (xy 68.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e244fe59-fcf9-42a0-9fbc-84861ef33401")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55bd456-d7ac-46d4-b780-b8d7ecc781dc")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c91ac6-b67a-45a2-9c88-86073a17a434")
+	)
+	(wire
+		(pts
+			(xy 148.59 119.38) (xy 148.59 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74f83f0-919f-4c74-bbbc-60d1d7be6d12")
+	)
+	(wire
+		(pts
+			(xy 128.27 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92ba4d4-76c9-432c-988a-11933805adf4")
+	)
+	(wire
+		(pts
+			(xy 151.13 118.11) (xy 154.94 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e1aead-fa06-412d-81ba-1878efac1cf8")
+	)
+	(wire
+		(pts
+			(xy 218.44 130.81) (xy 218.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edaf8607-f427-4163-8f34-e73dca9eb6d2")
+	)
+	(wire
+		(pts
+			(xy 107.95 86.36) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f115324c-b4f4-4a85-9e24-4221dfc62301")
+	)
+	(wire
+		(pts
+			(xy 218.44 121.92) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14f167d-ed34-4dc0-8b42-ded5f9870385")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68eb9e1-e292-45c0-ac18-c9615c0fd10d")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f754ce5b-08fb-483a-814d-fe7989f8361e")
+	)
+	(wire
+		(pts
+			(xy 52.07 87.63) (xy 52.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3c8609-4ead-479e-9e17-737c6507ca16")
+	)
+	(wire
+		(pts
+			(xy 214.63 119.38) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac34771-d832-4e14-b766-8d4f8c6d5007")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb330eee-6695-452e-b2e2-58006c381779")
+	)
+	(wire
+		(pts
+			(xy 52.07 87.63) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf02575-68ce-4f04-8cf1-25df2a53bc2b")
+	)
+	(label "GL"
+		(at 138.43 101.6 180)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify right bottom)
+		)
+		(uuid "08d1c643-e2e9-4a33-b08a-67e92ce90c93")
+	)
+	(label "HB"
+		(at 90.17 88.9 0)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "09948239-62e4-49b2-a243-ead91ddbb83a")
+	)
+	(label "LO"
+		(at 90.17 96.52 0)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c81272e-964d-4cec-bf0e-f1b29fae3594")
+	)
+	(label "LS"
+		(at 148.59 110.49 90)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "227d9617-2344-4615-a23e-1acd40513666")
+	)
+	(label "HO"
+		(at 90.17 91.44 0)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "369e08aa-5c4f-4048-abc5-30cad6472c99")
+	)
+	(label "GH"
+		(at 138.43 86.36 180)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify right bottom)
+		)
+		(uuid "cccab0fb-dcf0-455b-8218-425a42e795d9")
+	)
+	(label "VS"
+		(at 204.47 119.38 0)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3eb9757-7e84-4ea1-bc65-f685bcec6b26")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 66.04 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b76cde4-07b0-4828-8867-e85a4a189d4b")
+	)
+	(hierarchical_label "ISENS+"
+		(shape output)
+		(at 154.94 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3be35e4a-20f9-4fd6-b925-297a1136c47d")
+	)
+	(hierarchical_label "ISENS-"
+		(shape output)
+		(at 154.94 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58eb9f05-5532-481f-a482-209b2bedcaf0")
+	)
+	(hierarchical_label "PH"
+		(shape output)
+		(at 161.29 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e285ad8-2f0a-4bd1-b892-c5e858ea2709")
+	)
+	(hierarchical_label "PH"
+		(shape output)
+		(at 204.47 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92e263dd-33ca-4983-ba26-cf42d0dad4f8")
+	)
+	(hierarchical_label "PWMN"
+		(shape input)
+		(at 66.04 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cead9c1-9445-4014-bdef-cfb27b4858fe")
+	)
+	(hierarchical_label "VSENS"
+		(shape output)
+		(at 222.25 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf05a0fb-4640-4154-818e-65aeb486e618")
+	)
+	(hierarchical_label "PH"
+		(shape output)
+		(at 205.74 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb9d3965-105d-494d-a3eb-5f13678f7f54")
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:RB161QS-40T18R")
+		(at 85.09 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1840fd13-a7c9-4f69-a76f-d6eb65486afe")
+		(property "Reference" "D5"
+			(at 85.09 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB161QS-40T18R"
+			(at 85.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:Rohm_SMD1006"
+			(at 82.55 73.66 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042142308683776"
+			(at 82.55 63.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky 1Acontinuous 40V 40uA@40V 600mV@1A 3A@0.25D,3ms SMD1006(0402) -55℃~+125℃"
+			(at 82.55 66.04 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semicon"
+			(at 82.55 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RB161QS-40T18R"
+			(at 82.55 68.58 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
+			(at 82.55 60.96 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
+			(at 82.55 58.42 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2837790"
+			(at 82.55 55.88 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 85.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e60ce97-cbea-4c59-be38-62fc3a41fa53")
+		)
+		(pin "1"
+			(uuid "ea9ffa95-f782-4d71-8d45-b6a39e84f4eb")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF330JTCE")
+		(at 210.82 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ddd5221-2b0f-48b5-bd9b-1823ad2444dd")
+		(property "Reference" "R25"
+			(at 210.82 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "33"
+			(at 210.82 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 208.28 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25752.pdf"
+			(at 198.12 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "33Ω 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+			(at 205.74 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 203.2 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF330JTCE"
+			(at 200.66 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25752.html"
+			(at 195.58 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1202TCE?qs=e8oIoAS2J1TbzeOLq8Dgag%3D%3D&srsltid=AfmBOooxXK0__6IOmu3tn9WKkPyZeP2GP4_kFRBu8ywBg85UG2JDSygR"
+			(at 193.04 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25752"
+			(at 190.5 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 210.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1978e6d-974b-4026-90e5-805264069874")
+		)
+		(pin "2"
+			(uuid "6f65e597-cba1-4480-8f15-bb743e79dd8c")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:HoBB1216-5W-0.5mR-1%")
+		(at 148.59 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20133461-3366-47f3-885c-cd3cbd916331")
+		(property "Reference" "R24"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.5m"
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:HoBB1216-5W-0.5mR-1"
+			(at 146.812 115.57 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7663/HoBB_series.pdf"
+			(at 153.67 125.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resisto 0.5mΩ 5W ±1% ±50ppm/℃ 1216"
+			(at 153.67 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shenzhen Milliohm Electronic"
+			(at 153.67 120.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "HoBB1216-5W-0.5mR-1%"
+			(at 153.67 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/shenzhen-milliohm-electronic-co-ltd/HoBB1216-3038-5W-0-5mR-1/24386989"
+			(at 153.67 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.alibaba.com/product-detail/HoBB1216-5W-0-5mR-1-Current_1601632325091.html"
+			(at 153.67 130.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17701556"
+			(at 153.67 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 148.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4502b834-2835-4c6b-9b41-b5a929cce194")
+		)
+		(pin "2"
+			(uuid "a1ac5726-34f7-4960-b533-f226f715deed")
+		)
+		(pin "3"
+			(uuid "60ca4941-ed4c-4ffc-8100-c47c3ec03ae9")
+		)
+		(pin "4"
+			(uuid "be73c658-5579-434d-a5e0-3fee8ebe0977")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGJ033JTCE")
+		(at 74.93 81.28 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3677b80f-16c7-4f90-9a9c-5e8da7926a60")
+		(property "Reference" "R16"
+			(at 73.152 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3"
+			(at 76.962 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 77.47 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
+			(at 87.63 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
+			(at 80.01 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 82.55 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ033JTCE"
+			(at 85.09 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+			(at 90.17 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+			(at 92.71 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25165"
+			(at 95.25 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 74.93 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95b17144-d0d5-499d-83b3-f61e8e5057eb")
+		)
+		(pin "2"
+			(uuid "dcd5cc14-311b-41c3-9993-6a9c7dbd7c69")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:GND")
+		(at 52.07 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "374fe41c-ac5e-46df-a240-0bcf42e7374b")
+		(property "Reference" "#PWR043"
+			(at 52.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf68cfbe-332b-450d-aa95-4edca5cadaa7")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGJ033JTCE")
+		(at 124.46 101.6 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3750ae9d-ae7e-4827-862c-9b6ace2623d2")
+		(property "Reference" "R20"
+			(at 122.682 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3"
+			(at 126.492 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 127 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
+			(at 137.16 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
+			(at 129.54 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 132.08 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ033JTCE"
+			(at 134.62 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+			(at 139.7 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+			(at 142.24 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25165"
+			(at 144.78 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 124.46 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4225a3d-66e0-452a-b656-d3349f734d7c")
+		)
+		(pin "2"
+			(uuid "73e76650-c4e6-4acc-9ff4-4b0c1a7ceb3a")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
+		(at 133.35 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "384c44cb-b377-4a53-945c-6c2665f1f0f3")
+		(property "Reference" "R22"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 131.572 111.76 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+			(at 138.43 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+			(at 138.43 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 138.43 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 138.43 119.38 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOooD89S2fpB_5J-CcNjlaQetS0LmpR6JBQE2fik-v9thnKrptRlQ"
+			(at 138.43 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 138.43 127 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 138.43 129.54 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68167de1-f55c-4cde-be31-ee8f4f5e5910")
+		)
+		(pin "2"
+			(uuid "84ba4462-570b-4d23-9e56-980660b08f20")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:GND")
+		(at 148.59 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a86e5bf-88fc-4590-9c98-27c903d5a540")
+		(property "Reference" "#PWR045"
+			(at 148.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30e30fa5-6d9f-48f5-8bfe-3f7696f1d9ae")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
+		(at 133.35 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4acc0e70-7b9d-44da-95d3-f4126e654e46")
+		(property "Reference" "R19"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 131.572 90.17 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+			(at 138.43 100.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+			(at 138.43 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 138.43 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 138.43 97.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOooD89S2fpB_5J-CcNjlaQetS0LmpR6JBQE2fik-v9thnKrptRlQ"
+			(at 138.43 102.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 138.43 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 138.43 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "201d60b1-e712-4b52-86ea-b5538ecf05b7")
+		)
+		(pin "2"
+			(uuid "b9113df9-e95e-40f2-b3c6-af0d3b0b4311")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:GND")
+		(at 133.35 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d120f63-deaf-479e-bb72-d687028cbf3b")
+		(property "Reference" "#PWR044"
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab74247e-5799-4249-bb1f-ba24082e1966")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:CL10A105KB8NNNC")
+		(at 52.07 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dade414-e605-4045-9b6c-2fc48055a3db")
+		(property "Reference" "C25"
+			(at 49.022 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 49.022 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:C_0603_1608Metric"
+			(at 28.194 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do"
+			(at 14.478 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF 50V X5R ±10% 0603 MLCC"
+			(at 29.21 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 30.988 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " CL10A105KB8NNNC"
+			(at 35.56 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A105KB8NNNC?qs=ktYoCbbtCSJz4pFCLWXd5g%3D%3D&srsltid=AfmBOoo2CFIeGAzAeX-EehEIaJFirySoaJxU9DtNhZNzRaMOvefS8sgE"
+			(at -53.086 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
+			(at -6.858 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 41.148 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d848988b-3201-4b39-bbf9-0f2b27fdd462")
+		)
+		(pin "1"
+			(uuid "305d3e13-5f37-4d49-a069-724b7097ec6e")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:GND")
+		(at 203.2 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f94f3f7-31ed-44ea-8e8c-3a2932a93d26")
+		(property "Reference" "#PWR046"
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3327a9f9-ee0f-4953-996d-b89c9d1e945c")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
+		(at 203.2 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5286e22a-5bc4-4488-a386-c93afe2c25f2")
+		(property "Reference" "R23"
+			(at 201.168 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 201.168 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 208.28 115.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+			(at 208.28 125.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+			(at 208.28 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 208.28 120.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 208.28 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOooD89S2fpB_5J-CcNjlaQetS0LmpR6JBQE2fik-v9thnKrptRlQ"
+			(at 208.28 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" ""
+			(at 208.28 130.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 208.28 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 203.2 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f569b79b-205c-47ca-945d-b0a1c5a9f623")
+		)
+		(pin "1"
+			(uuid "449e8fee-1802-41f7-956e-ff477048c674")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_Phase")
+		(at 217.17 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53bd7519-213d-41b5-9806-342dbf5ef94b")
+		(property "Reference" "J9"
+			(at 218.948 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 219.71 68.5801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:Phase4x4"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06349e12-48f8-4237-ac0d-a5ccefaa3d8b")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
+		(at 52.07 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53dcaaf5-f859-4d31-bc91-eff429edd9a5")
+		(property "Reference" "#PWR042"
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUCK"
+			(at 52.07 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with nme \"VDC\""
+			(at 52.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25d43e27-efc4-4a20-81a0-7a67d407f865")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:RB161QS-40T18R")
+		(at 113.03 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7574cd91-e32e-4864-8901-027a3f8af755")
+		(property "Reference" "D6"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB161QS-40T18R"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:Rohm_SMD1006"
+			(at 115.57 88.9 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042142308683776"
+			(at 115.57 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky 1Acontinuous 40V 40uA@40V 600mV@1A 3A@0.25D,3ms SMD1006(0402) -55℃~+125℃"
+			(at 115.57 96.52 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semicon"
+			(at 115.57 91.44 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RB161QS-40T18R"
+			(at 115.57 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
+			(at 115.57 101.6 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
+			(at 115.57 104.14 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2837790"
+			(at 115.57 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fd065a1-3792-494c-85c5-a21b304fc4af")
+		)
+		(pin "1"
+			(uuid "e5c53df0-69a5-45da-b94d-dcca0452fb0c")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1001TCE")
+		(at 203.2 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ce5663f-5d17-4d71-9e15-408ea0ddbaf0")
+		(property "Reference" "R26"
+			(at 201.168 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 201.168 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 204.978 125.73 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
+			(at 198.12 115.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+			(at 198.12 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 198.12 120.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1001TCE"
+			(at 198.12 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C11702.html"
+			(at 198.12 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOorctHxNIZVQJ06L5eGuDiS0hgHcHH7PHdqEmtn8IMXSZtq7t3YH"
+			(at 198.12 110.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 198.12 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 203.2 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99cdaf91-eefd-4f40-b133-3e5c4fefd10e")
+		)
+		(pin "2"
+			(uuid "7dcb02a1-6c5e-4c6b-b1bb-72288c020748")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:CL05B224KO5NNNC")
+		(at 99.06 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9143fc54-5d0d-4d09-b7af-0fa3fd1e3c15")
+		(property "Reference" "C24"
+			(at 99.314 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n"
+			(at 99.314 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
+			(at 108.966 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B224KO5NNN.do"
+			(at 109.22 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 220nF X7R ±10% 0402"
+			(at 108.966 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 109.22 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B224KO5NNNC"
+			(at 109.22 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B224KO5NNNC/3886834"
+			(at 108.966 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B224KO5NNNC?qs=X6jEic%2FHinCN6V6mK7LtLg%3D%3D&srsltid=AfmBOoqpRm1R1Kd1E_4Crh9KI9O_d4ZwEyKWj6L1L2exLibfrO0hiuRd"
+			(at 108.966 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16772"
+			(at 108.966 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d36c485-3c19-44fd-87db-5e10dcd672a2")
+		)
+		(pin "1"
+			(uuid "0e36dfa0-a298-4083-92a1-fccafb9c59c3")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
+		(at 218.44 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8127338-0b7d-40fd-ba58-e949c3dce5bf")
+		(property "Reference" "C26"
+			(at 221.234 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 221.234 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
+			(at 242.316 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 256.032 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
+			(at 242.57 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 239.522 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 234.95 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
+			(at 315.722 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
+			(at 327.66 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 228.854 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 218.44 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "174d04da-e4a2-4f55-b77b-21b193db842b")
+		)
+		(pin "2"
+			(uuid "af076f2c-516e-473f-b708-0998ddec26fc")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGJ033JTCE")
+		(at 124.46 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af5839a9-64df-4b8e-aa17-1e1b5f17f8f8")
+		(property "Reference" "R18"
+			(at 122.682 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3"
+			(at 126.492 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 127 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
+			(at 137.16 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
+			(at 129.54 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 132.08 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ033JTCE"
+			(at 134.62 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+			(at 139.7 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+			(at 142.24 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25165"
+			(at 144.78 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 124.46 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef3c9a7c-c8ed-44a2-82e9-cea669552324")
+		)
+		(pin "2"
+			(uuid "42825a04-f8ac-4602-8dcc-1c05fbc8af81")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:VDC")
+		(at 148.59 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9fcb614-91a7-4306-aee8-b0ce58b2cc34")
+		(property "Reference" "#PWR041"
+			(at 148.59 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 148.59 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with nme \"VDC\""
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7a601d0-2d21-4bcb-a5d3-6e6607652fbd")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:2EDL8024")
+		(at 73.66 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be0cf0fe-0c0e-4f21-92de-a0b9148ccd8b")
+		(property "Reference" "U4"
+			(at 74.676 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2EDL8024"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:2EDL8024"
+			(at 91.44 101.6 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-2edl8x2x-datasheet-en.pdf"
+			(at 91.44 111.76 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gate Driver, 4A/4A HS/LS pull-up, 5A/6A HS/LS pull-down, Vgate 8V~17V, -40℃~+125℃, VDSON-8"
+			(at 91.44 104.14 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " Infineon Technologies"
+			(at 91.44 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " 2EDL8024G"
+			(at 91.44 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/infineon-technologies/2EDL8024G3CXTMA1/16254499"
+			(at 91.44 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Infineon-Technologies/2EDL8024GXUMA1?qs=sPbYRqrBIVkZchsE9G8%2FYw%3D%3D&srsltid=AfmBOorq0SP_XBCdOHYc-mCSlUkowttu_6IYWC5F55non9fBJ5gcZnad"
+			(at 91.44 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C3655215"
+			(at 91.44 119.38 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "0dddf790-383d-44ea-b942-6eb852cac4d1")
+		)
+		(pin "1"
+			(uuid "5cc87a99-8e97-452d-8fa6-6a56ec29fa0e")
+		)
+		(pin "6"
+			(uuid "c2b38a52-eb23-470c-83f4-70bf5360a44c")
+		)
+		(pin "7"
+			(uuid "e148ccae-0748-4d34-8982-732eef6d5f6a")
+		)
+		(pin "2"
+			(uuid "ba7f132e-3527-4108-b27e-32ca8d3c413f")
+		)
+		(pin "3"
+			(uuid "dbe26890-c24c-412f-a636-502028f76bda")
+		)
+		(pin "4"
+			(uuid "30dd93b8-be43-49c8-a8c2-964c0983772b")
+		)
+		(pin "5"
+			(uuid "07890f1f-e6a7-4f28-bd42-7aaa0ec59219")
+		)
+		(pin "8"
+			(uuid "2fa1bcbb-50bb-479b-84c8-defbeeb233ff")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:CSD18540Q5B")
+		(at 146.05 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6f99a9d-46a0-4bcc-a2a4-fdd08e8facbc")
+		(property "Reference" "Q1"
+			(at 149.86 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18540Q5B"
+			(at 152.4 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:CSD18540Q5B"
+			(at 158.75 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf?ts=1771072039101&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 158.75 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6mΩ41nC@10V 60V -55℃~+175℃"
+			(at 158.75 96.52 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 158.75 91.44 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CSD18540Q5B"
+			(at 158.75 101.6 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/texas-instruments/CSD18540Q5B/5181315?srsltid=AfmBOorS9x5M3hx4JsOLWhVnzjEbhGJooyYrWec1O2dTLPiL0HaUSryJ"
+			(at 158.75 104.14 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Texas-Instruments/CSD18540Q5B?qs=NRIcxvoDUteMaKTIEMaARQ%3D%3D&srsltid=AfmBOorWANCjy51257Sfy9L-WxJN5-D3CYcT6USvEp3NbO_uWY5w8ISc"
+			(at 158.75 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86513"
+			(at 158.75 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78eb5f04-7446-4bf0-9100-c60c2e744d4d")
+		)
+		(pin "2"
+			(uuid "8597ee21-a851-490a-90bd-11af9f5c7238")
+		)
+		(pin "3"
+			(uuid "5c765fe4-7ce6-4c38-8558-7bdd60cb6fed")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:RB161QS-40T18R")
+		(at 113.03 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc1589e5-8b3f-4c18-9e62-754c342f0bd3")
+		(property "Reference" "D7"
+			(at 113.03 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB161QS-40T18R"
+			(at 106.68 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:Rohm_SMD1006"
+			(at 115.57 115.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042142308683776"
+			(at 115.57 125.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky 1Acontinuous 40V 40uA@40V 600mV@1A 3A@0.25D,3ms SMD1006(0402) -55℃~+125℃"
+			(at 115.57 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semicon"
+			(at 115.57 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RB161QS-40T18R"
+			(at 115.57 120.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
+			(at 115.57 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
+			(at 115.57 130.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2837790"
+			(at 115.57 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
+			(at 118.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5a4fe90-e327-4322-946c-11996f79ab4d")
+		)
+		(pin "1"
+			(uuid "24bd6e7e-3de5-4550-8c65-f3e11bda9953")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
+		(at 208.28 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1f26e23-83ce-4a6f-a526-fc09fe9e6283")
+		(property "Reference" "#FLG07"
+			(at 208.28 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 208.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 208.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0e37d53-b753-4ef4-bd68-9dc0116f9931")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "#FLG08")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "#FLG07")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:GND")
+		(at 218.44 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3a9f8ea-8bed-4163-8893-f190a28400f2")
+		(property "Reference" "#PWR047"
+			(at 218.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0628c46e-cd54-4c3c-9f65-79012e023863")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF100JTCE")
+		(at 124.46 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4fc48e6-d0c1-4032-b25a-961dbfd52ade")
+		(property "Reference" "R17"
+			(at 122.682 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 126.746 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 124.46 83.058 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25077.pdf"
+			(at 134.62 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10Ω 50V 62.5mW ±1% ±200ppm/℃ 0402 -55℃~+155℃"
+			(at 127 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 129.54 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF100JTCE"
+			(at 132.08 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25077.html"
+			(at 137.16 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF100JTCE?qs=e8oIoAS2J1QAAO%2FSWneTcg%3D%3D&srsltid=AfmBOopjZ3h9hUjNcTvTvTaZHDDo-jFx6PBPiQ0lS5BfMh3UHInc2MTn"
+			(at 139.7 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25077"
+			(at 142.24 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 124.46 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "620e7117-419d-4bb1-b593-f8b5c7d45e20")
+		)
+		(pin "1"
+			(uuid "c463a5ab-4c90-4411-b855-44638abec09f")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF100JTCE")
+		(at 124.46 107.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e624c0b6-9414-46f4-9a44-cb8ba2815d57")
+		(property "Reference" "R21"
+			(at 122.682 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 126.746 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 124.46 106.172 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25077.pdf"
+			(at 134.62 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10Ω 50V 62.5mW ±1% ±200ppm/℃ 0402 -55℃~+155℃"
+			(at 127 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 129.54 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF100JTCE"
+			(at 132.08 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25077.html"
+			(at 137.16 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF100JTCE?qs=e8oIoAS2J1QAAO%2FSWneTcg%3D%3D&srsltid=AfmBOopjZ3h9hUjNcTvTvTaZHDDo-jFx6PBPiQ0lS5BfMh3UHInc2MTn"
+			(at 139.7 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25077"
+			(at 142.24 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 124.46 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75c4c237-07b4-401c-bfac-8bdc0e53795d")
+		)
+		(pin "1"
+			(uuid "85b1e156-298b-4d7f-a639-9b2639a469d9")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:CSD18540Q5B")
+		(at 146.05 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe881c73-fd91-42da-b541-778d702e1a53")
+		(property "Reference" "Q2"
+			(at 149.86 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD18540Q5B"
+			(at 152.4 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:CSD18540Q5B"
+			(at 158.75 109.22 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf?ts=1771072039101&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 158.75 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6mΩ41nC@10V 60V -55℃~+175℃"
+			(at 158.75 111.76 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 158.75 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CSD18540Q5B"
+			(at 158.75 116.84 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/texas-instruments/CSD18540Q5B/5181315?srsltid=AfmBOorS9x5M3hx4JsOLWhVnzjEbhGJooyYrWec1O2dTLPiL0HaUSryJ"
+			(at 158.75 119.38 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Texas-Instruments/CSD18540Q5B?qs=NRIcxvoDUteMaKTIEMaARQ%3D%3D&srsltid=AfmBOorWANCjy51257Sfy9L-WxJN5-D3CYcT6USvEp3NbO_uWY5w8ISc"
+			(at 158.75 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86513"
+			(at 158.75 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a13b959-e3f1-4494-910a-c91e1bef52bb")
+		)
+		(pin "2"
+			(uuid "5876c440-bddb-42ab-8d7c-d8edc7ac3d68")
+		)
+		(pin "3"
+			(uuid "554c8ba0-6d7b-4eab-ac4b-238db474f968")
+		)
+		(instances
+			(project "ESC_v1.0"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/35fe4f16-29cf-44cf-82ec-a2ca27cdef4e"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/d432cf55-dbf1-4f67-a84f-b7543f86b235"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612/ed35cd92-2ffb-408e-b672-57609a885ca6"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
