@@ -1,4 +1,4 @@
-# ⚡ Kururugi ESC — Technical Specifications
+# ⚡ Kururugi ESC - Technical Specifications
 
 > Detailed hardware architecture and performance targets
 
@@ -76,7 +76,7 @@ The stackup is optimized for current density, thermal performance, and EMI contr
 </table>
 Outer layers use 2 oz copper, and vias are filled and capped for reliable via-in-pad and thermal conduction.
 
-## Subsystemps
+## ⚙️ Subsystemps
 
 ### 🔋 Power System
 

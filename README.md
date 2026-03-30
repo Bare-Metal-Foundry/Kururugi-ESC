@@ -3,8 +3,8 @@
 > 4/6S-ready • 64–96 kHz PWM • FOC/Six-Steps • Full bare-metal control
 
 <p align="center">
-  <img src="./docs/exports/imgs/Kururugi-V0.1-Front.jpg" width="45%" />
-  <img src="./docs/exports/imgs/Kururugi-V0.1-Back.jpg" width="45%" />
+  <img src="./docs/exports/imgs/Kururugi-V0.1-Front.jpg" width=40%" />
+  <img src="./docs/exports/imgs/Kururugi-V0.1-Back.jpg" width="40%" />
 </p>
 
 ## ⚙️ Project overview
@@ -69,13 +69,6 @@ git clone https://github.com/StepaneBinon/Kururugi-ESC-Dev-Board.git
 2. ⚙️ **6-Step Control (Baseline)** *(May–Jun 2026)*: Reliable startup and fallback mode
 3. 🎯 **FOC Implementation** *(Jun–Aug 2026)*: High-efficiency, high-performance control
 4. 📝 **Technical Paper (Control & Results)** *(Sep 2026)*: Control strategy, tuning, and comparison
-
-### 🌐 Ecosystem
-1. 🧭 **Bare Metal Foundry Definition** *(Apr–Jun 2026)*: Define vision, scope, and project structure
-2. 🧰 **Engineering Templates** *(May–Jul 2026)*: Standardize reports, CAD, PCB, and code frameworks
-
-### 🔥 Vision
-From raw hardware to advanced control algorithms, Kururugi aims to become a **fully transparent, high-performance ESC platform** for engineers who want control—not black boxes. It is also designed as a deeply documented learning platform, enabling curious students and developers to understand how hardware and software interact at the lowest level.
 
 ## 🤝 How to Contribute
 
