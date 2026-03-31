@@ -12360,14 +12360,14 @@
 			(pin bidirectional line
 				(at -5.08 -19.05 0)
 				(length 5.08)
-				(name "PG10-NRST"
+				(name "PF0-OSC_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12396,14 +12396,14 @@
 			(pin bidirectional line
 				(at -5.08 -24.13 0)
 				(length 5.08)
-				(name "PF0-OSC_IN"
+				(name "PG10-NRST"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)

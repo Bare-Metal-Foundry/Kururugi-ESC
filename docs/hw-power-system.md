@@ -14,6 +14,8 @@ The acceptable operating limits for V1.0 are summarized below:
 - Maximum phase current (short duration): 20 A  
 - Peak current spike (transient): 50 A  
 
+![alt text](exports/layout/VBAT.png)
+
 
 ## 🚪 VBUCK *(Work in progress)*
 

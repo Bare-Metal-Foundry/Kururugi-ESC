@@ -65,7 +65,7 @@
       ],
       "drc_exclusions": [
         [
-          "text_thickness|103510000|44010000|f65011fe-d797-44f0-9e47-00e03305e054|00000000-0000-0000-0000-000000000000",
+          "text_thickness|104141196|58167101|f65011fe-d797-44f0-9e47-00e03305e054|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -770,14 +770,14 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Exports/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Libraries/ESC_v1.0.step",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://BMF_sheet_template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -961,7 +961,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "kicad-embed://BMF_sheet_template.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "Exports/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

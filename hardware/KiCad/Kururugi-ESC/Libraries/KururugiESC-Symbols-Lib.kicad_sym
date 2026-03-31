@@ -1400,7 +1400,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25752"
+		(property "LCSC" "C25105"
 			(at 5.08 -20.32 0)
 			(show_name)
 			(effects

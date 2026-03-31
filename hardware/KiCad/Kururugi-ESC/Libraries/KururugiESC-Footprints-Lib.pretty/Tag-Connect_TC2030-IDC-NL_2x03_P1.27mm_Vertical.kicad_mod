@@ -156,37 +156,5 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "1a131a42-14b1-4692-a416-05abcde16081")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "a5261e32-e28e-4967-a71f-2b5849166624")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints not_allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy 52.12 171.795) (xy 49.58 171.795) (xy 49.58 173.065) (xy 52.12 173.065)
-			)
-		)
-	)
 	(embedded_fonts no)
 )

@@ -669,7 +669,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C25752"
+			(property "LCSC" "C25105"
 				(at 5.08 -20.32 0)
 				(show_name)
 				(effects
@@ -3043,8 +3043,8 @@
 		)
 	)
 	(rectangle
-		(start 180.467 50.419)
-		(end 242.697 83.185)
+		(start 185.547 50.419)
+		(end 247.777 83.185)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3055,8 +3055,8 @@
 		(uuid 295f5249-8cca-4cd0-97a8-a1cdd874df5e)
 	)
 	(rectangle
-		(start 180.34 92.71)
-		(end 242.57 138.43)
+		(start 185.42 92.71)
+		(end 247.65 138.43)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3067,8 +3067,8 @@
 		(uuid 3133c470-89a3-40e0-a8fa-650ad763247d)
 	)
 	(rectangle
-		(start 39.37 66.04)
-		(end 170.18 130.81)
+		(start 44.45 66.04)
+		(end 175.26 130.81)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3080,7 +3080,7 @@
 	)
 	(text "PHASE"
 		(exclude_from_sim no)
-		(at 42.672 69.596 0)
+		(at 47.752 69.596 0)
 		(effects
 			(font
 				(size 3 3)
@@ -3093,7 +3093,7 @@
 	)
 	(text "BLDC PAD"
 		(exclude_from_sim no)
-		(at 182.626 52.832 0)
+		(at 187.706 52.832 0)
 		(effects
 			(font
 				(size 3 3)
@@ -3106,7 +3106,7 @@
 	)
 	(text "VOLTAGE SENSING"
 		(exclude_from_sim no)
-		(at 183.388 96.012 0)
+		(at 188.468 96.012 0)
 		(effects
 			(font
 				(size 3 3)
@@ -3118,98 +3118,98 @@
 		(uuid "fcff579e-375f-41ed-bc5d-c1d6c385658f")
 	)
 	(junction
-		(at 107.95 101.6)
+		(at 113.03 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e222f97-5872-4a1c-8329-5c3c75827109")
 	)
 	(junction
-		(at 203.2 119.38)
+		(at 208.28 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33e1ff4a-ee24-4ca8-852a-17420217cc75")
 	)
 	(junction
-		(at 133.35 101.6)
+		(at 138.43 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4072dfd8-d820-4458-900a-06ba64cbfdaf")
 	)
 	(junction
-		(at 133.35 86.36)
+		(at 138.43 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cf52cc0-4f64-4b70-b97f-a6f83982c109")
 	)
 	(junction
-		(at 148.59 93.98)
+		(at 153.67 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64847042-5629-4775-8ce9-b108e6a58891")
 	)
 	(junction
-		(at 52.07 87.63)
+		(at 57.15 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "754e0c49-1295-444b-8d6c-71a3425e15b2")
 	)
 	(junction
-		(at 95.25 81.28)
+		(at 100.33 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79e33b39-7cb7-47e6-a350-39e4b3e7d941")
 	)
 	(junction
-		(at 52.07 97.79)
+		(at 57.15 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e6e391f-851b-4742-80c6-1c66dfbf107a")
 	)
 	(junction
-		(at 133.35 93.98)
+		(at 138.43 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fe0e88c-363d-48c7-8ea5-14441020e1f8")
 	)
 	(junction
-		(at 218.44 119.38)
+		(at 223.52 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a046a773-5fc3-41fc-9f12-abf2c94250d1")
 	)
 	(junction
-		(at 68.58 87.63)
+		(at 73.66 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afcd3ca3-f6d1-499c-93c2-7e2afe470ef1")
 	)
 	(junction
-		(at 208.28 69.85)
+		(at 213.36 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9b6ba27-5647-4e0e-b641-3b3fb4f300b7")
 	)
 	(junction
-		(at 107.95 86.36)
+		(at 113.03 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5f9af15-46e2-4327-89a0-10ce61c74bd5")
 	)
 	(junction
-		(at 133.35 107.95)
+		(at 138.43 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e136377b-a5cf-4309-adc6-4a217ba613ad")
 	)
 	(junction
-		(at 99.06 93.98)
+		(at 104.14 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f252ac3c-6447-48f5-ae45-9cdfa2688743")
 	)
 	(wire
 		(pts
-			(xy 66.04 93.98) (xy 68.58 93.98)
+			(xy 71.12 93.98) (xy 73.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 119.38) (xy 203.2 121.92)
+			(xy 208.28 119.38) (xy 208.28 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3229,7 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 86.36) (xy 52.07 87.63)
+			(xy 57.15 86.36) (xy 57.15 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 119.38) (xy 218.44 119.38)
+			(xy 227.33 119.38) (xy 223.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3249,7 +3249,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 68.58 87.63)
+			(xy 73.66 81.28) (xy 73.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3259,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 81.28) (xy 68.58 81.28)
+			(xy 76.2 81.28) (xy 73.66 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3269,7 +3269,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 107.95 91.44)
+			(xy 93.98 91.44) (xy 113.03 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3279,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 107.95) (xy 107.95 101.6)
+			(xy 113.03 107.95) (xy 113.03 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3289,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 116.84 107.95)
+			(xy 125.73 107.95) (xy 121.92 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3299,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 99.06 81.28)
+			(xy 104.14 82.55) (xy 104.14 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3309,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 140.97 86.36)
+			(xy 138.43 86.36) (xy 146.05 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3319,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 97.79) (xy 52.07 99.06)
+			(xy 57.15 97.79) (xy 57.15 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 133.35 116.84)
+			(xy 138.43 115.57) (xy 138.43 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 161.29 93.98)
+			(xy 153.67 93.98) (xy 166.37 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 119.38) (xy 203.2 119.38)
+			(xy 212.09 119.38) (xy 208.28 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 203.2 130.81)
+			(xy 208.28 129.54) (xy 208.28 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3369,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 96.52) (xy 107.95 96.52)
+			(xy 93.98 96.52) (xy 113.03 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 78.74) (xy 148.59 81.28)
+			(xy 153.67 78.74) (xy 153.67 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 133.35 107.95)
+			(xy 133.35 107.95) (xy 138.43 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3399,7 +3399,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 101.6) (xy 120.65 101.6)
+			(xy 113.03 101.6) (xy 125.73 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3409,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 69.85) (xy 212.09 69.85)
+			(xy 213.36 69.85) (xy 217.17 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3419,7 +3419,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 116.84) (xy 203.2 119.38)
+			(xy 208.28 116.84) (xy 208.28 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3429,7 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.44) (xy 148.59 93.98)
+			(xy 153.67 91.44) (xy 153.67 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 97.79) (xy 68.58 97.79)
+			(xy 57.15 97.79) (xy 73.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3449,7 +3449,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 148.59 96.52)
+			(xy 153.67 93.98) (xy 153.67 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3459,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 148.59 111.76)
+			(xy 153.67 106.68) (xy 153.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3469,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 81.28) (xy 116.84 81.28)
+			(xy 125.73 81.28) (xy 121.92 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3479,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 148.59 93.98)
+			(xy 138.43 93.98) (xy 153.67 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3489,7 +3489,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 93.98) (xy 133.35 93.98)
+			(xy 104.14 93.98) (xy 138.43 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3499,7 +3499,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 107.95 91.44)
+			(xy 113.03 86.36) (xy 113.03 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 101.6) (xy 133.35 101.6)
+			(xy 133.35 101.6) (xy 138.43 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3519,7 +3519,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 81.28) (xy 95.25 88.9)
+			(xy 100.33 81.28) (xy 100.33 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3529,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 140.97 101.6)
+			(xy 138.43 101.6) (xy 146.05 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3539,7 +3539,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 107.95) (xy 109.22 107.95)
+			(xy 113.03 107.95) (xy 114.3 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3549,7 +3549,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 78.74 81.28)
+			(xy 86.36 81.28) (xy 83.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3559,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 81.28) (xy 95.25 81.28)
+			(xy 104.14 81.28) (xy 100.33 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3569,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 95.25 88.9)
+			(xy 93.98 88.9) (xy 100.33 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3579,7 +3579,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 95.25 81.28)
+			(xy 93.98 81.28) (xy 100.33 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3589,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 81.28) (xy 107.95 86.36)
+			(xy 113.03 81.28) (xy 113.03 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3599,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 113.03) (xy 154.94 113.03)
+			(xy 156.21 113.03) (xy 160.02 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 101.6) (xy 107.95 96.52)
+			(xy 113.03 101.6) (xy 113.03 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3619,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 93.98) (xy 99.06 93.98)
+			(xy 93.98 93.98) (xy 104.14 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3629,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 81.28) (xy 133.35 81.28)
+			(xy 133.35 81.28) (xy 138.43 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3639,7 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 96.52) (xy 52.07 97.79)
+			(xy 57.15 96.52) (xy 57.15 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +3649,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 69.85) (xy 208.28 69.85)
+			(xy 209.55 69.85) (xy 213.36 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 106.68) (xy 203.2 106.68)
+			(xy 210.82 106.68) (xy 208.28 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3669,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 91.44) (xy 68.58 91.44)
+			(xy 71.12 91.44) (xy 73.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3679,7 +3679,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 90.17) (xy 99.06 93.98)
+			(xy 104.14 90.17) (xy 104.14 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3689,7 +3689,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 106.68) (xy 203.2 109.22)
+			(xy 208.28 106.68) (xy 208.28 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3699,7 +3699,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 119.38) (xy 148.59 120.65)
+			(xy 153.67 119.38) (xy 153.67 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 86.36) (xy 133.35 86.36)
+			(xy 133.35 86.36) (xy 138.43 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3719,7 +3719,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 118.11) (xy 154.94 118.11)
+			(xy 156.21 118.11) (xy 160.02 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3729,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 130.81) (xy 218.44 129.54)
+			(xy 223.52 130.81) (xy 223.52 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3739,7 +3739,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 120.65 86.36)
+			(xy 113.03 86.36) (xy 125.73 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3749,7 +3749,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 121.92) (xy 218.44 119.38)
+			(xy 223.52 121.92) (xy 223.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3759,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 133.35 86.36)
+			(xy 138.43 81.28) (xy 138.43 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3769,7 +3769,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 107.95 81.28)
+			(xy 114.3 81.28) (xy 113.03 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3779,7 +3779,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 52.07 88.9)
+			(xy 57.15 87.63) (xy 57.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3789,7 +3789,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 119.38) (xy 218.44 119.38)
+			(xy 219.71 119.38) (xy 223.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3799,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 133.35 107.95)
+			(xy 138.43 101.6) (xy 138.43 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3809,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 68.58 87.63)
+			(xy 57.15 87.63) (xy 73.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3818,7 +3818,7 @@
 		(uuid "fdf02575-68ce-4f04-8cf1-25df2a53bc2b")
 	)
 	(label "GL"
-		(at 138.43 101.6 180)
+		(at 143.51 101.6 180)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -3828,7 +3828,7 @@
 		(uuid "08d1c643-e2e9-4a33-b08a-67e92ce90c93")
 	)
 	(label "HB"
-		(at 90.17 88.9 0)
+		(at 95.25 88.9 0)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -3838,7 +3838,7 @@
 		(uuid "09948239-62e4-49b2-a243-ead91ddbb83a")
 	)
 	(label "LO"
-		(at 90.17 96.52 0)
+		(at 95.25 96.52 0)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -3848,7 +3848,7 @@
 		(uuid "0c81272e-964d-4cec-bf0e-f1b29fae3594")
 	)
 	(label "LS"
-		(at 148.59 110.49 90)
+		(at 153.67 110.49 90)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -3858,7 +3858,7 @@
 		(uuid "227d9617-2344-4615-a23e-1acd40513666")
 	)
 	(label "HO"
-		(at 90.17 91.44 0)
+		(at 95.25 91.44 0)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -3868,7 +3868,7 @@
 		(uuid "369e08aa-5c4f-4048-abc5-30cad6472c99")
 	)
 	(label "GH"
-		(at 138.43 86.36 180)
+		(at 143.51 86.36 180)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -3878,7 +3878,7 @@
 		(uuid "cccab0fb-dcf0-455b-8218-425a42e795d9")
 	)
 	(label "VS"
-		(at 204.47 119.38 0)
+		(at 209.55 119.38 0)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -3889,7 +3889,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 66.04 91.44 180)
+		(at 71.12 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3900,7 +3900,7 @@
 	)
 	(hierarchical_label "ISENS+"
 		(shape output)
-		(at 154.94 113.03 0)
+		(at 160.02 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3911,7 +3911,7 @@
 	)
 	(hierarchical_label "ISENS-"
 		(shape output)
-		(at 154.94 118.11 0)
+		(at 160.02 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3922,7 +3922,7 @@
 	)
 	(hierarchical_label "PH"
 		(shape output)
-		(at 161.29 93.98 0)
+		(at 166.37 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3933,7 +3933,7 @@
 	)
 	(hierarchical_label "PH"
 		(shape output)
-		(at 204.47 69.85 180)
+		(at 209.55 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3944,7 +3944,7 @@
 	)
 	(hierarchical_label "PWMN"
 		(shape input)
-		(at 66.04 93.98 180)
+		(at 71.12 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3955,7 +3955,7 @@
 	)
 	(hierarchical_label "VSENS"
 		(shape output)
-		(at 222.25 119.38 0)
+		(at 227.33 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3966,7 +3966,7 @@
 	)
 	(hierarchical_label "PH"
 		(shape output)
-		(at 205.74 106.68 0)
+		(at 210.82 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3977,7 +3977,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:RB161QS-40T18R")
-		(at 85.09 81.28 180)
+		(at 90.17 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3985,7 +3985,7 @@
 		(dnp no)
 		(uuid "1840fd13-a7c9-4f69-a76f-d6eb65486afe")
 		(property "Reference" "D5"
-			(at 85.09 78.486 0)
+			(at 90.17 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3993,7 @@
 			)
 		)
 		(property "Value" "RB161QS-40T18R"
-			(at 85.09 77.47 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4002,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:Rohm_SMD1006"
-			(at 82.55 73.66 0)
+			(at 87.63 73.66 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4013,7 +4013,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042142308683776"
-			(at 82.55 63.5 0)
+			(at 87.63 63.5 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4024,7 +4024,7 @@
 			)
 		)
 		(property "Description" "Schottky 1Acontinuous 40V 40uA@40V 600mV@1A 3A@0.25D,3ms SMD1006(0402) -55℃~+125℃"
-			(at 82.55 66.04 0)
+			(at 87.63 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4035,7 +4035,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM Semicon"
-			(at 82.55 71.12 0)
+			(at 87.63 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4046,7 +4046,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RB161QS-40T18R"
-			(at 82.55 68.58 0)
+			(at 87.63 68.58 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4057,7 +4057,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
-			(at 82.55 60.96 0)
+			(at 87.63 60.96 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4068,7 +4068,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
-			(at 82.55 58.42 0)
+			(at 87.63 58.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4079,7 +4079,7 @@
 			)
 		)
 		(property "LCSC" " C2837790"
-			(at 82.55 55.88 0)
+			(at 87.63 55.88 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4090,7 +4090,7 @@
 			)
 		)
 		(property "Supplier Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
-			(at 80.01 63.5 0)
+			(at 85.09 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4100,7 @@
 			)
 		)
 		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
-			(at 80.01 60.96 0)
+			(at 85.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +4110,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 85.09 81.28 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4143,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGF330JTCE")
-		(at 210.82 119.38 270)
+		(at 215.9 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4151,7 +4151,7 @@
 		(dnp no)
 		(uuid "1ddd5221-2b0f-48b5-bd9b-1823ad2444dd")
 		(property "Reference" "R26"
-			(at 210.82 117.602 90)
+			(at 215.9 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4160,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 210.82 121.158 90)
+			(at 215.9 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4169,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 208.28 124.46 0)
+			(at 213.36 124.46 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4180,28 +4180,6 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C25752.pdf"
-			(at 198.12 124.46 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "33Ω 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
-			(at 205.74 124.46 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
 			(at 203.2 124.46 0)
 			(show_name yes)
 			(effects
@@ -4212,8 +4190,30 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "33Ω 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+			(at 210.82 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 208.28 124.46 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer Part Number" "0402WGF330JTCE"
-			(at 200.66 124.46 0)
+			(at 205.74 124.46 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4224,7 +4224,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25752.html"
-			(at 195.58 124.46 0)
+			(at 200.66 124.46 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4235,7 +4235,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1202TCE?qs=e8oIoAS2J1TbzeOLq8Dgag%3D%3D&srsltid=AfmBOooxXK0__6IOmu3tn9WKkPyZeP2GP4_kFRBu8ywBg85UG2JDSygR"
-			(at 193.04 124.46 0)
+			(at 198.12 124.46 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4245,8 +4245,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25752"
-			(at 190.5 124.46 0)
+		(property "LCSC" "C25105"
+			(at 195.58 124.46 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4257,7 +4257,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 210.82 119.38 0)
+			(at 215.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4290,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:HoBB1216-5W-0.5mR-1%")
-		(at 148.59 115.57 0)
+		(at 153.67 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4298,7 +4298,7 @@
 		(dnp no)
 		(uuid "20133461-3366-47f3-885c-cd3cbd916331")
 		(property "Reference" "R25"
-			(at 147.32 114.3 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4307,7 @@
 			)
 		)
 		(property "Value" "0.5m"
-			(at 147.32 116.84 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4316,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:HoBB1216-5W-0.5mR-1"
-			(at 146.812 115.57 90)
+			(at 151.892 115.57 90)
 			(show_name yes)
 			(effects
 				(font
@@ -4327,7 +4327,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7663/HoBB_series.pdf"
-			(at 153.67 125.73 0)
+			(at 158.75 125.73 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4338,7 +4338,7 @@
 			)
 		)
 		(property "Description" "Shunt resisto 0.5mΩ 5W ±1% ±50ppm/℃ 1216"
-			(at 153.67 118.11 0)
+			(at 158.75 118.11 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4349,7 +4349,7 @@
 			)
 		)
 		(property "Manufacturer" "Shenzhen Milliohm Electronic"
-			(at 153.67 120.65 0)
+			(at 158.75 120.65 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4360,7 +4360,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "HoBB1216-5W-0.5mR-1%"
-			(at 153.67 123.19 0)
+			(at 158.75 123.19 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4371,7 +4371,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/shenzhen-milliohm-electronic-co-ltd/HoBB1216-3038-5W-0-5mR-1/24386989"
-			(at 153.67 128.27 0)
+			(at 158.75 128.27 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4382,7 +4382,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.alibaba.com/product-detail/HoBB1216-5W-0-5mR-1-Current_1601632325091.html"
-			(at 153.67 130.81 0)
+			(at 158.75 130.81 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4393,7 +4393,7 @@
 			)
 		)
 		(property "LCSC" "C17701556"
-			(at 153.67 133.35 0)
+			(at 158.75 133.35 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4404,7 +4404,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 148.59 115.57 0)
+			(at 153.67 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4443,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGJ033JTCE")
-		(at 74.93 81.28 90)
+		(at 80.01 81.28 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4452,7 +4452,7 @@
 		(dnp no)
 		(uuid "3677b80f-16c7-4f90-9a9c-5e8da7926a60")
 		(property "Reference" "R17"
-			(at 73.152 78.74 90)
+			(at 78.232 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4460,7 @@
 			)
 		)
 		(property "Value" "3.3"
-			(at 76.962 78.74 90)
+			(at 82.042 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,39 +4468,6 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 77.47 86.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
-			(at 87.63 86.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
-			(at 80.01 86.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
 			(at 82.55 86.36 0)
 			(show_name yes)
 			(effects
@@ -4511,29 +4478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGJ033JTCE"
-			(at 85.09 86.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
-			(at 90.17 86.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
 			(at 92.71 86.36 0)
 			(show_name yes)
 			(effects
@@ -4544,7 +4489,40 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25165"
+		(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
+			(at 85.09 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 87.63 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ033JTCE"
+			(at 90.17 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
 			(at 95.25 86.36 0)
 			(show_name yes)
 			(effects
@@ -4555,8 +4533,30 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+			(at 97.79 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25165"
+			(at 100.33 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Sim.Device" ""
-			(at 74.93 81.28 90)
+			(at 80.01 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4589,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 52.07 99.06 0)
+		(at 57.15 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4597,7 +4597,7 @@
 		(dnp no)
 		(uuid "374fe41c-ac5e-46df-a240-0bcf42e7374b")
 		(property "Reference" "#PWR044"
-			(at 52.07 105.41 0)
+			(at 57.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 103.378 0)
+			(at 57.15 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 99.06 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 99.06 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 99.06 0)
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +4663,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGJ033JTCE")
-		(at 124.46 101.6 90)
+		(at 129.54 101.6 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4672,7 +4672,7 @@
 		(dnp no)
 		(uuid "3750ae9d-ae7e-4827-862c-9b6ace2623d2")
 		(property "Reference" "R21"
-			(at 122.682 99.06 90)
+			(at 127.762 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4680,7 @@
 			)
 		)
 		(property "Value" "3.3"
-			(at 126.492 99.06 90)
+			(at 131.572 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,39 +4688,6 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 127 106.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
-			(at 137.16 106.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
-			(at 129.54 106.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
 			(at 132.08 106.68 0)
 			(show_name yes)
 			(effects
@@ -4731,29 +4698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGJ033JTCE"
-			(at 134.62 106.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
-			(at 139.7 106.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
 			(at 142.24 106.68 0)
 			(show_name yes)
 			(effects
@@ -4764,7 +4709,40 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25165"
+		(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
+			(at 134.62 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 137.16 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ033JTCE"
+			(at 139.7 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
 			(at 144.78 106.68 0)
 			(show_name yes)
 			(effects
@@ -4775,8 +4753,30 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+			(at 147.32 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25165"
+			(at 149.86 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Sim.Device" ""
-			(at 124.46 101.6 90)
+			(at 129.54 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +4809,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
-		(at 133.35 111.76 0)
+		(at 138.43 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4817,7 +4817,7 @@
 		(dnp no)
 		(uuid "384c44cb-b377-4a53-945c-6c2665f1f0f3")
 		(property "Reference" "R23"
-			(at 134.62 110.49 0)
+			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +4826,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 134.62 113.03 0)
+			(at 139.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4835,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 131.572 111.76 90)
+			(at 136.652 111.76 90)
 			(show_name yes)
 			(effects
 				(font
@@ -4846,7 +4846,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
-			(at 138.43 121.92 0)
+			(at 143.51 121.92 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4857,7 +4857,7 @@
 			)
 		)
 		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
-			(at 138.43 114.3 0)
+			(at 143.51 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4868,7 +4868,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 138.43 116.84 0)
+			(at 143.51 116.84 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4879,7 +4879,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 138.43 119.38 0)
+			(at 143.51 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4890,7 +4890,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOooD89S2fpB_5J-CcNjlaQetS0LmpR6JBQE2fik-v9thnKrptRlQ"
-			(at 138.43 124.46 0)
+			(at 143.51 124.46 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4901,7 +4901,7 @@
 			)
 		)
 		(property "Distributor Link 2" ""
-			(at 138.43 127 0)
+			(at 143.51 127 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4912,7 +4912,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 138.43 129.54 0)
+			(at 143.51 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4923,7 +4923,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 133.35 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +4956,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 148.59 120.65 0)
+		(at 153.67 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4964,7 +4964,7 @@
 		(dnp no)
 		(uuid "4a86e5bf-88fc-4590-9c98-27c903d5a540")
 		(property "Reference" "#PWR046"
-			(at 148.59 127 0)
+			(at 153.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +4973,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 124.968 0)
+			(at 153.67 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +4982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 120.65 0)
+			(at 153.67 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +4991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 120.65 0)
+			(at 153.67 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 120.65 0)
+			(at 153.67 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +5030,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
-		(at 133.35 90.17 0)
+		(at 138.43 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5038,7 +5038,7 @@
 		(dnp no)
 		(uuid "4acc0e70-7b9d-44da-95d3-f4126e654e46")
 		(property "Reference" "R20"
-			(at 134.62 88.9 0)
+			(at 139.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5047,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 134.62 91.44 0)
+			(at 139.7 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +5056,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 131.572 90.17 90)
+			(at 136.652 90.17 90)
 			(show_name yes)
 			(effects
 				(font
@@ -5067,7 +5067,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
-			(at 138.43 100.33 0)
+			(at 143.51 100.33 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5078,7 +5078,7 @@
 			)
 		)
 		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
-			(at 138.43 92.71 0)
+			(at 143.51 92.71 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5089,7 +5089,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 138.43 95.25 0)
+			(at 143.51 95.25 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5100,7 +5100,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 138.43 97.79 0)
+			(at 143.51 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5111,7 +5111,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOooD89S2fpB_5J-CcNjlaQetS0LmpR6JBQE2fik-v9thnKrptRlQ"
-			(at 138.43 102.87 0)
+			(at 143.51 102.87 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5122,7 +5122,7 @@
 			)
 		)
 		(property "Distributor Link 2" ""
-			(at 138.43 105.41 0)
+			(at 143.51 105.41 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5133,7 +5133,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 138.43 107.95 0)
+			(at 143.51 107.95 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5144,7 +5144,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 133.35 90.17 0)
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5177,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 133.35 116.84 0)
+		(at 138.43 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5185,7 +5185,7 @@
 		(dnp no)
 		(uuid "4d120f63-deaf-479e-bb72-d687028cbf3b")
 		(property "Reference" "#PWR045"
-			(at 133.35 123.19 0)
+			(at 138.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 121.158 0)
+			(at 138.43 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 116.84 0)
+			(at 138.43 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 116.84 0)
+			(at 138.43 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 116.84 0)
+			(at 138.43 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5251,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL10A105KB8NNNC")
-		(at 52.07 92.71 0)
+		(at 57.15 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5260,7 +5260,7 @@
 		(dnp no)
 		(uuid "4dade414-e605-4045-9b6c-2fc48055a3db")
 		(property "Reference" "C26"
-			(at 49.022 91.44 0)
+			(at 54.102 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +5269,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 49.022 93.98 0)
+			(at 54.102 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +5278,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0603_1608Metric"
-			(at 28.194 94.488 0)
+			(at 33.274 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5287,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do"
-			(at 14.478 99.568 0)
+			(at 19.558 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5296,7 @@
 			)
 		)
 		(property "Description" "1uF 50V X5R ±10% 0603 MLCC"
-			(at 29.21 97.028 0)
+			(at 34.29 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5305,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 30.988 89.408 0)
+			(at 36.068 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5314,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" " CL10A105KB8NNNC"
-			(at 35.56 91.948 0)
+			(at 40.64 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A105KB8NNNC?qs=ktYoCbbtCSJz4pFCLWXd5g%3D%3D&srsltid=AfmBOoo2CFIeGAzAeX-EehEIaJFirySoaJxU9DtNhZNzRaMOvefS8sgE"
-			(at -53.086 104.648 0)
+			(at -48.006 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5332,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
-			(at -6.858 102.108 0)
+			(at -1.778 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5341,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 41.148 107.188 0)
+			(at 46.228 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5350,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 52.07 92.71 0)
+			(at 57.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5383,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 203.2 130.81 0)
+		(at 208.28 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5391,7 +5391,7 @@
 		(dnp no)
 		(uuid "4f94f3f7-31ed-44ea-8e8c-3a2932a93d26")
 		(property "Reference" "#PWR047"
-			(at 203.2 137.16 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5400,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 135.128 0)
+			(at 208.28 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 130.81 0)
+			(at 208.28 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 130.81 0)
+			(at 208.28 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 130.81 0)
+			(at 208.28 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,7 +5457,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
-		(at 203.2 113.03 0)
+		(at 208.28 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5465,7 +5465,7 @@
 		(dnp no)
 		(uuid "5286e22a-5bc4-4488-a386-c93afe2c25f2")
 		(property "Reference" "R24"
-			(at 201.168 111.76 0)
+			(at 206.248 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5474,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 201.168 114.808 0)
+			(at 206.248 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5483,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 208.28 115.57 0)
+			(at 213.36 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5494,7 +5494,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
-			(at 208.28 125.73 0)
+			(at 213.36 125.73 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5505,7 +5505,7 @@
 			)
 		)
 		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
-			(at 208.28 118.11 0)
+			(at 213.36 118.11 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5516,7 +5516,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 208.28 120.65 0)
+			(at 213.36 120.65 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5527,7 +5527,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 208.28 123.19 0)
+			(at 213.36 123.19 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5538,7 +5538,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOooD89S2fpB_5J-CcNjlaQetS0LmpR6JBQE2fik-v9thnKrptRlQ"
-			(at 208.28 128.27 0)
+			(at 213.36 128.27 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5549,7 +5549,7 @@
 			)
 		)
 		(property "Distributor Link 2" ""
-			(at 208.28 130.81 0)
+			(at 213.36 130.81 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5560,7 +5560,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 208.28 133.35 0)
+			(at 213.36 133.35 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5571,7 +5571,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 203.2 113.03 90)
+			(at 208.28 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5604,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_Phase")
-		(at 217.17 69.85 0)
+		(at 222.25 69.85 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5613,7 +5613,7 @@
 		(dnp no)
 		(uuid "53bd7519-213d-41b5-9806-342dbf5ef94b")
 		(property "Reference" "J9"
-			(at 218.948 69.85 0)
+			(at 224.028 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5622,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 219.71 68.5801 0)
+			(at 224.79 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5632,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:Phase4x4"
-			(at 217.17 69.85 0)
+			(at 222.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +5641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 69.85 0)
+			(at 222.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +5650,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 217.17 69.85 0)
+			(at 222.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5680,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:VDC")
-		(at 52.07 86.36 0)
+		(at 57.15 86.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5689,7 +5689,7 @@
 		(dnp no)
 		(uuid "53dcaaf5-f859-4d31-bc91-eff429edd9a5")
 		(property "Reference" "#PWR043"
-			(at 52.07 90.17 0)
+			(at 57.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5698,7 @@
 			)
 		)
 		(property "Value" "VBUCK"
-			(at 52.07 82.296 0)
+			(at 57.15 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,7 +5706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 86.36 0)
+			(at 57.15 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 86.36 0)
+			(at 57.15 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with nme \"VDC\""
-			(at 52.07 86.36 0)
+			(at 57.15 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5754,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:RB161QS-40T18R")
-		(at 113.03 81.28 0)
+		(at 118.11 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5762,7 +5762,7 @@
 		(dnp no)
 		(uuid "7574cd91-e32e-4864-8901-027a3f8af755")
 		(property "Reference" "D6"
-			(at 113.03 78.74 0)
+			(at 118.11 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +5770,7 @@
 			)
 		)
 		(property "Value" "RB161QS-40T18R"
-			(at 113.03 77.47 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +5779,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:Rohm_SMD1006"
-			(at 115.57 88.9 0)
+			(at 120.65 88.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5790,7 +5790,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042142308683776"
-			(at 115.57 99.06 0)
+			(at 120.65 99.06 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5801,7 +5801,7 @@
 			)
 		)
 		(property "Description" "Schottky 1Acontinuous 40V 40uA@40V 600mV@1A 3A@0.25D,3ms SMD1006(0402) -55℃~+125℃"
-			(at 115.57 96.52 0)
+			(at 120.65 96.52 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5812,7 +5812,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM Semicon"
-			(at 115.57 91.44 0)
+			(at 120.65 91.44 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5823,7 +5823,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RB161QS-40T18R"
-			(at 115.57 93.98 0)
+			(at 120.65 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5834,7 +5834,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
-			(at 115.57 101.6 0)
+			(at 120.65 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
-			(at 115.57 104.14 0)
+			(at 120.65 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5856,7 +5856,7 @@
 			)
 		)
 		(property "LCSC" " C2837790"
-			(at 115.57 106.68 0)
+			(at 120.65 106.68 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5867,7 +5867,7 @@
 			)
 		)
 		(property "Supplier Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
-			(at 118.11 99.06 0)
+			(at 123.19 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +5877,7 @@
 			)
 		)
 		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
-			(at 118.11 101.6 0)
+			(at 123.19 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,7 +5887,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 113.03 81.28 0)
+			(at 118.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5920,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGF1001TCE")
-		(at 203.2 125.73 180)
+		(at 208.28 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5928,7 +5928,7 @@
 		(dnp no)
 		(uuid "8ce5663f-5d17-4d71-9e15-408ea0ddbaf0")
 		(property "Reference" "R27"
-			(at 201.168 124.46 0)
+			(at 206.248 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +5937,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 201.168 127 0)
+			(at 206.248 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +5946,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 204.978 125.73 90)
+			(at 210.058 125.73 90)
 			(show_name yes)
 			(effects
 				(font
@@ -5957,7 +5957,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
-			(at 198.12 115.57 0)
+			(at 203.2 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5968,7 +5968,7 @@
 			)
 		)
 		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
-			(at 198.12 123.19 0)
+			(at 203.2 123.19 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5979,7 +5979,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 198.12 120.65 0)
+			(at 203.2 120.65 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5990,7 +5990,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF1001TCE"
-			(at 198.12 118.11 0)
+			(at 203.2 118.11 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6001,7 +6001,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C11702.html"
-			(at 198.12 113.03 0)
+			(at 203.2 113.03 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6012,7 +6012,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOorctHxNIZVQJ06L5eGuDiS0hgHcHH7PHdqEmtn8IMXSZtq7t3YH"
-			(at 198.12 110.49 0)
+			(at 203.2 110.49 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6023,7 +6023,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 198.12 107.95 0)
+			(at 203.2 107.95 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 203.2 125.73 90)
+			(at 208.28 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6067,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL05B224KO5NNNC")
-		(at 99.06 86.36 0)
+		(at 104.14 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6075,7 +6075,7 @@
 		(dnp no)
 		(uuid "9143fc54-5d0d-4d09-b7af-0fa3fd1e3c15")
 		(property "Reference" "C25"
-			(at 99.314 84.328 0)
+			(at 104.394 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6084,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 99.314 88.646 0)
+			(at 104.394 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6093,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
-			(at 108.966 88.138 0)
+			(at 114.046 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6103,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B224KO5NNN.do"
-			(at 109.22 93.218 0)
+			(at 114.3 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6113,7 @@
 			)
 		)
 		(property "Description" "16V 220nF X7R ±10% 0402"
-			(at 108.966 90.678 0)
+			(at 114.046 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +6123,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 109.22 83.058 0)
+			(at 114.3 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6133,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B224KO5NNNC"
-			(at 109.22 85.598 0)
+			(at 114.3 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6143,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B224KO5NNNC/3886834"
-			(at 108.966 98.298 0)
+			(at 114.046 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6153,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B224KO5NNNC?qs=X6jEic%2FHinCN6V6mK7LtLg%3D%3D&srsltid=AfmBOoqpRm1R1Kd1E_4Crh9KI9O_d4ZwEyKWj6L1L2exLibfrO0hiuRd"
-			(at 108.966 95.758 0)
+			(at 114.046 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6163,7 +6163,7 @@
 			)
 		)
 		(property "LCSC" "C16772"
-			(at 108.966 100.838 0)
+			(at 114.046 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +6173,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 99.06 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6206,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
-		(at 218.44 125.73 0)
+		(at 223.52 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6214,7 +6214,7 @@
 		(dnp no)
 		(uuid "a8127338-0b7d-40fd-ba58-e949c3dce5bf")
 		(property "Reference" "C27"
-			(at 221.234 124.46 0)
+			(at 226.314 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6223,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 221.234 127 0)
+			(at 226.314 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6232,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
-			(at 242.316 127.508 0)
+			(at 247.396 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6241,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
-			(at 256.032 132.588 0)
+			(at 261.112 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6250,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
-			(at 242.57 130.048 0)
+			(at 247.65 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6259,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 239.522 122.428 0)
+			(at 244.602 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6268,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 234.95 124.968 0)
+			(at 240.03 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6277,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
-			(at 315.722 137.668 0)
+			(at 320.802 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6286,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
-			(at 327.66 135.128 0)
+			(at 332.74 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6295,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 228.854 140.208 0)
+			(at 233.934 140.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6304,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 218.44 125.73 90)
+			(at 223.52 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6337,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGJ033JTCE")
-		(at 124.46 86.36 90)
+		(at 129.54 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6345,7 +6345,7 @@
 		(dnp no)
 		(uuid "af5839a9-64df-4b8e-aa17-1e1b5f17f8f8")
 		(property "Reference" "R19"
-			(at 122.682 88.9 90)
+			(at 127.762 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6353,7 @@
 			)
 		)
 		(property "Value" "3.3"
-			(at 126.492 88.9 90)
+			(at 131.572 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,39 +6361,6 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 127 81.28 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
-			(at 137.16 81.28 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
-			(at 129.54 81.28 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
 			(at 132.08 81.28 0)
 			(show_name yes)
 			(effects
@@ -6404,29 +6371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGJ033JTCE"
-			(at 134.62 81.28 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
-			(at 139.7 81.28 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25165.pdf"
 			(at 142.24 81.28 0)
 			(show_name yes)
 			(effects
@@ -6437,7 +6382,40 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25165"
+		(property "Description" "3.3Ω 50V 62.5mW ±200ppm/℃ ±5% 0402 -55℃~+155℃"
+			(at 134.62 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 137.16 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGJ033JTCE"
+			(at 139.7 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
 			(at 144.78 81.28 0)
 			(show_name yes)
 			(effects
@@ -6448,8 +6426,30 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Royalohm/0402WGJ033JTCE?qs=e8oIoAS2J1TwywDbxcW4LQ%3D%3D&srsltid=AfmBOoqMZITBYgzeuQqNExFMYZNKnVdPcNnWmYkTOX-A6VKKgEH1dmZ9"
+			(at 147.32 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25165"
+			(at 149.86 81.28 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Sim.Device" ""
-			(at 124.46 86.36 90)
+			(at 129.54 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +6482,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:VDC")
-		(at 148.59 78.74 0)
+		(at 153.67 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6491,7 +6491,7 @@
 		(dnp no)
 		(uuid "b9fcb614-91a7-4306-aee8-b0ce58b2cc34")
 		(property "Reference" "#PWR042"
-			(at 148.59 82.55 0)
+			(at 153.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6500,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 148.59 74.676 0)
+			(at 153.67 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,7 +6508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 78.74 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 78.74 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with nme \"VDC\""
-			(at 148.59 78.74 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +6556,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:2EDL8024")
-		(at 73.66 86.36 0)
+		(at 78.74 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6564,7 +6564,7 @@
 		(dnp no)
 		(uuid "be0cf0fe-0c0e-4f21-92de-a0b9148ccd8b")
 		(property "Reference" "U4"
-			(at 74.676 85.344 0)
+			(at 79.756 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +6572,7 @@
 			)
 		)
 		(property "Value" "2EDL8024"
-			(at 78.74 100.33 0)
+			(at 83.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6580,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:2EDL8024"
-			(at 91.44 101.6 0)
+			(at 96.52 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6591,7 +6591,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-2edl8x2x-datasheet-en.pdf"
-			(at 91.44 111.76 0)
+			(at 96.52 111.76 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6602,7 +6602,7 @@
 			)
 		)
 		(property "Description" "Gate Driver, 4A/4A HS/LS pull-up, 5A/6A HS/LS pull-down, Vgate 8V~17V, -40℃~+125℃, VDSON-8"
-			(at 91.44 104.14 0)
+			(at 96.52 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 			)
 		)
 		(property "Manufacturer" " Infineon Technologies"
-			(at 91.44 106.68 0)
+			(at 96.52 106.68 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6624,7 +6624,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" " 2EDL8024G"
-			(at 91.44 109.22 0)
+			(at 96.52 109.22 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6635,7 +6635,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/infineon-technologies/2EDL8024G3CXTMA1/16254499"
-			(at 91.44 116.84 0)
+			(at 96.52 116.84 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6646,7 +6646,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Infineon-Technologies/2EDL8024GXUMA1?qs=sPbYRqrBIVkZchsE9G8%2FYw%3D%3D&srsltid=AfmBOorq0SP_XBCdOHYc-mCSlUkowttu_6IYWC5F55non9fBJ5gcZnad"
-			(at 91.44 114.3 0)
+			(at 96.52 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6657,7 +6657,7 @@
 			)
 		)
 		(property "LCSC" " C3655215"
-			(at 91.44 119.38 0)
+			(at 96.52 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6668,7 +6668,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 73.66 86.36 0)
+			(at 78.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6722,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CSD18540Q5B")
-		(at 146.05 86.36 0)
+		(at 151.13 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6730,7 +6730,7 @@
 		(dnp no)
 		(uuid "c6f99a9d-46a0-4bcc-a2a4-fdd08e8facbc")
 		(property "Reference" "Q1"
-			(at 149.86 83.058 0)
+			(at 154.94 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6739,7 @@
 			)
 		)
 		(property "Value" "CSD18540Q5B"
-			(at 152.4 87.6299 0)
+			(at 157.48 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +6749,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:CSD18540Q5B"
-			(at 158.75 93.98 0)
+			(at 163.83 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6760,7 +6760,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf?ts=1771072039101&ref_url=https%253A%252F%252Fwww.google.com%252F"
-			(at 158.75 99.06 0)
+			(at 163.83 99.06 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 			)
 		)
 		(property "Description" "2.6mΩ41nC@10V 60V -55℃~+175℃"
-			(at 158.75 96.52 0)
+			(at 163.83 96.52 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6782,7 +6782,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 158.75 91.44 0)
+			(at 163.83 91.44 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6793,7 +6793,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CSD18540Q5B"
-			(at 158.75 101.6 0)
+			(at 163.83 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6804,7 +6804,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/texas-instruments/CSD18540Q5B/5181315?srsltid=AfmBOorS9x5M3hx4JsOLWhVnzjEbhGJooyYrWec1O2dTLPiL0HaUSryJ"
-			(at 158.75 104.14 0)
+			(at 163.83 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6815,7 +6815,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Texas-Instruments/CSD18540Q5B?qs=NRIcxvoDUteMaKTIEMaARQ%3D%3D&srsltid=AfmBOorWANCjy51257Sfy9L-WxJN5-D3CYcT6USvEp3NbO_uWY5w8ISc"
-			(at 158.75 106.68 0)
+			(at 163.83 106.68 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6826,7 +6826,7 @@
 			)
 		)
 		(property "LCSC" "C86513"
-			(at 158.75 109.22 0)
+			(at 163.83 109.22 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6837,7 +6837,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 146.05 86.36 0)
+			(at 151.13 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +6873,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:RB161QS-40T18R")
-		(at 113.03 107.95 0)
+		(at 118.11 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6881,7 +6881,7 @@
 		(dnp no)
 		(uuid "cc1589e5-8b3f-4c18-9e62-754c342f0bd3")
 		(property "Reference" "D7"
-			(at 113.03 110.998 0)
+			(at 118.11 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +6889,7 @@
 			)
 		)
 		(property "Value" "RB161QS-40T18R"
-			(at 106.68 110.998 0)
+			(at 111.76 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +6898,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:Rohm_SMD1006"
-			(at 115.57 115.57 0)
+			(at 120.65 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6909,7 +6909,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589042142308683776"
-			(at 115.57 125.73 0)
+			(at 120.65 125.73 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6920,7 +6920,7 @@
 			)
 		)
 		(property "Description" "Schottky 1Acontinuous 40V 40uA@40V 600mV@1A 3A@0.25D,3ms SMD1006(0402) -55℃~+125℃"
-			(at 115.57 123.19 0)
+			(at 120.65 123.19 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6931,7 +6931,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM Semicon"
-			(at 115.57 118.11 0)
+			(at 120.65 118.11 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6942,7 +6942,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RB161QS-40T18R"
-			(at 115.57 120.65 0)
+			(at 120.65 120.65 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6953,7 +6953,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
-			(at 115.57 128.27 0)
+			(at 120.65 128.27 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6964,7 +6964,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
-			(at 115.57 130.81 0)
+			(at 120.65 130.81 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6975,7 +6975,7 @@
 			)
 		)
 		(property "LCSC" " C2837790"
-			(at 115.57 133.35 0)
+			(at 120.65 133.35 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6986,7 +6986,7 @@
 			)
 		)
 		(property "Supplier Link 1" "https://www.digikey.com.au/en/products/detail/rohm-semiconductor/RB161QS-40T18R/6056031?srsltid=AfmBOopEhikKBo8j4pQQcWwrfiYg4DbpwO3LrE_fI8OOAk71GhS0MWvQ"
-			(at 118.11 125.73 0)
+			(at 123.19 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +6996,7 @@
 			)
 		)
 		(property "Supplier Link 2" "https://au.mouser.com/ProductDetail/ROHM-Semiconductor/RB161QS-40T18R?qs=r%2Fl4stf1ffr06ghBFd2HSg%3D%3D&srsltid=AfmBOoplfnAsv225Or7MdSAsjf9vPxpEOXklpmjQQycl2WKWhzcqfDU_"
-			(at 118.11 128.27 0)
+			(at 123.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7006,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 113.03 107.95 0)
+			(at 118.11 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7039,7 +7039,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
-		(at 208.28 69.85 0)
+		(at 213.36 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7048,7 +7048,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1f26e23-83ce-4a6f-a526-fc09fe9e6283")
 		(property "Reference" "#FLG07"
-			(at 208.28 67.945 0)
+			(at 213.36 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +7057,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 208.28 64.77 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +7075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7084,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 208.28 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,7 +7114,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 218.44 130.81 0)
+		(at 223.52 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7123,7 +7123,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3a9f8ea-8bed-4163-8893-f190a28400f2")
 		(property "Reference" "#PWR048"
-			(at 218.44 137.16 0)
+			(at 223.52 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7132,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 135.89 0)
+			(at 223.52 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 130.81 0)
+			(at 223.52 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 130.81 0)
+			(at 223.52 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7159,7 +7159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 130.81 0)
+			(at 223.52 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7189,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGF100JTCE")
-		(at 124.46 81.28 90)
+		(at 129.54 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7197,7 +7197,7 @@
 		(dnp no)
 		(uuid "e4fc48e6-d0c1-4032-b25a-961dbfd52ade")
 		(property "Reference" "R18"
-			(at 122.682 78.994 90)
+			(at 127.762 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7205,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 126.746 78.994 90)
+			(at 131.826 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +7213,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 124.46 83.058 90)
+			(at 129.54 83.058 90)
 			(show_name yes)
 			(effects
 				(font
@@ -7224,61 +7224,6 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C25077.pdf"
-			(at 134.62 76.2 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω 50V 62.5mW ±1% ±200ppm/℃ 0402 -55℃~+155℃"
-			(at 127 76.2 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 129.54 76.2 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF100JTCE"
-			(at 132.08 76.2 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25077.html"
-			(at 137.16 76.2 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF100JTCE?qs=e8oIoAS2J1QAAO%2FSWneTcg%3D%3D&srsltid=AfmBOopjZ3h9hUjNcTvTvTaZHDDo-jFx6PBPiQ0lS5BfMh3UHInc2MTn"
 			(at 139.7 76.2 0)
 			(show_name yes)
 			(effects
@@ -7289,7 +7234,40 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25077"
+		(property "Description" "10Ω 50V 62.5mW ±1% ±200ppm/℃ 0402 -55℃~+155℃"
+			(at 132.08 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 134.62 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF100JTCE"
+			(at 137.16 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25077.html"
 			(at 142.24 76.2 0)
 			(show_name yes)
 			(effects
@@ -7300,8 +7278,30 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF100JTCE?qs=e8oIoAS2J1QAAO%2FSWneTcg%3D%3D&srsltid=AfmBOopjZ3h9hUjNcTvTvTaZHDDo-jFx6PBPiQ0lS5BfMh3UHInc2MTn"
+			(at 144.78 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25077"
+			(at 147.32 76.2 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Sim.Device" ""
-			(at 124.46 81.28 90)
+			(at 129.54 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +7334,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:0402WGF100JTCE")
-		(at 124.46 107.95 90)
+		(at 129.54 107.95 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7343,7 +7343,7 @@
 		(dnp no)
 		(uuid "e624c0b6-9414-46f4-9a44-cb8ba2815d57")
 		(property "Reference" "R22"
-			(at 122.682 110.236 90)
+			(at 127.762 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7351,7 +7351,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 126.746 110.236 90)
+			(at 131.826 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +7359,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 124.46 106.172 90)
+			(at 129.54 106.172 90)
 			(show_name yes)
 			(effects
 				(font
@@ -7370,61 +7370,6 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C25077.pdf"
-			(at 134.62 113.03 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10Ω 50V 62.5mW ±1% ±200ppm/℃ 0402 -55℃~+155℃"
-			(at 127 113.03 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 129.54 113.03 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF100JTCE"
-			(at 132.08 113.03 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25077.html"
-			(at 137.16 113.03 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF100JTCE?qs=e8oIoAS2J1QAAO%2FSWneTcg%3D%3D&srsltid=AfmBOopjZ3h9hUjNcTvTvTaZHDDo-jFx6PBPiQ0lS5BfMh3UHInc2MTn"
 			(at 139.7 113.03 0)
 			(show_name yes)
 			(effects
@@ -7435,7 +7380,40 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25077"
+		(property "Description" "10Ω 50V 62.5mW ±1% ±200ppm/℃ 0402 -55℃~+155℃"
+			(at 132.08 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 134.62 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF100JTCE"
+			(at 137.16 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25077.html"
 			(at 142.24 113.03 0)
 			(show_name yes)
 			(effects
@@ -7446,8 +7424,30 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF100JTCE?qs=e8oIoAS2J1QAAO%2FSWneTcg%3D%3D&srsltid=AfmBOopjZ3h9hUjNcTvTvTaZHDDo-jFx6PBPiQ0lS5BfMh3UHInc2MTn"
+			(at 144.78 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25077"
+			(at 147.32 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Sim.Device" ""
-			(at 124.46 107.95 90)
+			(at 129.54 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7480,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CSD18540Q5B")
-		(at 146.05 101.6 0)
+		(at 151.13 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7488,7 +7488,7 @@
 		(dnp no)
 		(uuid "fe881c73-fd91-42da-b541-778d702e1a53")
 		(property "Reference" "Q2"
-			(at 149.86 98.298 0)
+			(at 154.94 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7497,7 @@
 			)
 		)
 		(property "Value" "CSD18540Q5B"
-			(at 152.4 102.8699 0)
+			(at 157.48 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7507,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:CSD18540Q5B"
-			(at 158.75 109.22 0)
+			(at 163.83 109.22 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7518,7 +7518,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf?ts=1771072039101&ref_url=https%253A%252F%252Fwww.google.com%252F"
-			(at 158.75 114.3 0)
+			(at 163.83 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7529,7 +7529,7 @@
 			)
 		)
 		(property "Description" "2.6mΩ41nC@10V 60V -55℃~+175℃"
-			(at 158.75 111.76 0)
+			(at 163.83 111.76 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7540,7 +7540,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 158.75 106.68 0)
+			(at 163.83 106.68 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7551,7 +7551,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CSD18540Q5B"
-			(at 158.75 116.84 0)
+			(at 163.83 116.84 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7562,7 +7562,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com.au/en/products/detail/texas-instruments/CSD18540Q5B/5181315?srsltid=AfmBOorS9x5M3hx4JsOLWhVnzjEbhGJooyYrWec1O2dTLPiL0HaUSryJ"
-			(at 158.75 119.38 0)
+			(at 163.83 119.38 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7573,7 +7573,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Texas-Instruments/CSD18540Q5B?qs=NRIcxvoDUteMaKTIEMaARQ%3D%3D&srsltid=AfmBOorWANCjy51257Sfy9L-WxJN5-D3CYcT6USvEp3NbO_uWY5w8ISc"
-			(at 158.75 121.92 0)
+			(at 163.83 121.92 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7584,7 +7584,7 @@
 			)
 		)
 		(property "LCSC" "C86513"
-			(at 158.75 124.46 0)
+			(at 163.83 124.46 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7595,7 +7595,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 146.05 101.6 0)
+			(at 151.13 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
