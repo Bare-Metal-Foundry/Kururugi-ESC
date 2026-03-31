@@ -161,7 +161,7 @@ P_{shunt,max} = \frac{2}{3} * R_{shunt} * I_{ph,max}^2 * D_{max}
 
 \section{Design of the Voltage sensing}
 
-As the current sensing uses an op-amp buffer with very low output impedance, the ADC input impedance constraint becomes negligible. Therefore, detailed RC settling analysis at the ADC pin is not required for the current sensing ADC channels. As the ADC of the STM32G484 are designed for this purpose, no additional impedance matching or damping network is deemed necessary.
+As the current sensing uses an op-amp buffer with very low output impedance, the ADC input impedance constraint becomes negligible. Therefore, detailed RC settling analysis at the ADC pin is not required for the current sensing ADC channels. As the ADC of the STM32G474 are designed for this purpose, no additional impedance matching or damping network is deemed necessary.
 \[
 R_{V_1} = R_{V_2}(\frac{V_{ph,spike}}{V_{ADC}} - 1)
 \]

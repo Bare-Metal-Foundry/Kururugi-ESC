@@ -3,7 +3,7 @@
 The datasheet specified that the saturation current of the inductance must be higher than 2.48A, but this would result in a physically large inductance SMD part, which we cannot afford as compactness is important. Hence, we will estimate an approximation of the all time max current output of the BUCK.
 
 We estemeed the max current to be 590mA according the following value:
-1. The LDO (STM32G484 & other): 300mA
+1. The LDO (STM32G474 & other): 300mA
 2. The 2xGD (2EDL8X2X): 61x2 = 120mA (with a x2 security coeficient)
 3. Margin (24%): 100mA
 

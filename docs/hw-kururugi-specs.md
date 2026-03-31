@@ -72,7 +72,7 @@ Outer layers use 2 oz copper, and vias are filled and capped for reliable via-in
 
 ### 1. 🧠 MCU & Sensing [[details](./hw-mcu-and-sensing.md)]
 
-The system is built around the STM32G484 with advanced timers, ADCs, and internal op-amps.
+The system is built around the stm32g474 with advanced timers, ADCs, and internal op-amps.
 
 Phase current is measured using 0.5 mΩ shunts with Kelvin routing and internal amplification. VBAT and optional phase voltages are measured through resistor dividers.
 

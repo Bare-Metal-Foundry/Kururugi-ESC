@@ -1,23 +1,23 @@
-# MCU: STM32G484CEU6
+# MCU: stm32g474CEU6
 
-For the Microcontroller Unit, the STM32G484 will be used. It was chosen to use an STM MCU because we wanted to learn how to use them. We will select the smallest package as this should provide enough pins. We have two choices:
+For the Microcontroller Unit, the stm32g474 will be used. It was chosen to use an STM MCU because we wanted to learn how to use them. We will select the smallest package as this should provide enough pins. We have two choices:
 
-1. STM32G484CE**T**6: which comes in a LQFP48 (7x7mm) package
-2. STM32G484CE**U**6: which comes in a UFQFPN48 (7x7mm) package and provide more GPIO pins, an UART port and 1 additionnal ADC channel compare to 1. It is also almost two times cheaper per unit on JLCPCB.
+1. stm32g474CE**T**6: which comes in a LQFP48 (7x7mm) package
+2. stm32g474CE**U**6: which comes in a UFQFPN48 (7x7mm) package and provide more GPIO pins, an UART port and 1 additionnal ADC channel compare to 1. It is also almost two times cheaper per unit on JLCPCB.
 
-Thus, we will use a STM32G484CEU6 even if the soldering will be more challenging. Not that the STM32G484CEU6 does not have a dedicated VSSA pin, contrary to the STM32G484CET6, so we will need to be very careful about the layout so PWM gate signals returns and other fast varying signals returns do not cross ADC return paths.
+Thus, we will use a stm32g474CEU6 even if the soldering will be more challenging. Not that the stm32g474CEU6 does not have a dedicated VSSA pin, contrary to the STM32G474CET6, so we will need to be very careful about the layout so PWM gate signals returns and other fast varying signals returns do not cross ADC return paths.
 
 ## What is the STM32G4 familly ?
 
 The G4 familly was specifically designed with motor control in mind an is a new adition to the STM32 catalog. The F4 is an other option we looked at, it is more general purpose. A key difference is that the G4 as stronger analogs (faster ADCs (4Msps vs 2Msps), more flexible triggering, often HRTIM, comparators, op-amps). F4 is less oriented toward power electronics.
 
-To ensure we had some headroom for the development board we are going to use the STM32G484, one of the high tier of the familly. An other feature we looked for was the triple ADC, to reduce reading time, and the presence of an HRTIM, which are provided by the 484. An other nice to have for us is the precense of a:
+To ensure we had some headroom for the development board we are going to use the STM32G474, one of the high tier of the familly. An other feature we looked for was the triple ADC, to reduce reading time, and the presence of an HRTIM, which are provided by the 484. An other nice to have for us is the precense of a:
 
 - CORDIC which allows computation of sin, cos, tan, atan2, vector magnitude and polar to cartesian conversion in hardware.
 - FMAC which allows FIR/IIR filtering, convolution and dot products in harware.
 
 All these give us a lot of headroom to build the fastest ESC possible. 
-[STM32G484 peripheral details](details/MCU/MCU_peripherals.md)
+[STM32G474 peripheral details](details/MCU/MCU_peripherals.md)
 
 ## Technical Briefs
 

@@ -1,4 +1,4 @@
-37274232358229
+39049198016413
 KururugiESC-Footprints-Lib
 2EDL8024
 DFN, 8 Pin (https://www.st.com/resource/en/datasheet/ld1086.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -104,6 +104,13 @@ SMD-B_19-337C_EVE
 0
 6
 6
+KururugiESC-Footprints-Lib
+STM32G474CEU6
+QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead ST_UFQFPN48 Analog_CP-48-13 JEDEC_MO-220-WKKD-4
+0
+65
+49
 KururugiESC-Footprints-Lib
 STM32G484CEU6
 QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py

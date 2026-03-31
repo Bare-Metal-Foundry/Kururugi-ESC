@@ -1,4 +1,4 @@
-# STM32G484 – Peripheral Overview (concise)
+# STM32G474 – Peripheral Overview (concise)
 
 ## Core & System
 - **Cortex-M4F CPU (170 MHz)**  

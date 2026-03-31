@@ -1,4 +1,4 @@
-# STM32G484 — GPIO / Peripherals for Sensorless FOC ESC
+# STM32G474 — GPIO / Peripherals for Sensorless FOC ESC
 
 ## Inputs
 - Phase currents **Ia, Ib, Ic** → **3× PGA OPAMP ( → 3× ADC internally)**
@@ -37,4 +37,4 @@
 
 ➡️ **Total MCU pins used: 24**
 
-The STM32G484CEU6 will provide 48 pins, which should be largely enough.
+The STM32G474CEU6 will provide 48 pins, which should be largely enough.

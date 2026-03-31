@@ -2,7 +2,7 @@
 
 ## 🧠 MCU
 
-The system is based on an STM32G484, selected for its strong analog integration and motor-control-oriented peripherals. It provides fast ADCs with injected conversions, advanced timers suited for high-frequency PWM, and integrated OPAMPs, which significantly reduce external components while improving signal quality and latency.
+The system is based on an stm32g474, selected for its strong analog integration and motor-control-oriented peripherals. It provides fast ADCs with injected conversions, advanced timers suited for high-frequency PWM, and integrated OPAMPs, which significantly reduce external components while improving signal quality and latency.
 
 <img src="exports/imgs/mcu/pinout.png" width="450"/>
 
