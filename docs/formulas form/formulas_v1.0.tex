@@ -213,7 +213,17 @@ T_{fill,samp} &= S*\tau_{c,C_{samp+pad}} \\
 \]
 To chose the external capacitor, one should note that we won't be sampling the ADC during blanking time. Hence, the external capacior will be fully charged at the start of the sampling: we can model the external capacitor as fully charge at the start of a sampling. This assumption holds when $t_{\mathrm{settle}} \gg R_{\mathrm{th}}\,C_{\mathrm{ext}}$.
 
-\section{Power consumption}
+\section{$V_{BAT}$ sensing}
+
+\[
+V_{BAT,ADC,max} = \frac{R2}{R1+R2} V_{ph,spike@disarm}
+\]
+\[
+V_{BAT,ADC,typ} = \frac{R2}{R1+R2} V_{ph,typ}
+\]
+\[
+R_{BAT,ADC,thevenin} = \frac{R2*R1}{R1+R2}
+\]
 
 
 

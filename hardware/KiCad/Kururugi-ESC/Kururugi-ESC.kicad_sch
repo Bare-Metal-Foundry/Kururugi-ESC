@@ -10636,14 +10636,14 @@
 				(pin bidirectional line
 					(at -5.08 -19.05 0)
 					(length 5.08)
-					(name "PG10-NRST"
+					(name "PF0-OSC_IN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10672,14 +10672,14 @@
 				(pin bidirectional line
 					(at -5.08 -24.13 0)
 					(length 5.08)
-					(name "PF0-OSC_IN"
+					(name "PG10-NRST"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12526,16 +12526,16 @@
 		(uuid "fddd0501-6260-4133-9b25-f1e47371c964")
 	)
 	(junction
+		(at 116.84 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00206305-2ea2-4745-afc5-1c79b952738b")
+	)
+	(junction
 		(at 245.11 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01efd51e-8648-4880-b528-4ab969bea2a4")
-	)
-	(junction
-		(at 128.27 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02095b65-c035-4c95-83ed-2c361dbe6272")
 	)
 	(junction
 		(at 128.27 119.38)
@@ -12544,37 +12544,37 @@
 		(uuid "027c0d5d-6a56-43eb-a499-6f4ff36837ab")
 	)
 	(junction
-		(at 74.93 72.39)
+		(at 63.5 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03f517a9-6f83-4632-94e2-d3424643e8d0")
 	)
 	(junction
-		(at 45.72 205.74)
+		(at 53.34 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10e7812b-6ad7-4b4f-a5d5-0ba909fac31c")
 	)
 	(junction
-		(at 99.06 82.55)
+		(at 87.63 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "138ea585-e9cf-4d61-9686-14a1cdb0d54b")
 	)
 	(junction
-		(at 91.44 72.39)
+		(at 80.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22aa323d-adca-4da9-b9f2-f5e4c257be2b")
 	)
 	(junction
-		(at 187.96 85.09)
+		(at 190.5 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25119cae-8573-42c3-b9db-9730063508aa")
 	)
 	(junction
-		(at 242.57 154.94)
+		(at 245.11 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2578e301-3b4e-47b7-b616-cf557365e9e0")
@@ -12592,13 +12592,13 @@
 		(uuid "3120f9c7-6bf2-4bce-abda-925148a43ba6")
 	)
 	(junction
-		(at 106.68 82.55)
+		(at 95.25 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3305dd84-feee-43c8-907b-80da5a4e049d")
 	)
 	(junction
-		(at 83.82 82.55)
+		(at 72.39 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3901092e-bb75-4205-b095-37d41f13be98")
@@ -12610,13 +12610,13 @@
 		(uuid "42972506-fe94-4924-884d-2c0af82e8b86")
 	)
 	(junction
-		(at 91.44 82.55)
+		(at 80.01 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4531e9d6-4d86-4a40-bdbd-c63510b0233f")
 	)
 	(junction
-		(at 99.06 72.39)
+		(at 87.63 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c10e166-1599-44ea-8ac6-44c4273acb58")
@@ -12628,7 +12628,7 @@
 		(uuid "4f40727f-a555-42da-bd3e-639487302e5d")
 	)
 	(junction
-		(at 53.34 205.74)
+		(at 60.96 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "501a5cb7-5871-4d9f-a7ef-5d74d14dd4fb")
@@ -12646,19 +12646,19 @@
 		(uuid "5789a152-1050-40e4-8b37-16dcbf3edb83")
 	)
 	(junction
-		(at 106.68 72.39)
+		(at 95.25 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aae32c3-afcd-4946-8edc-c21c6443465f")
 	)
 	(junction
-		(at 83.82 72.39)
+		(at 72.39 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dc40c7a-fe3d-4139-83de-83f0136facce")
 	)
 	(junction
-		(at 187.96 74.93)
+		(at 190.5 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fccddd8-7cad-4cde-854d-649c31d64170")
@@ -12682,16 +12682,22 @@
 		(uuid "69d36a24-0a86-46ba-8da9-ceb5681d1b53")
 	)
 	(junction
-		(at 241.3 165.1)
+		(at 243.84 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7089df83-519f-42a3-8cb5-cfc4b41378a7")
 	)
 	(junction
-		(at 256.54 146.05)
+		(at 259.08 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74cf37a5-868d-415c-891b-6a2f4df90337")
+	)
+	(junction
+		(at 132.08 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "788ce0a9-9cd2-4b82-b0df-a7705414af25")
 	)
 	(junction
 		(at 153.67 196.85)
@@ -12706,7 +12712,7 @@
 		(uuid "7c92b7f4-adab-4a80-9bb6-e2452ef7e7ef")
 	)
 	(junction
-		(at 64.77 190.5)
+		(at 72.39 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81a52489-de01-41c6-ac03-5c258e1cfc24")
@@ -12724,13 +12730,13 @@
 		(uuid "92438c7c-1df5-4e8f-b29b-e01ceed2bae6")
 	)
 	(junction
-		(at 238.76 154.94)
+		(at 241.3 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f0f5989-bd1f-42af-9c8d-f5c8e169fdb8")
 	)
 	(junction
-		(at 114.3 82.55)
+		(at 102.87 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4060e91-6fd7-4dd9-8d08-195fcf5a7b68")
@@ -12742,19 +12748,19 @@
 		(uuid "a433620b-e7b0-4e21-b57d-a01c1a9ad38c")
 	)
 	(junction
-		(at 238.76 139.7)
+		(at 241.3 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5ebd5eb-d1b4-476f-90fc-9f75cf06b46f")
 	)
 	(junction
-		(at 203.2 74.93)
+		(at 205.74 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7b75b55-73fc-4f6f-826f-464f60210c9e")
 	)
 	(junction
-		(at 39.37 190.5)
+		(at 46.99 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abf0e68f-cecd-4343-85b7-10611ebd84b3")
@@ -12772,7 +12778,7 @@
 		(uuid "ae125a19-b8b0-4776-ad4f-53e1fb1e4d3e")
 	)
 	(junction
-		(at 74.93 82.55)
+		(at 63.5 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b21814dc-7e1c-4d49-bd32-ecb68471d237")
@@ -12796,7 +12802,7 @@
 		(uuid "bc971d97-169d-4ecc-86eb-dd90ce10e662")
 	)
 	(junction
-		(at 290.83 97.79)
+		(at 292.1 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5a69771-18a6-41e9-98ab-c95953b74733")
@@ -12814,7 +12820,7 @@
 		(uuid "ce8b4ec0-0ce7-42f0-8725-318722911a14")
 	)
 	(junction
-		(at 114.3 72.39)
+		(at 102.87 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf22c32d-8470-4851-b90c-844221e741bf")
@@ -12826,7 +12832,7 @@
 		(uuid "de53bfef-f75c-4ddd-b9a0-d33f439dd8e7")
 	)
 	(junction
-		(at 195.58 74.93)
+		(at 198.12 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3152439-a32c-4fa2-8761-778445b86095")
@@ -12838,27 +12844,27 @@
 		(uuid "ed1eae9f-7924-42ca-af49-74104272e116")
 	)
 	(no_connect
-		(at 228.6 138.43)
+		(at 231.14 137.16)
 		(uuid "03baa19a-e820-4207-9c9d-59f8e92ca109")
 	)
 	(no_connect
-		(at 262.89 113.03)
+		(at 265.43 111.76)
 		(uuid "1080a7c6-84eb-40c4-90ea-0a4746d9e531")
 	)
 	(no_connect
-		(at 205.74 99.06)
+		(at 208.28 97.79)
 		(uuid "2786ea97-63a9-46c6-8d38-a5a9b2171487")
 	)
 	(no_connect
-		(at 205.74 101.6)
+		(at 208.28 100.33)
 		(uuid "27cbf589-70a9-43e4-9105-2d9c46a56fbd")
 	)
 	(no_connect
-		(at 248.92 138.43)
+		(at 251.46 137.16)
 		(uuid "565e6867-d774-451e-ac73-20cb478d929e")
 	)
 	(no_connect
-		(at 262.89 100.33)
+		(at 265.43 99.06)
 		(uuid "58c489f7-0d71-4513-9fae-1ea6c99d260e")
 	)
 	(no_connect
@@ -12866,23 +12872,23 @@
 		(uuid "5b957fa1-2f01-4f28-b333-2542ee5d1da3")
 	)
 	(no_connect
-		(at 243.84 138.43)
+		(at 246.38 137.16)
 		(uuid "65f8c5ad-ba13-49b1-90a8-ec2fef8b3a21")
 	)
 	(no_connect
-		(at 205.74 121.92)
+		(at 208.28 120.65)
 		(uuid "6760aa07-7f25-4ebe-9cd5-8ca84b471f4f")
 	)
 	(no_connect
-		(at 262.89 102.87)
+		(at 265.43 101.6)
 		(uuid "ac6a68ec-f2ef-4d5c-a9cc-ad6aa7cd44b2")
 	)
 	(no_connect
-		(at 223.52 138.43)
+		(at 226.06 137.16)
 		(uuid "ceceff7c-a58e-4012-82e4-7b1415536e14")
 	)
 	(no_connect
-		(at 243.84 80.01)
+		(at 246.38 78.74)
 		(uuid "dec4aa29-69ce-442b-9b77-bbc80afe3467")
 	)
 	(wire
@@ -12897,7 +12903,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 67.31) (xy 236.22 80.01)
+			(xy 238.76 66.04) (xy 238.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12947,7 +12953,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 115.57) (xy 276.86 115.57)
+			(xy 265.43 114.3) (xy 278.13 114.3)
 		)
 		(stroke
 			(width 0)
@@ -12957,7 +12963,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 82.55) (xy 91.44 81.28)
+			(xy 80.01 83.82) (xy 80.01 82.55)
 		)
 		(stroke
 			(width 0)
@@ -12997,7 +13003,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 111.76) (xy 205.74 111.76)
+			(xy 186.69 110.49) (xy 208.28 110.49)
 		)
 		(stroke
 			(width 0)
@@ -13047,7 +13053,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 151.13) (xy 233.68 151.13)
+			(xy 210.82 149.86) (xy 236.22 149.86)
 		)
 		(stroke
 			(width 0)
@@ -13057,7 +13063,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 82.55) (xy 83.82 82.55)
+			(xy 63.5 83.82) (xy 72.39 83.82)
 		)
 		(stroke
 			(width 0)
@@ -13067,7 +13073,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 165.1) (xy 238.76 163.83)
+			(xy 241.3 163.83) (xy 241.3 162.56)
 		)
 		(stroke
 			(width 0)
@@ -13077,7 +13083,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 205.74) (xy 53.34 207.01)
+			(xy 60.96 205.74) (xy 60.96 207.01)
 		)
 		(stroke
 			(width 0)
@@ -13097,7 +13103,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 106.68 81.28)
+			(xy 95.25 83.82) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13127,7 +13133,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 99.06 72.39)
+			(xy 87.63 74.93) (xy 87.63 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13137,7 +13143,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 165.1) (xy 241.3 165.1)
+			(xy 241.3 163.83) (xy 243.84 163.83)
 		)
 		(stroke
 			(width 0)
@@ -13147,7 +13153,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 82.55) (xy 74.93 82.55)
+			(xy 62.23 83.82) (xy 63.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -13227,7 +13233,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 105.41) (xy 275.59 105.41)
+			(xy 265.43 104.14) (xy 278.13 104.14)
 		)
 		(stroke
 			(width 0)
@@ -13247,13 +13253,33 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 69.85) (xy 226.06 80.01)
+			(xy 228.6 68.58) (xy 228.6 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "225d6eba-3162-4018-855f-c49383bc29ed")
+	)
+	(wire
+		(pts
+			(xy 116.84 82.55) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236d3864-c205-40ae-9a3b-ecdfceb6dbb1")
+	)
+	(wire
+		(pts
+			(xy 186.69 105.41) (xy 208.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2543108e-0d71-4c81-a2d2-ba4d7f6d8f11")
 	)
 	(wire
 		(pts
@@ -13267,7 +13293,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 154.94) (xy 246.38 156.21)
+			(xy 248.92 153.67) (xy 248.92 154.94)
 		)
 		(stroke
 			(width 0)
@@ -13277,7 +13303,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 99.06 81.28)
+			(xy 87.63 83.82) (xy 87.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13307,7 +13333,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 190.5) (xy 64.77 190.5)
+			(xy 64.77 190.5) (xy 72.39 190.5)
 		)
 		(stroke
 			(width 0)
@@ -13317,13 +13343,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 187.96 76.2)
+			(xy 190.5 73.66) (xy 190.5 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "27642b24-c497-45e7-9d18-cacfa8deb02f")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 144.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276d029a-8bfb-4abe-9d62-6f48e267e0bf")
 	)
 	(wire
 		(pts
@@ -13347,7 +13383,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 86.36) (xy 187.96 85.09)
+			(xy 190.5 85.09) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -13357,7 +13393,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 96.52) (xy 205.74 96.52)
+			(xy 185.42 95.25) (xy 208.28 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13367,7 +13403,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 114.3 72.39)
+			(xy 102.87 74.93) (xy 102.87 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13387,7 +13423,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 67.31) (xy 236.22 67.31)
+			(xy 267.97 66.04) (xy 238.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -13397,7 +13433,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 165.1) (xy 246.38 165.1)
+			(xy 243.84 163.83) (xy 248.92 163.83)
 		)
 		(stroke
 			(width 0)
@@ -13407,7 +13443,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 64.77) (xy 233.68 80.01)
+			(xy 236.22 63.5) (xy 236.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -13417,7 +13453,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 93.98) (xy 203.2 93.98)
+			(xy 208.28 92.71) (xy 205.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -13427,7 +13463,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 182.88) (xy 53.34 185.42)
+			(xy 60.96 182.88) (xy 60.96 185.42)
 		)
 		(stroke
 			(width 0)
@@ -13437,7 +13473,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 116.84) (xy 205.74 116.84)
+			(xy 185.42 115.57) (xy 208.28 115.57)
 		)
 		(stroke
 			(width 0)
@@ -13477,7 +13513,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 187.96) (xy 64.77 177.8)
+			(xy 72.39 186.69) (xy 72.39 177.8)
 		)
 		(stroke
 			(width 0)
@@ -13517,7 +13553,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 64.77) (xy 233.68 64.77)
+			(xy 267.97 63.5) (xy 236.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -13567,7 +13603,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 177.8) (xy 39.37 177.8)
+			(xy 72.39 177.8) (xy 46.99 177.8)
 		)
 		(stroke
 			(width 0)
@@ -13577,7 +13613,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 195.58 74.93)
+			(xy 190.5 73.66) (xy 198.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13587,7 +13623,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 177.8) (xy 39.37 190.5)
+			(xy 46.99 177.8) (xy 46.99 190.5)
 		)
 		(stroke
 			(width 0)
@@ -13597,7 +13633,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 156.21) (xy 238.76 154.94)
+			(xy 241.3 154.94) (xy 241.3 153.67)
 		)
 		(stroke
 			(width 0)
@@ -13607,7 +13643,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 138.43) (xy 238.76 139.7)
+			(xy 241.3 137.16) (xy 241.3 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13637,7 +13673,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 128.27) (xy 264.16 128.27)
+			(xy 265.43 127) (xy 266.7 127)
 		)
 		(stroke
 			(width 0)
@@ -13647,7 +13683,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 106.68 72.39)
+			(xy 95.25 74.93) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13657,7 +13693,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 74.93) (xy 203.2 93.98)
+			(xy 205.74 73.66) (xy 205.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -13667,7 +13703,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 138.43) (xy 241.3 139.7)
+			(xy 243.84 137.16) (xy 243.84 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13687,16 +13723,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 72.39) (xy 128.27 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc858c2-faf5-4682-9644-eb85a61d1142")
-	)
-	(wire
-		(pts
 			(xy 50.8 236.22) (xy 53.34 236.22)
 		)
 		(stroke
@@ -13707,7 +13733,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 107.95) (xy 275.59 107.95)
+			(xy 265.43 106.68) (xy 278.13 106.68)
 		)
 		(stroke
 			(width 0)
@@ -13717,7 +13743,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 205.74) (xy 45.72 205.74)
+			(xy 46.99 205.74) (xy 53.34 205.74)
 		)
 		(stroke
 			(width 0)
@@ -13737,7 +13763,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 190.5) (xy 90.17 190.5)
+			(xy 72.39 190.5) (xy 87.63 190.5)
 		)
 		(stroke
 			(width 0)
@@ -13747,7 +13773,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 148.59) (xy 231.14 148.59)
+			(xy 212.09 147.32) (xy 233.68 147.32)
 		)
 		(stroke
 			(width 0)
@@ -13757,7 +13783,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 83.82) (xy 195.58 85.09)
+			(xy 198.12 82.55) (xy 198.12 83.82)
 		)
 		(stroke
 			(width 0)
@@ -13767,17 +13793,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 109.22) (xy 205.74 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51f0c57a-0a05-4df6-8946-2e83dfaf0c29")
-	)
-	(wire
-		(pts
-			(xy 182.88 119.38) (xy 205.74 119.38)
+			(xy 185.42 118.11) (xy 208.28 118.11)
 		)
 		(stroke
 			(width 0)
@@ -13797,7 +13813,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 138.43) (xy 220.98 140.97)
+			(xy 223.52 137.16) (xy 223.52 139.7)
 		)
 		(stroke
 			(width 0)
@@ -13807,7 +13823,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 114.3) (xy 205.74 114.3)
+			(xy 185.42 113.03) (xy 208.28 113.03)
 		)
 		(stroke
 			(width 0)
@@ -13827,7 +13843,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 190.5) (xy 39.37 194.31)
+			(xy 46.99 190.5) (xy 46.99 194.31)
 		)
 		(stroke
 			(width 0)
@@ -13837,7 +13853,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 82.55) (xy 83.82 81.28)
+			(xy 72.39 83.82) (xy 72.39 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13854,6 +13870,16 @@
 			(type default)
 		)
 		(uuid "5812c1dc-32fd-40f3-8326-356e69f551ff")
+	)
+	(wire
+		(pts
+			(xy 116.84 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b371bb-4e56-46eb-93c6-57cb36d453aa")
 	)
 	(wire
 		(pts
@@ -13877,7 +13903,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 73.66) (xy 74.93 72.39)
+			(xy 63.5 74.93) (xy 63.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13887,7 +13913,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 74.93) (xy 203.2 74.93)
+			(xy 198.12 73.66) (xy 205.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13897,7 +13923,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 72.39) (xy 127 72.39)
+			(xy 115.57 73.66) (xy 116.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13907,7 +13933,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 69.85) (xy 238.76 80.01)
+			(xy 241.3 68.58) (xy 241.3 78.74)
 		)
 		(stroke
 			(width 0)
@@ -13927,7 +13953,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 165.1) (xy 246.38 163.83)
+			(xy 248.92 163.83) (xy 248.92 162.56)
 		)
 		(stroke
 			(width 0)
@@ -13967,7 +13993,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 95.25) (xy 275.59 95.25)
+			(xy 265.43 93.98) (xy 278.13 93.98)
 		)
 		(stroke
 			(width 0)
@@ -13977,7 +14003,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 140.97) (xy 220.98 140.97)
+			(xy 212.09 139.7) (xy 223.52 139.7)
 		)
 		(stroke
 			(width 0)
@@ -14007,7 +14033,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 143.51) (xy 226.06 138.43)
+			(xy 228.6 142.24) (xy 228.6 137.16)
 		)
 		(stroke
 			(width 0)
@@ -14027,7 +14053,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 69.85) (xy 226.06 69.85)
+			(xy 213.36 68.58) (xy 228.6 68.58)
 		)
 		(stroke
 			(width 0)
@@ -14077,7 +14103,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 67.31) (xy 228.6 67.31)
+			(xy 214.63 66.04) (xy 231.14 66.04)
 		)
 		(stroke
 			(width 0)
@@ -14087,7 +14113,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 97.79) (xy 290.83 97.79)
+			(xy 265.43 96.52) (xy 292.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -14104,6 +14130,16 @@
 			(type default)
 		)
 		(uuid "6b8167ad-832e-4c1a-847c-f29f6f770dd0")
+	)
+	(wire
+		(pts
+			(xy 132.08 82.55) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfcbc56-d161-424d-b10b-371fcc55a156")
 	)
 	(wire
 		(pts
@@ -14177,7 +14213,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 201.93) (xy 39.37 205.74)
+			(xy 46.99 201.93) (xy 46.99 205.74)
 		)
 		(stroke
 			(width 0)
@@ -14187,7 +14223,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 146.05) (xy 256.54 146.05)
+			(xy 248.92 144.78) (xy 259.08 144.78)
 		)
 		(stroke
 			(width 0)
@@ -14197,7 +14233,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 138.43) (xy 246.38 146.05)
+			(xy 248.92 137.16) (xy 248.92 144.78)
 		)
 		(stroke
 			(width 0)
@@ -14207,7 +14243,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 77.47) (xy 248.92 77.47)
+			(xy 267.97 76.2) (xy 251.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -14217,7 +14253,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 74.93) (xy 265.43 74.93)
+			(xy 248.92 73.66) (xy 267.97 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14227,7 +14263,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 110.49) (xy 276.86 110.49)
+			(xy 265.43 109.22) (xy 279.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -14237,7 +14273,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 201.93) (xy 64.77 205.74)
+			(xy 72.39 201.93) (xy 72.39 205.74)
 		)
 		(stroke
 			(width 0)
@@ -14247,7 +14283,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 147.32) (xy 256.54 146.05)
+			(xy 259.08 146.05) (xy 259.08 144.78)
 		)
 		(stroke
 			(width 0)
@@ -14257,7 +14293,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 83.82) (xy 187.96 85.09)
+			(xy 190.5 82.55) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -14267,7 +14303,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 77.47) (xy 248.92 80.01)
+			(xy 251.46 76.2) (xy 251.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -14277,7 +14313,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 195.58) (xy 53.34 205.74)
+			(xy 60.96 195.58) (xy 60.96 205.74)
 		)
 		(stroke
 			(width 0)
@@ -14297,7 +14333,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 82.55) (xy 74.93 81.28)
+			(xy 63.5 83.82) (xy 63.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -14327,7 +14363,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 72.39) (xy 73.66 72.39)
+			(xy 63.5 73.66) (xy 62.23 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14347,7 +14383,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 118.11) (xy 275.59 118.11)
+			(xy 265.43 116.84) (xy 278.13 116.84)
 		)
 		(stroke
 			(width 0)
@@ -14367,7 +14403,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 187.96) (xy 90.17 187.96)
+			(xy 72.39 186.69) (xy 87.63 186.69)
 		)
 		(stroke
 			(width 0)
@@ -14377,7 +14413,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 69.85) (xy 265.43 69.85)
+			(xy 241.3 68.58) (xy 267.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -14387,7 +14423,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 106.68 82.55)
+			(xy 87.63 83.82) (xy 95.25 83.82)
 		)
 		(stroke
 			(width 0)
@@ -14397,7 +14433,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 154.94) (xy 256.54 156.21)
+			(xy 259.08 153.67) (xy 259.08 154.94)
 		)
 		(stroke
 			(width 0)
@@ -14407,7 +14443,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 114.3 81.28)
+			(xy 102.87 83.82) (xy 102.87 82.55)
 		)
 		(stroke
 			(width 0)
@@ -14417,7 +14453,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 114.3 82.55)
+			(xy 95.25 83.82) (xy 102.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -14437,7 +14473,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 153.67) (xy 236.22 153.67)
+			(xy 212.09 152.4) (xy 238.76 152.4)
 		)
 		(stroke
 			(width 0)
@@ -14477,7 +14513,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 72.39) (xy 74.93 72.39)
+			(xy 72.39 73.66) (xy 63.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14527,7 +14563,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 144.78) (xy 256.54 146.05)
+			(xy 259.08 143.51) (xy 259.08 144.78)
 		)
 		(stroke
 			(width 0)
@@ -14537,17 +14573,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 106.68) (xy 205.74 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0604120-d358-4d73-a40f-2e6ae700fa8a")
-	)
-	(wire
-		(pts
-			(xy 246.38 74.93) (xy 246.38 80.01)
+			(xy 248.92 73.66) (xy 248.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -14577,7 +14603,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 74.93) (xy 220.98 80.01)
+			(xy 223.52 73.66) (xy 223.52 78.74)
 		)
 		(stroke
 			(width 0)
@@ -14587,7 +14613,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 82.55) (xy 99.06 82.55)
+			(xy 80.01 83.82) (xy 87.63 83.82)
 		)
 		(stroke
 			(width 0)
@@ -14597,7 +14623,17 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 96.52) (xy 290.83 97.79)
+			(xy 132.08 73.66) (xy 132.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e8efbd-0584-4ffc-98c4-fad467e9599b")
+	)
+	(wire
+		(pts
+			(xy 292.1 95.25) (xy 292.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -14607,17 +14643,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 83.82) (xy 128.27 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5bf35cc-97ae-480f-a472-cc6acb93f55b")
-	)
-	(wire
-		(pts
-			(xy 53.34 205.74) (xy 64.77 205.74)
+			(xy 60.96 205.74) (xy 72.39 205.74)
 		)
 		(stroke
 			(width 0)
@@ -14637,7 +14663,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 182.88) (xy 45.72 205.74)
+			(xy 53.34 182.88) (xy 53.34 205.74)
 		)
 		(stroke
 			(width 0)
@@ -14647,7 +14673,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 74.93) (xy 195.58 76.2)
+			(xy 198.12 73.66) (xy 198.12 74.93)
 		)
 		(stroke
 			(width 0)
@@ -14697,7 +14723,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 123.19) (xy 275.59 123.19)
+			(xy 265.43 121.92) (xy 278.13 121.92)
 		)
 		(stroke
 			(width 0)
@@ -14717,7 +14743,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 205.74) (xy 53.34 205.74)
+			(xy 53.34 205.74) (xy 60.96 205.74)
 		)
 		(stroke
 			(width 0)
@@ -14747,6 +14773,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 107.95) (xy 208.28 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af04d200-e34b-4ce3-9f5a-57571dc4da44")
+	)
+	(wire
+		(pts
 			(xy 245.11 201.93) (xy 247.65 201.93)
 		)
 		(stroke
@@ -14757,7 +14793,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 72.39) (xy 99.06 72.39)
+			(xy 80.01 73.66) (xy 87.63 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14787,7 +14823,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 190.5) (xy 39.37 190.5)
+			(xy 57.15 190.5) (xy 46.99 190.5)
 		)
 		(stroke
 			(width 0)
@@ -14797,7 +14833,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 82.55) (xy 91.44 82.55)
+			(xy 72.39 83.82) (xy 80.01 83.82)
 		)
 		(stroke
 			(width 0)
@@ -14817,7 +14853,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 154.94) (xy 242.57 154.94)
+			(xy 241.3 153.67) (xy 245.11 153.67)
 		)
 		(stroke
 			(width 0)
@@ -14837,7 +14873,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 154.94) (xy 242.57 153.67)
+			(xy 245.11 153.67) (xy 245.11 152.4)
 		)
 		(stroke
 			(width 0)
@@ -14847,7 +14883,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 72.39) (xy 223.52 72.39)
+			(xy 214.63 71.12) (xy 226.06 71.12)
 		)
 		(stroke
 			(width 0)
@@ -14857,7 +14893,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 72.39) (xy 119.38 72.39)
+			(xy 102.87 73.66) (xy 107.95 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14867,7 +14903,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 143.51) (xy 226.06 143.51)
+			(xy 212.09 142.24) (xy 228.6 142.24)
 		)
 		(stroke
 			(width 0)
@@ -14887,7 +14923,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 72.39) (xy 106.68 72.39)
+			(xy 87.63 73.66) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14897,7 +14933,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 106.68) (xy 290.83 107.95)
+			(xy 292.1 105.41) (xy 292.1 106.68)
 		)
 		(stroke
 			(width 0)
@@ -14907,7 +14943,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 64.77) (xy 231.14 80.01)
+			(xy 233.68 63.5) (xy 233.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -14947,7 +14983,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 148.59) (xy 231.14 138.43)
+			(xy 233.68 147.32) (xy 233.68 137.16)
 		)
 		(stroke
 			(width 0)
@@ -14977,7 +15013,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 139.7) (xy 238.76 154.94)
+			(xy 241.3 138.43) (xy 241.3 153.67)
 		)
 		(stroke
 			(width 0)
@@ -14987,7 +15023,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 72.39) (xy 223.52 80.01)
+			(xy 226.06 71.12) (xy 226.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -14997,7 +15033,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 120.65) (xy 275.59 120.65)
+			(xy 265.43 119.38) (xy 278.13 119.38)
 		)
 		(stroke
 			(width 0)
@@ -15007,7 +15043,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 74.93) (xy 203.2 74.93)
+			(xy 223.52 73.66) (xy 205.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15017,7 +15053,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 72.39) (xy 91.44 72.39)
+			(xy 72.39 73.66) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15037,7 +15073,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 97.79) (xy 290.83 99.06)
+			(xy 292.1 96.52) (xy 292.1 97.79)
 		)
 		(stroke
 			(width 0)
@@ -15047,7 +15083,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 151.13) (xy 233.68 138.43)
+			(xy 236.22 149.86) (xy 236.22 137.16)
 		)
 		(stroke
 			(width 0)
@@ -15097,7 +15133,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 190.5) (xy 64.77 194.31)
+			(xy 72.39 190.5) (xy 72.39 194.31)
 		)
 		(stroke
 			(width 0)
@@ -15107,7 +15143,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 154.94) (xy 246.38 154.94)
+			(xy 245.11 153.67) (xy 248.92 153.67)
 		)
 		(stroke
 			(width 0)
@@ -15137,7 +15173,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 139.7) (xy 241.3 139.7)
+			(xy 241.3 138.43) (xy 243.84 138.43)
 		)
 		(stroke
 			(width 0)
@@ -15157,6 +15193,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded2cdcf-153e-440a-9e4f-fb8dd264ea88")
+	)
+	(wire
+		(pts
 			(xy 377.19 173.99) (xy 391.16 173.99)
 		)
 		(stroke
@@ -15167,7 +15213,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 73.66) (xy 187.96 74.93)
+			(xy 190.5 72.39) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15177,7 +15223,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 64.77) (xy 231.14 64.77)
+			(xy 214.63 63.5) (xy 233.68 63.5)
 		)
 		(stroke
 			(width 0)
@@ -15197,7 +15243,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 182.88) (xy 53.34 182.88)
+			(xy 53.34 182.88) (xy 60.96 182.88)
 		)
 		(stroke
 			(width 0)
@@ -15227,7 +15273,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 72.39) (xy 114.3 72.39)
+			(xy 95.25 73.66) (xy 102.87 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15247,7 +15293,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 153.67) (xy 236.22 138.43)
+			(xy 238.76 152.4) (xy 238.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -15257,7 +15303,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 73.66) (xy 83.82 72.39)
+			(xy 72.39 74.93) (xy 72.39 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15277,7 +15323,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 128.27 72.39)
+			(xy 116.84 74.93) (xy 116.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15287,7 +15333,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 128.27) (xy 264.16 129.54)
+			(xy 266.7 127) (xy 266.7 128.27)
 		)
 		(stroke
 			(width 0)
@@ -15297,7 +15343,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 72.39) (xy 265.43 72.39)
+			(xy 243.84 71.12) (xy 267.97 71.12)
 		)
 		(stroke
 			(width 0)
@@ -15317,7 +15363,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 80.01) (xy 241.3 72.39)
+			(xy 243.84 78.74) (xy 243.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -15337,7 +15383,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 166.37) (xy 241.3 165.1)
+			(xy 243.84 165.1) (xy 243.84 163.83)
 		)
 		(stroke
 			(width 0)
@@ -15347,7 +15393,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 85.09) (xy 187.96 85.09)
+			(xy 198.12 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -15357,17 +15403,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 104.14) (xy 205.74 104.14)
+			(xy 186.69 102.87) (xy 208.28 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f69481dd-ae06-4042-812f-e6f43d6f92f2")
+		(uuid "f68879a1-9eb0-4adc-b8c9-aca30d09a53b")
 	)
 	(wire
 		(pts
-			(xy 91.44 73.66) (xy 91.44 72.39)
+			(xy 80.01 74.93) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15397,7 +15443,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 67.31) (xy 228.6 80.01)
+			(xy 231.14 66.04) (xy 231.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -15437,7 +15483,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 71.12) (xy 74.93 72.39)
+			(xy 63.5 72.39) (xy 63.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15457,7 +15503,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 82.55) (xy 74.93 83.82)
+			(xy 63.5 83.82) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -15486,7 +15532,7 @@
 		(uuid "0402b98c-78f9-482c-98e7-70fbddbabd4b")
 	)
 	(label "ISENS1+"
-		(at 209.55 148.59 0)
+		(at 212.09 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15506,7 +15552,7 @@
 		(uuid "08be35b7-52fe-4f0a-bed9-a30f6fe6a534")
 	)
 	(label "HSE_IN"
-		(at 184.15 109.22 0)
+		(at 186.69 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15516,7 +15562,7 @@
 		(uuid "09bae5c9-8cb6-447c-bd2c-93f318b2d7d6")
 	)
 	(label "PWM1N"
-		(at 212.09 72.39 0)
+		(at 214.63 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15526,7 +15572,7 @@
 		(uuid "09defb8f-2e34-4734-ad2f-42e1525634bd")
 	)
 	(label "HSE_OUT"
-		(at 90.17 190.5 180)
+		(at 87.63 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15546,7 +15592,7 @@
 		(uuid "12cda7f8-07b4-4b84-86ea-94c59ae56c3a")
 	)
 	(label "SWO"
-		(at 265.43 69.85 180)
+		(at 267.97 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15556,7 +15602,7 @@
 		(uuid "16452a4c-750d-430a-96da-ce78850d8623")
 	)
 	(label "ISENS3-"
-		(at 184.15 119.38 0)
+		(at 186.69 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15576,7 +15622,7 @@
 		(uuid "27b8368b-e301-431b-aec6-faf0c08d5319")
 	)
 	(label "ISENS1-"
-		(at 209.55 153.67 0)
+		(at 212.09 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15596,7 +15642,7 @@
 		(uuid "2ae8f9f1-0402-4165-87cf-fe6b46195d1f")
 	)
 	(label "ISENS2+"
-		(at 209.55 143.51 0)
+		(at 212.09 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15606,7 +15652,7 @@
 		(uuid "2b4efa49-cd12-4382-91cc-08d406a44a39")
 	)
 	(label "JTAG_NRST"
-		(at 184.15 104.14 0)
+		(at 186.69 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15656,7 +15702,7 @@
 		(uuid "4c9c4934-94b6-424c-8535-654e782f3567")
 	)
 	(label "VSENSBAT"
-		(at 275.59 115.57 180)
+		(at 278.13 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15686,7 +15732,7 @@
 		(uuid "572f2ce6-a10b-4b20-acf2-2ce1dc2f3a7c")
 	)
 	(label "PWM3N"
-		(at 184.15 96.52 0)
+		(at 186.69 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15696,7 +15742,7 @@
 		(uuid "5e77ed90-13be-4af9-b02b-202a0caef0a5")
 	)
 	(label "SWDIO"
-		(at 275.59 95.25 180)
+		(at 278.13 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15706,7 +15752,7 @@
 		(uuid "5f6f4cdb-65b2-4fb1-b812-4681b9748637")
 	)
 	(label "THROTTLE_CMD"
-		(at 265.43 74.93 180)
+		(at 267.97 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15726,7 +15772,7 @@
 		(uuid "665094f0-fc57-4094-b283-d65cba39e1a3")
 	)
 	(label "UART_RX"
-		(at 212.09 67.31 0)
+		(at 214.63 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15746,7 +15792,7 @@
 		(uuid "6ee47956-6506-48bc-bf8d-b12a30b1080f")
 	)
 	(label "SWCLK"
-		(at 265.43 77.47 180)
+		(at 267.97 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15765,8 +15811,8 @@
 		)
 		(uuid "73416203-4714-435b-8682-c011123434ca")
 	)
-	(label "ISENS1_OPAMP_VOUT"
-		(at 187.96 116.84 0)
+	(label "OPAMP_VOUT_ISENS3"
+		(at 190.5 115.57 0)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -15776,7 +15822,7 @@
 		(uuid "745da555-0970-4c52-8397-45725d3683ff")
 	)
 	(label "VSENS3"
-		(at 209.55 151.13 0)
+		(at 212.09 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15796,7 +15842,7 @@
 		(uuid "85bf9d96-adad-4f35-8d88-187dac243ac3")
 	)
 	(label "RGB_B"
-		(at 265.43 67.31 180)
+		(at 267.97 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15836,7 +15882,7 @@
 		(uuid "94a7048b-6eaf-4b3c-b7c2-42d3401bd5bd")
 	)
 	(label "VSENSBAT"
-		(at 139.7 72.39 180)
+		(at 144.78 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15856,7 +15902,7 @@
 		(uuid "9c156518-8ae0-466d-99a3-fabc1a8323a0")
 	)
 	(label "PWM3"
-		(at 275.59 110.49 180)
+		(at 278.13 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15866,7 +15912,7 @@
 		(uuid "9e8a7984-974c-48ce-b766-3c0a012b41a3")
 	)
 	(label "UART_TX"
-		(at 212.09 64.77 0)
+		(at 214.63 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15876,7 +15922,7 @@
 		(uuid "a0678489-1f50-4dac-83be-029c9a252c01")
 	)
 	(label "BOOT0"
-		(at 214.63 69.85 0)
+		(at 217.17 68.58 0)
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -15946,7 +15992,7 @@
 		(uuid "b722656a-f64a-4042-a995-a7af416f78be")
 	)
 	(label "TSENS"
-		(at 184.15 111.76 0)
+		(at 186.69 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15956,7 +16002,7 @@
 		(uuid "b83620b1-452e-4d05-a6fb-352a4a57371f")
 	)
 	(label "PWM1"
-		(at 275.59 105.41 180)
+		(at 278.13 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15986,7 +16032,7 @@
 		(uuid "bb94b90f-892a-4b31-8d87-69f3d1f6ec37")
 	)
 	(label "RGB_G"
-		(at 265.43 72.39 180)
+		(at 267.97 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15996,7 +16042,7 @@
 		(uuid "bd373646-0216-480a-95f9-c94be5aa16fa")
 	)
 	(label "ISENS3+"
-		(at 184.15 114.3 0)
+		(at 186.69 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16016,7 +16062,7 @@
 		(uuid "c598c7a6-8cf4-40e5-a3ea-c825535e0e63")
 	)
 	(label "PWM2N"
-		(at 275.59 118.11 180)
+		(at 278.13 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16026,7 +16072,7 @@
 		(uuid "c8afc844-291e-4043-9b4e-e9ba7c51ce95")
 	)
 	(label "VSENS1"
-		(at 275.59 120.65 180)
+		(at 278.13 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16036,7 +16082,7 @@
 		(uuid "ceafab3f-63e6-40d6-99ca-5b2aa33ff396")
 	)
 	(label "RGB_R"
-		(at 265.43 64.77 180)
+		(at 267.97 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16046,7 +16092,7 @@
 		(uuid "d141b9c9-acb5-4cfc-9c54-f674d8fab47a")
 	)
 	(label "VSENS2"
-		(at 275.59 123.19 180)
+		(at 278.13 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16056,7 +16102,7 @@
 		(uuid "d14cc53c-a4e9-44cb-a513-f1692225b346")
 	)
 	(label "HSE_IN"
-		(at 90.17 187.96 180)
+		(at 87.63 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16076,7 +16122,7 @@
 		(uuid "d7d1aebb-5086-4983-9b7b-15cceed67e03")
 	)
 	(label "HSE_OUT"
-		(at 184.15 106.68 0)
+		(at 186.69 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16086,7 +16132,7 @@
 		(uuid "d866fe39-f3dc-4e55-8d52-a0f2e7f00b12")
 	)
 	(label "ISENS2-"
-		(at 209.55 140.97 0)
+		(at 212.09 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16106,7 +16152,7 @@
 		(uuid "e90f5e57-c9cd-48ba-b3e2-4b51f180ea4b")
 	)
 	(label "PWM2"
-		(at 275.59 107.95 180)
+		(at 278.13 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16144,145 +16190,6 @@
 			(justify left bottom)
 		)
 		(uuid "ffaa23eb-6e03-48f8-8e9b-1db205106c6b")
-	)
-	(symbol
-		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
-		(at 123.19 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0328aab1-6dd5-4284-80d2-361b099edd8e")
-		(property "Reference" "R1"
-			(at 124.968 69.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "10k"
-			(at 124.968 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 120.65 77.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
-			(at 110.49 77.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
-			(at 118.11 77.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 115.57 77.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 113.03 77.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOooD89S2fpB_5J-CcNjlaQetS0LmpR6JBQE2fik-v9thnKrptRlQ"
-			(at 107.95 77.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
-			(at 105.41 77.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 102.87 77.47 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 123.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "158a5e0e-c53e-4d66-ade6-ab449b1f04b6")
-		)
-		(pin "1"
-			(uuid "69f5046a-09c6-4359-baad-14a5d8e22492")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:KT-0603W")
@@ -16436,7 +16343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0aa3e513-7c7e-4da4-aea3-ecd92eef634d")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 111.252 187.96 0)
 			(effects
 				(font
@@ -16560,7 +16467,74 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C17")
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:GND")
+		(at 132.08 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eed3b11-4603-45f3-b765-b22a366b0bc0")
+		(property "Reference" "#PWR06"
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cba3126-9046-4a96-9d4c-6310793ccf5e")
+		)
+		(instances
+			(project "Kururugi-ESC"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16705,7 +16679,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:X322516MLB4SI")
-		(at 53.34 190.5 0)
+		(at 60.96 190.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16714,7 +16688,7 @@
 		(dnp no)
 		(uuid "116d2cc2-c112-4b9b-91c2-e5cce67ebc02")
 		(property "Reference" "X1"
-			(at 56.896 185.674 0)
+			(at 64.516 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16723,7 +16697,7 @@
 			)
 		)
 		(property "Value" "16MHz"
-			(at 60.452 195.834 0)
+			(at 68.072 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16732,7 +16706,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:YXC-X322516MLB4SI"
-			(at 48.26 205.74 0)
+			(at 55.88 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16742,7 +16716,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588879072148017152"
-			(at 48.006 195.58 0)
+			(at 55.626 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16752,7 +16726,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 16MHz 9pF ±10ppm ±20ppm 3225-4P Crystals"
-			(at 48.26 198.12 0)
+			(at 55.88 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16762,7 +16736,7 @@
 			)
 		)
 		(property "Manufacturer" "YXC Crystal Oscillators"
-			(at 48.26 200.66 0)
+			(at 55.88 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16772,7 +16746,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "X322516MLB4SI"
-			(at 48.26 203.2 0)
+			(at 55.88 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16782,7 +16756,7 @@
 			)
 		)
 		(property "Supplier Link 1" "https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322516MLB4SI/C13738"
-			(at 40.64 203.962 0)
+			(at 48.26 203.962 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16793,7 +16767,7 @@
 			)
 		)
 		(property "Supplier Link 2" "https://www.lcsc.com/product-detail/C13738.html"
-			(at 40.64 206.248 0)
+			(at 48.26 206.248 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16804,7 +16778,7 @@
 			)
 		)
 		(property "LCSC" "C13738"
-			(at 48.26 213.36 0)
+			(at 55.88 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16814,7 +16788,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 53.34 190.5 0)
+			(at 60.96 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16823,7 +16797,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 53.34 190.5 0)
+			(at 60.96 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16832,7 +16806,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C13738.html"
-			(at 48.006 208.026 0)
+			(at 55.626 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16842,7 +16816,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.pcbx.com/component-detail/X322516MLB4SI-Yangxing%20Technology-500108988"
-			(at 48.26 210.82 0)
+			(at 55.88 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16874,7 +16848,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_Phase")
-		(at 68.58 72.39 180)
+		(at 57.15 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16882,7 +16856,7 @@
 		(dnp no)
 		(uuid "14389e10-307a-4ac7-9b81-ba6f4d326e53")
 		(property "Reference" "J1"
-			(at 66.802 72.39 0)
+			(at 55.372 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16891,7 +16865,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 66.04 71.1201 0)
+			(at 54.61 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16901,7 +16875,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:Phase4x4"
-			(at 68.58 72.39 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16910,7 +16884,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 72.39 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16919,7 +16893,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 72.39 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16941,7 +16915,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:Conn_01x01_Phase")
-		(at 68.58 82.55 180)
+		(at 57.15 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16949,7 +16923,7 @@
 		(dnp no)
 		(uuid "1710574f-1451-423e-8b16-37d4cdbb747b")
 		(property "Reference" "J2"
-			(at 66.802 82.55 0)
+			(at 55.372 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16958,7 +16932,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 66.04 81.2801 0)
+			(at 54.61 82.5501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16968,7 +16942,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:Phase4x4"
-			(at 68.58 82.55 0)
+			(at 57.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,7 +16951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 82.55 0)
+			(at 57.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,7 +16960,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 82.55 0)
+			(at 57.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17016,7 +16990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "173a600c-e502-46c4-9119-b5793cc24852")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 342.9 233.68 0)
 			(effects
 				(font
@@ -17067,7 +17041,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17083,7 +17057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1837cc6b-eac5-4b06-ba8a-64a7fa0897a5")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 60.706 137.16 0)
 			(effects
 				(font
@@ -17207,7 +17181,7 @@
 		(instances
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -17285,7 +17259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a8c5fbb-b959-43e5-8cba-442df756c7b0")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 141.986 138.43 0)
 			(effects
 				(font
@@ -17409,7 +17383,7 @@
 		(instances
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17424,7 +17398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ac92b07-d08e-44a3-95eb-e74008df4d4c")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 133.858 199.39 0)
 			(effects
 				(font
@@ -17548,7 +17522,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17556,15 +17530,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
-		(at 290.83 102.87 0)
+		(at 292.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1b123971-bdb3-48ea-aee0-256e03dade3d")
-		(property "Reference" "C8"
-			(at 291.084 100.838 0)
+		(property "Reference" "C9"
+			(at 292.354 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17573,7 +17547,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 291.338 105.156 0)
+			(at 292.608 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17582,7 +17556,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
-			(at 314.706 104.648 0)
+			(at 315.976 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17591,7 +17565,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
-			(at 328.422 109.728 0)
+			(at 329.692 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17600,7 +17574,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
-			(at 314.96 107.188 0)
+			(at 316.23 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17609,7 +17583,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 311.912 99.568 0)
+			(at 313.182 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17618,7 +17592,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 307.34 102.108 0)
+			(at 308.61 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17627,7 +17601,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
-			(at 388.112 114.808 0)
+			(at 389.382 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17636,7 +17610,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
-			(at 400.05 112.268 0)
+			(at 401.32 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17645,7 +17619,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 301.244 117.348 0)
+			(at 302.514 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17654,7 +17628,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 290.83 102.87 0)
+			(at 292.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17671,7 +17645,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -17742,7 +17716,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 290.83 107.95 0)
+		(at 292.1 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17750,8 +17724,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f83377c-4de3-45da-a82e-054d638f3f4b")
-		(property "Reference" "#PWR09"
-			(at 290.83 114.3 0)
+		(property "Reference" "#PWR010"
+			(at 292.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17760,7 +17734,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 290.83 113.03 0)
+			(at 292.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17769,7 +17743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.83 107.95 0)
+			(at 292.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17778,7 +17752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 107.95 0)
+			(at 292.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17787,7 +17761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 290.83 107.95 0)
+			(at 292.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17801,7 +17775,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -17872,15 +17846,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 208.28 151.13 90)
+		(at 210.82 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2603aa28-3e07-467a-8d8a-e23f307be691")
-		(property "Reference" "TP12"
-			(at 203.454 151.13 90)
+		(property "Reference" "TP11"
+			(at 205.994 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17889,7 +17863,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 203.4541 152.146 90)
+			(at 205.9941 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17899,7 +17873,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 208.28 146.05 0)
+			(at 210.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17908,7 +17882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 146.05 0)
+			(at 210.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17917,7 +17891,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 208.28 151.13 0)
+			(at 210.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17931,7 +17905,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "TP12")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -17946,7 +17920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29074e27-446f-4f44-a19e-b00ea619e3c5")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 81.28 245.11 0)
 			(effects
 				(font
@@ -17996,7 +17970,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18177,7 +18151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c5f3d48-79e4-4f30-9e40-90f8c926c167")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 121.92 158.75 0)
 			(effects
 				(font
@@ -18228,7 +18202,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -18303,15 +18277,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:VDC")
-		(at 290.83 96.52 0)
+		(at 292.1 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "32a05ed0-964e-4f07-a153-53d8471e0382")
-		(property "Reference" "#PWR07"
-			(at 290.83 100.33 0)
+		(property "Reference" "#PWR08"
+			(at 292.1 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18320,7 +18294,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 290.83 92.202 0)
+			(at 292.1 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18328,7 +18302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.83 96.52 0)
+			(at 292.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18337,7 +18311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 96.52 0)
+			(at 292.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18346,7 +18320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with nme \"VDC\""
-			(at 290.83 96.52 0)
+			(at 292.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18360,7 +18334,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -18436,15 +18410,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 74.93 83.82 0)
+		(at 63.5 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "377af063-c7b5-4641-a414-84f175d41658")
-		(property "Reference" "#PWR06"
-			(at 74.93 90.17 0)
+		(property "Reference" "#PWR04"
+			(at 63.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18453,7 +18427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 88.138 0)
+			(at 63.5 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18462,7 +18436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 83.82 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18471,7 +18445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 83.82 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18480,7 +18454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 83.82 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18494,7 +18468,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18509,7 +18483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "384a1950-1ba9-491f-92c3-39f5459df71a")
-		(property "Reference" "TP13"
+		(property "Reference" "TP12"
 			(at 382.27 147.066 0)
 			(effects
 				(font
@@ -18560,7 +18534,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "TP13")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -18568,15 +18542,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 182.88 119.38 90)
+		(at 185.42 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3f6f4bef-965d-4db7-9e15-1635a3758701")
-		(property "Reference" "TP10"
-			(at 178.054 119.38 90)
+		(property "Reference" "TP9"
+			(at 180.594 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18585,7 +18559,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 178.0541 120.396 90)
+			(at 180.5941 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18595,7 +18569,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 182.88 114.3 0)
+			(at 185.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18604,7 +18578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 114.3 0)
+			(at 185.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18613,7 +18587,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 182.88 119.38 0)
+			(at 185.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18627,7 +18601,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "TP10")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -18643,7 +18617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fbebc11-876c-4af0-a33a-833c1fe5bd16")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 82.55 134.62 0)
 			(effects
 				(font
@@ -18759,7 +18733,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -18767,15 +18741,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:VDC")
-		(at 187.96 73.66 0)
+		(at 190.5 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4003785b-ba64-4e5a-9368-745e38dda6ca")
-		(property "Reference" "#PWR02"
-			(at 187.96 77.47 0)
+		(property "Reference" "#PWR03"
+			(at 190.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18784,7 +18758,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 187.96 69.85 0)
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18792,7 +18766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 73.66 0)
+			(at 190.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18801,7 +18775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 73.66 0)
+			(at 190.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18810,7 +18784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with nme \"VDC\""
-			(at 187.96 73.66 0)
+			(at 190.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18824,7 +18798,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -18899,7 +18873,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 53.34 207.01 0)
+		(at 60.96 207.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18908,8 +18882,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42ad6b46-1398-4d63-acfa-c0a2b83f289e")
-		(property "Reference" "#PWR032"
-			(at 53.34 213.36 0)
+		(property "Reference" "#PWR033"
+			(at 60.96 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18918,7 +18892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 212.09 0)
+			(at 60.96 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18927,7 +18901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 207.01 0)
+			(at 60.96 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18936,7 +18910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 207.01 0)
+			(at 60.96 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18945,7 +18919,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 207.01 0)
+			(at 60.96 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18959,7 +18933,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -19168,7 +19142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a540cad-e075-4faa-9627-5932d15e368e")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 70.104 137.16 0)
 			(effects
 				(font
@@ -19292,7 +19266,7 @@
 		(instances
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -19300,7 +19274,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 114.3 82.55 180)
+		(at 102.87 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19308,7 +19282,7 @@
 		(dnp no)
 		(uuid "4a570a58-3f9d-459c-a097-05fd2510c5ac")
 		(property "Reference" "TP4"
-			(at 114.3 87.884 0)
+			(at 102.87 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19316,7 +19290,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 115.316 87.3759 90)
+			(at 103.886 88.6459 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19326,7 +19300,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 109.22 82.55 0)
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19335,7 +19309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 82.55 0)
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19344,7 +19318,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 82.55 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19366,15 +19340,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL05C100JB5NNNC")
-		(at 64.77 198.12 0)
+		(at 72.39 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac3701d-6e62-451e-9aa9-76dc976739eb")
-		(property "Reference" "C19"
-			(at 64.77 196.85 0)
+		(property "Reference" "C20"
+			(at 75.692 197.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19383,7 +19357,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 65.024 200.406 0)
+			(at 75.946 198.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19392,7 +19366,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
-			(at 74.93 198.12 0)
+			(at 82.55 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19402,7 +19376,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05C100JB5NNN.do"
-			(at 74.93 203.2 0)
+			(at 82.55 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19412,7 +19386,7 @@
 			)
 		)
 		(property "Description" "10pF 50V C0G ±5% 0402 MLCC"
-			(at 74.93 200.66 0)
+			(at 82.55 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19422,7 +19396,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 74.93 193.04 0)
+			(at 82.55 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19432,7 +19406,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05C100JB5NNNC"
-			(at 74.93 195.58 0)
+			(at 82.55 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19442,7 +19416,7 @@
 			)
 		)
 		(property "LCSC" "C32949"
-			(at 74.93 210.82 0)
+			(at 82.55 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19452,7 +19426,7 @@
 			)
 		)
 		(property "Supplier Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05C100JB5NNNC?qs=349EhDEZ59pnfPPyAlzfQw%3D%3D&srsltid=AfmBOorPcMTxTZ39Dl70IrXEXyl4qMINOgjjWNyjfRyt-mP9VHSQg3j2"
-			(at 74.93 208.28 0)
+			(at 82.55 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19462,7 +19436,7 @@
 			)
 		)
 		(property "Supplier Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05C100JB5NNNC/3886797"
-			(at 74.93 205.74 0)
+			(at 82.55 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19472,7 +19446,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 64.77 198.12 0)
+			(at 72.39 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19481,7 +19455,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 64.77 198.12 0)
+			(at 72.39 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19490,7 +19464,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05C100JB5NNNC?qs=349EhDEZ59pnfPPyAlzfQw%3D%3D&srsltid=AfmBOorPcMTxTZ39Dl70IrXEXyl4qMINOgjjWNyjfRyt-mP9VHSQg3j2"
-			(at 74.93 208.28 0)
+			(at 82.55 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19500,7 +19474,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05C100JB5NNNC/3886797"
-			(at 74.93 205.74 0)
+			(at 82.55 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19518,7 +19492,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -19599,7 +19573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d1bd015-f816-4822-9566-5e7b0a9fac07")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 120.142 124.46 0)
 			(effects
 				(font
@@ -19723,7 +19697,7 @@
 		(instances
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19731,15 +19705,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 182.88 116.84 90)
+		(at 185.42 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4d99514a-4a91-4aac-8128-80bb3afa7781")
-		(property "Reference" "TP9"
-			(at 178.054 116.84 90)
+		(property "Reference" "TP8"
+			(at 180.594 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19748,7 +19722,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 178.0541 117.856 90)
+			(at 180.5941 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19758,7 +19732,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 182.88 111.76 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19767,7 +19741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 111.76 0)
+			(at 185.42 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19776,7 +19750,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 182.88 116.84 0)
+			(at 185.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19790,7 +19764,7 @@
 		(instances
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "TP9")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -19805,7 +19779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f51340e-30fc-4055-bcb1-d26662dab1bc")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 360.934 220.98 0)
 			(effects
 				(font
@@ -19913,7 +19887,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -20068,7 +20042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "558d662c-1752-4f16-aaf1-c5512b16bef6")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 161.798 229.87 0)
 			(effects
 				(font
@@ -20120,7 +20094,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -20136,7 +20110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56f4b73f-5770-4ff7-a19a-f3d425b86a6e")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 49.276 239.014 0)
 			(effects
 				(font
@@ -20260,7 +20234,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -20268,7 +20242,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 210.82 69.85 90)
+		(at 213.36 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20276,7 +20250,7 @@
 		(dnp no)
 		(uuid "58871d58-57c7-4c51-8c16-855d276a47b0")
 		(property "Reference" "TP1"
-			(at 205.994 69.85 90)
+			(at 208.534 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20285,7 +20259,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 205.9941 70.866 90)
+			(at 208.5341 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20295,7 +20269,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 210.82 64.77 0)
+			(at 213.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20304,7 +20278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 64.77 0)
+			(at 213.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20313,7 +20287,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 210.82 69.85 0)
+			(at 213.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20617,7 +20591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5dd69148-109c-4682-b6e4-1c633a569e97")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 350.52 212.852 90)
 			(effects
 				(font
@@ -20741,7 +20715,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -20757,7 +20731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f0432ef-723c-4c54-94d2-f69975f25c66")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 141.986 128.27 0)
 			(effects
 				(font
@@ -20881,7 +20855,7 @@
 		(instances
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -20896,7 +20870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f7d3617-9a33-4b60-b17b-314d708ed7c8")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 52.07 249.174 90)
 			(effects
 				(font
@@ -21018,7 +20992,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -21092,16 +21066,17 @@
 		)
 	)
 	(symbol
-		(lib_id "KururugiESC-Symbols-Lib:0402WGF1002TCE")
-		(at 128.27 77.47 180)
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF1001TCE")
+		(at 116.84 78.74 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "620a3f68-70b8-4d37-8749-53cc06ccd967")
-		(property "Reference" "R2"
-			(at 129.794 79.502 0)
+		(property "Reference" "R3"
+			(at 118.364 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21109,8 +21084,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10k"
-			(at 129.794 76.708 0)
+		(property "Value" "1k"
+			(at 118.364 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21119,7 +21094,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
-			(at 123.19 74.93 0)
+			(at 111.76 81.28 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21129,8 +21104,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
-			(at 123.19 64.77 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
+			(at 111.76 91.44 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21141,7 +21116,7 @@
 			)
 		)
 		(property "Description" "10kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
-			(at 123.19 72.39 0)
+			(at 111.76 83.82 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21152,7 +21127,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 123.19 69.85 0)
+			(at 111.76 86.36 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21162,8 +21137,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 123.19 67.31 0)
+		(property "Manufacturer Part Number" "0402WGF1001TCE"
+			(at 111.76 88.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21173,8 +21148,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOooD89S2fpB_5J-CcNjlaQetS0LmpR6JBQE2fik-v9thnKrptRlQ"
-			(at 123.19 62.23 0)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C11702.html"
+			(at 111.76 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21184,8 +21159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" ""
-			(at 123.19 59.69 0)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1002TCE?qs=e8oIoAS2J1T9%2FSfQTy4YqQ%3D%3D&srsltid=AfmBOorctHxNIZVQJ06L5eGuDiS0hgHcHH7PHdqEmtn8IMXSZtq7t3YH"
+			(at 111.76 96.52 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21195,8 +21170,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 123.19 57.15 0)
+		(property "LCSC" "C11702"
+			(at 111.76 99.06 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21207,7 +21182,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 128.27 77.47 0)
+			(at 116.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21224,7 +21199,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -21239,7 +21214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62db4234-3a06-4f73-9b8d-8fa938b3c6fb")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 54.864 239.014 0)
 			(effects
 				(font
@@ -21363,7 +21338,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -21379,7 +21354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64f2411d-0aa0-4d0a-ad73-1846acfd5636")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 161.798 234.95 0)
 			(effects
 				(font
@@ -21431,7 +21406,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -21439,7 +21414,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 182.88 114.3 90)
+		(at 185.42 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21447,7 +21422,7 @@
 		(dnp no)
 		(uuid "65e557a8-9b1a-43ba-8450-36aa87f13852")
 		(property "Reference" "TP7"
-			(at 178.054 114.3 90)
+			(at 180.594 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21456,7 +21431,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 178.0541 115.316 90)
+			(at 180.5941 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21466,7 +21441,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 182.88 109.22 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21475,7 +21450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 109.22 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21484,7 +21459,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 182.88 114.3 0)
+			(at 185.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21506,7 +21481,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
-		(at 106.68 77.47 0)
+		(at 95.25 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21514,8 +21489,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65ea4a3e-1f9e-4c6a-ba39-e8b76ae689d2")
-		(property "Reference" "C6"
-			(at 106.172 75.438 0)
+		(property "Reference" "C4"
+			(at 94.742 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21524,7 +21499,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 106.172 79.756 0)
+			(at 94.742 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21533,7 +21508,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_1206_3216Metric"
-			(at 101.6 90.17 0)
+			(at 90.17 91.44 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21544,7 +21519,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B225KBHNNN.do"
-			(at 101.6 95.25 0)
+			(at 90.17 96.52 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21555,7 +21530,7 @@
 			)
 		)
 		(property "Description" "2.2uF 50V X7R ±10% 1206"
-			(at 101.6 92.71 0)
+			(at 90.17 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21566,7 +21541,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 101.6 85.09 0)
+			(at 90.17 86.36 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21577,7 +21552,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL31B225KBHNNNE"
-			(at 101.6 87.63 0)
+			(at 90.17 88.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21588,7 +21563,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C50254.html"
-			(at 101.6 100.33 0)
+			(at 90.17 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21599,7 +21574,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D&srsltid=AfmBOoo4ya47Btwe18Yt91GfTF8zqc07ohy_P5qTdhh3lchLVI1M2zJi"
-			(at 101.6 97.79 0)
+			(at 90.17 99.06 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21610,7 +21585,7 @@
 			)
 		)
 		(property "LCSC" "C50254"
-			(at 101.6 102.87 0)
+			(at 90.17 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21621,7 +21596,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 106.68 77.47 0)
+			(at 95.25 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21638,7 +21613,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -21646,7 +21621,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 106.68 82.55 180)
+		(at 95.25 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21654,7 +21629,7 @@
 		(dnp no)
 		(uuid "6834bdf2-061e-49e6-9850-701f50e81a30")
 		(property "Reference" "TP3"
-			(at 106.68 87.884 0)
+			(at 95.25 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21662,7 +21637,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 107.696 87.3759 90)
+			(at 96.266 88.6459 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21672,7 +21647,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 101.6 82.55 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21681,7 +21656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 82.55 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21690,7 +21665,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 106.68 82.55 0)
+			(at 95.25 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21712,15 +21687,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL10A105KB8NNNC")
-		(at 246.38 160.02 0)
+		(at 248.92 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "69043734-4cc4-4818-b17d-78de3df51cc9")
-		(property "Reference" "C16"
-			(at 246.634 157.988 0)
+		(property "Reference" "C17"
+			(at 249.174 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21729,7 +21704,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 246.888 162.306 0)
+			(at 249.428 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21738,7 +21713,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0603_1608Metric"
-			(at 270.256 161.798 0)
+			(at 272.796 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21747,7 +21722,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do"
-			(at 283.972 166.878 0)
+			(at 286.512 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21756,7 +21731,7 @@
 			)
 		)
 		(property "Description" "1uF 50V X5R ±10% 0603 MLCC"
-			(at 269.24 164.338 0)
+			(at 271.78 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21765,7 +21740,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 267.462 156.718 0)
+			(at 270.002 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21774,7 +21749,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" " CL10A105KB8NNNC"
-			(at 262.89 159.258 0)
+			(at 265.43 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21783,7 +21758,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A105KB8NNNC?qs=ktYoCbbtCSJz4pFCLWXd5g%3D%3D&srsltid=AfmBOoo2CFIeGAzAeX-EehEIaJFirySoaJxU9DtNhZNzRaMOvefS8sgE"
-			(at 351.536 171.958 0)
+			(at 354.076 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21792,7 +21767,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
-			(at 305.308 169.418 0)
+			(at 307.848 168.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21801,7 +21776,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 257.302 174.498 0)
+			(at 259.842 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21810,7 +21785,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 246.38 160.02 0)
+			(at 248.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21827,7 +21802,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -21835,7 +21810,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
-		(at 83.82 77.47 0)
+		(at 72.39 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21843,8 +21818,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6946b968-fba6-41a7-9754-02f7d3e09571")
-		(property "Reference" "C3"
-			(at 83.312 75.438 0)
+		(property "Reference" "C1"
+			(at 71.882 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21853,7 +21828,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 83.312 79.756 0)
+			(at 71.882 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21862,7 +21837,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_1206_3216Metric"
-			(at 78.74 90.17 0)
+			(at 67.31 91.44 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21873,7 +21848,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B225KBHNNN.do"
-			(at 78.74 95.25 0)
+			(at 67.31 96.52 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21884,7 +21859,7 @@
 			)
 		)
 		(property "Description" "2.2uF 50V X7R ±10% 1206"
-			(at 78.74 92.71 0)
+			(at 67.31 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21895,7 +21870,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 78.74 85.09 0)
+			(at 67.31 86.36 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21906,7 +21881,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL31B225KBHNNNE"
-			(at 78.74 87.63 0)
+			(at 67.31 88.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21917,7 +21892,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C50254.html"
-			(at 78.74 100.33 0)
+			(at 67.31 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21928,7 +21903,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D&srsltid=AfmBOoo4ya47Btwe18Yt91GfTF8zqc07ohy_P5qTdhh3lchLVI1M2zJi"
-			(at 78.74 97.79 0)
+			(at 67.31 99.06 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21939,7 +21914,7 @@
 			)
 		)
 		(property "LCSC" "C50254"
-			(at 78.74 102.87 0)
+			(at 67.31 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21950,7 +21925,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 83.82 77.47 0)
+			(at 72.39 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21967,7 +21942,7 @@
 		(instances
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -22124,7 +22099,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 264.16 129.54 0)
+		(at 266.7 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22132,8 +22107,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f01c7f9-9013-4811-af4a-e8661ab499a6")
-		(property "Reference" "#PWR011"
-			(at 264.16 135.89 0)
+		(property "Reference" "#PWR013"
+			(at 266.7 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22142,7 +22117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 134.62 0)
+			(at 266.7 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22151,7 +22126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 129.54 0)
+			(at 266.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22160,7 +22135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 129.54 0)
+			(at 266.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22169,7 +22144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 129.54 0)
+			(at 266.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22183,7 +22158,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -22333,7 +22308,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL05C100JB5NNNC")
-		(at 39.37 198.12 0)
+		(at 46.99 198.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22341,8 +22316,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70bcf97d-4d44-4196-9bc9-128b88d91085")
-		(property "Reference" "C18"
-			(at 39.37 196.85 0)
+		(property "Reference" "C19"
+			(at 43.688 197.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22351,7 +22326,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 39.116 200.406 0)
+			(at 43.434 198.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22360,7 +22335,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
-			(at 29.21 198.12 0)
+			(at 36.83 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22370,7 +22345,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05C100JB5NNN.do"
-			(at 29.21 203.2 0)
+			(at 36.83 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22380,7 +22355,7 @@
 			)
 		)
 		(property "Description" "10pF 50V C0G ±5% 0402 MLCC"
-			(at 29.21 200.66 0)
+			(at 36.83 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22390,7 +22365,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 29.21 193.04 0)
+			(at 36.83 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22400,7 +22375,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05C100JB5NNNC"
-			(at 29.21 195.58 0)
+			(at 36.83 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22410,7 +22385,7 @@
 			)
 		)
 		(property "LCSC" "C32949"
-			(at 29.21 210.82 0)
+			(at 36.83 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22420,7 +22395,7 @@
 			)
 		)
 		(property "Supplier Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05C100JB5NNNC?qs=349EhDEZ59pnfPPyAlzfQw%3D%3D&srsltid=AfmBOorPcMTxTZ39Dl70IrXEXyl4qMINOgjjWNyjfRyt-mP9VHSQg3j2"
-			(at 29.21 208.28 0)
+			(at 36.83 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22430,7 +22405,7 @@
 			)
 		)
 		(property "Supplier Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05C100JB5NNNC/3886797"
-			(at 29.21 205.74 0)
+			(at 36.83 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22440,7 +22415,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 39.37 198.12 0)
+			(at 46.99 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22449,7 +22424,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 39.37 198.12 0)
+			(at 46.99 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22458,7 +22433,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05C100JB5NNNC?qs=349EhDEZ59pnfPPyAlzfQw%3D%3D&srsltid=AfmBOorPcMTxTZ39Dl70IrXEXyl4qMINOgjjWNyjfRyt-mP9VHSQg3j2"
-			(at 29.21 208.28 0)
+			(at 36.83 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22468,7 +22443,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05C100JB5NNNC/3886797"
-			(at 29.21 205.74 0)
+			(at 36.83 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22486,7 +22461,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -22494,7 +22469,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 256.54 156.21 0)
+		(at 259.08 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22502,8 +22477,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71378a04-73a0-42f4-8fc9-897597fe442d")
-		(property "Reference" "#PWR019"
-			(at 256.54 162.56 0)
+		(property "Reference" "#PWR024"
+			(at 259.08 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22512,7 +22487,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 161.29 0)
+			(at 259.08 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22521,7 +22496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 156.21 0)
+			(at 259.08 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22530,7 +22505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 156.21 0)
+			(at 259.08 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22539,7 +22514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 156.21 0)
+			(at 259.08 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22553,7 +22528,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -22568,7 +22543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71783eb7-eaf0-4e99-8fe1-d0253e08c3ec")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 87.884 247.396 0)
 			(effects
 				(font
@@ -22676,7 +22651,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -22684,7 +22659,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
-		(at 91.44 77.47 0)
+		(at 80.01 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22692,8 +22667,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72f8873e-ba29-445a-aa07-26b7530b5945")
-		(property "Reference" "C4"
-			(at 90.932 75.438 0)
+		(property "Reference" "C2"
+			(at 79.502 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22702,7 +22677,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 90.932 79.756 0)
+			(at 79.502 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22711,7 +22686,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_1206_3216Metric"
-			(at 86.36 90.17 0)
+			(at 74.93 91.44 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22722,7 +22697,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B225KBHNNN.do"
-			(at 86.36 95.25 0)
+			(at 74.93 96.52 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22733,7 +22708,7 @@
 			)
 		)
 		(property "Description" "2.2uF 50V X7R ±10% 1206"
-			(at 86.36 92.71 0)
+			(at 74.93 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22744,7 +22719,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 86.36 85.09 0)
+			(at 74.93 86.36 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22755,7 +22730,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL31B225KBHNNNE"
-			(at 86.36 87.63 0)
+			(at 74.93 88.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22766,7 +22741,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C50254.html"
-			(at 86.36 100.33 0)
+			(at 74.93 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22777,7 +22752,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D&srsltid=AfmBOoo4ya47Btwe18Yt91GfTF8zqc07ohy_P5qTdhh3lchLVI1M2zJi"
-			(at 86.36 97.79 0)
+			(at 74.93 99.06 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22788,7 +22763,7 @@
 			)
 		)
 		(property "LCSC" "C50254"
-			(at 86.36 102.87 0)
+			(at 74.93 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -22799,7 +22774,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 91.44 77.47 0)
+			(at 80.01 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22816,7 +22791,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -22831,7 +22806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "764b4bbd-e10f-4d05-9424-be5abc26db79")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 130.81 182.88 0)
 			(effects
 				(font
@@ -22881,7 +22856,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -23048,7 +23023,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 182.88 96.52 90)
+		(at 185.42 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23056,7 +23031,7 @@
 		(dnp no)
 		(uuid "84ac21ec-d3f0-4eef-9568-4713325baa3d")
 		(property "Reference" "TP5"
-			(at 178.054 96.52 90)
+			(at 180.594 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23065,7 +23040,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 178.0541 97.536 90)
+			(at 180.5941 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23075,7 +23050,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 182.88 91.44 0)
+			(at 185.42 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23084,7 +23059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 91.44 0)
+			(at 185.42 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23093,7 +23068,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 182.88 96.52 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23270,7 +23245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8814cea0-5b77-459b-a06c-b8fd6445c9be")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 248.92 228.6 0)
 			(effects
 				(font
@@ -23320,7 +23295,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -23328,15 +23303,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
-		(at 256.54 151.13 0)
+		(at 259.08 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8efc0642-ae9a-432f-a5b9-a88e5a002463")
-		(property "Reference" "C12"
-			(at 256.794 149.098 0)
+		(property "Reference" "C15"
+			(at 259.334 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23345,7 +23320,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 257.048 153.416 0)
+			(at 259.588 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23354,7 +23329,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
-			(at 280.416 152.908 0)
+			(at 282.956 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23363,7 +23338,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
-			(at 294.132 157.988 0)
+			(at 296.672 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23372,7 +23347,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
-			(at 280.67 155.448 0)
+			(at 283.21 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23381,7 +23356,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 277.622 147.828 0)
+			(at 280.162 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23390,7 +23365,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 273.05 150.368 0)
+			(at 275.59 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23399,7 +23374,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
-			(at 353.822 163.068 0)
+			(at 356.362 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23408,7 +23383,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
-			(at 365.76 160.528 0)
+			(at 368.3 159.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23417,7 +23392,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 266.954 165.608 0)
+			(at 269.494 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23426,7 +23401,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 256.54 151.13 0)
+			(at 259.08 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23443,7 +23418,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C12")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -23451,7 +23426,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 276.86 110.49 270)
+		(at 279.4 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23459,7 +23434,7 @@
 		(dnp no)
 		(uuid "927223e8-1a44-455b-b305-47267fe1e48f")
 		(property "Reference" "TP6"
-			(at 281.686 110.49 90)
+			(at 284.226 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23468,7 +23443,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 281.6859 109.474 90)
+			(at 284.2259 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23478,7 +23453,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 276.86 115.57 0)
+			(at 279.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23487,7 +23462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 115.57 0)
+			(at 279.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23496,7 +23471,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 276.86 110.49 0)
+			(at 279.4 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23526,7 +23501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9456cc0b-b88e-4fb9-8ea1-f1ef61df4a0d")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 120.65 194.564 90)
 			(effects
 				(font
@@ -23648,7 +23623,7 @@
 		(instances
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -23664,7 +23639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "957e4678-baa6-49e6-9f33-7ddf44fd5359")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 85.09 260.35 0)
 			(effects
 				(font
@@ -23715,7 +23690,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -23730,7 +23705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a039c017-bfea-4fa4-994c-b30e1b39a013")
-		(property "Reference" "TP11"
+		(property "Reference" "TP10"
 			(at 53.594 132.08 90)
 			(effects
 				(font
@@ -23781,7 +23756,130 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "TP11")
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
+		(at 132.08 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4283e30-2c81-4a54-b69d-35b82f3d0155")
+		(property "Reference" "C6"
+			(at 134.874 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 134.874 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
+			(at 155.956 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
+			(at 169.672 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
+			(at 156.21 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 153.162 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
+			(at 148.59 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
+			(at 229.362 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
+			(at 241.3 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 142.494 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 132.08 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2232c8d0-cca4-40af-bccd-fb11ef01e69e")
+		)
+		(pin "2"
+			(uuid "cce94130-3a13-4afb-a911-aedf4e37ad43")
+		)
+		(instances
+			(project "Kururugi-ESC"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -23798,7 +23896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a68fbb47-ba7a-4942-90fd-2366c1baccb0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 102.87 158.75 0)
 			(effects
 				(font
@@ -23849,7 +23947,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -23857,7 +23955,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
-		(at 74.93 81.28 0)
+		(at 63.5 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23866,7 +23964,7 @@
 		(fields_autoplaced yes)
 		(uuid "a96385c6-ab73-4490-84df-2e023e833996")
 		(property "Reference" "#FLG02"
-			(at 74.93 79.375 0)
+			(at 63.5 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23875,7 +23973,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 74.93 76.2 0)
+			(at 63.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23884,7 +23982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 81.28 0)
+			(at 63.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23893,7 +23991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 81.28 0)
+			(at 63.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23902,7 +24000,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 74.93 81.28 0)
+			(at 63.5 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23924,7 +24022,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 114.3 72.39 0)
+		(at 102.87 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23932,7 +24030,7 @@
 		(dnp no)
 		(uuid "ac3d7bb8-b42d-4870-8a31-551ecb84e790")
 		(property "Reference" "TP2"
-			(at 114.3 67.056 0)
+			(at 102.87 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23940,7 +24038,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 113.284 67.5641 90)
+			(at 101.854 68.8341 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23950,7 +24048,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 119.38 72.39 0)
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23959,7 +24057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 72.39 0)
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23968,7 +24066,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 72.39 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23998,7 +24096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af3a627d-7a8e-498e-afab-3d414530f420")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 243.84 201.93 0)
 			(effects
 				(font
@@ -24048,7 +24146,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -24064,7 +24162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0457c6a-b9aa-49b2-83fb-5cfa46b7b0ba")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 70.104 144.78 0)
 			(effects
 				(font
@@ -24188,7 +24286,7 @@
 		(instances
 			(project ""
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -24196,7 +24294,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:VDC")
-		(at 74.93 71.12 0)
+		(at 63.5 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24204,8 +24302,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b17dea9b-62e7-4877-bc80-95502c50de62")
-		(property "Reference" "#PWR03"
-			(at 74.93 74.93 0)
+		(property "Reference" "#PWR02"
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24214,7 +24312,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 74.93 67.056 0)
+			(at 63.5 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24222,7 +24320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 71.12 0)
+			(at 63.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24231,7 +24329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 71.12 0)
+			(at 63.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24240,7 +24338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with nme \"VDC\""
-			(at 74.93 71.12 0)
+			(at 63.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24254,7 +24352,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -24270,7 +24368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3b6f060-9382-4c40-887a-adb3320696ce")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 143.51 121.92 0)
 			(effects
 				(font
@@ -24320,7 +24418,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -24403,7 +24501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b573769d-6e30-481f-91ed-ecf3635c5712")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 156.718 199.39 0)
 			(effects
 				(font
@@ -24527,7 +24625,146 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C21")
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF330JTCE")
+		(at 125.73 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b753dc9d-ae34-42cc-ae50-404c34fc996a")
+		(property "Reference" "R2"
+			(at 125.73 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "33"
+			(at 125.73 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 123.19 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25752.pdf"
+			(at 113.03 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "33Ω 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+			(at 120.65 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 118.11 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF330JTCE"
+			(at 115.57 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C25752.html"
+			(at 110.49 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF1202TCE?qs=e8oIoAS2J1TbzeOLq8Dgag%3D%3D&srsltid=AfmBOooxXK0__6IOmu3tn9WKkPyZeP2GP4_kFRBu8ywBg85UG2JDSygR"
+			(at 107.95 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25752"
+			(at 105.41 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed776e46-ba7c-41e8-b273-6b9a80bf4600")
+		)
+		(pin "2"
+			(uuid "bc827923-cc66-4674-a8d1-b9d0f7186a70")
+		)
+		(instances
+			(project "Kururugi-ESC"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -24535,15 +24772,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL05B103KB5NNNC")
-		(at 238.76 160.02 0)
+		(at 241.3 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b7afcb57-bb3d-4641-ad3e-41d7f3307488")
-		(property "Reference" "C15"
-			(at 239.014 157.988 0)
+		(property "Reference" "C16"
+			(at 241.554 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24552,7 +24789,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 239.268 162.306 0)
+			(at 241.808 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24561,7 +24798,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
-			(at 248.666 161.798 0)
+			(at 251.206 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24571,7 +24808,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B103KB5NNN.do"
-			(at 248.92 166.878 0)
+			(at 251.46 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24581,7 +24818,7 @@
 			)
 		)
 		(property "Description" "10nF 50V X7R ±10% 0402 MLCC"
-			(at 248.666 164.338 0)
+			(at 251.206 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24591,7 +24828,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 248.92 156.718 0)
+			(at 251.46 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24601,7 +24838,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B103KB5NNNC"
-			(at 248.92 159.258 0)
+			(at 251.46 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24611,7 +24848,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B103KB5NNNC?qs=349EhDEZ59pcaIbMQHo3bQ%3D%3D&srsltid=AfmBOopTDYV8qqPLv0ssksEygLeWt3N7cOrEEjDqSV2IWDp5v6EnzkwH"
-			(at 248.666 171.958 0)
+			(at 251.206 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24621,7 +24858,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686?srsltid=AfmBOoqHRGMZw7nE0d8f7cT5J8MXpDy2Xc0O2qjmG3AS392ihoYXcRyx"
-			(at 248.666 169.418 0)
+			(at 251.206 168.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24631,7 +24868,7 @@
 			)
 		)
 		(property "LCSC" "C15195"
-			(at 248.666 174.498 0)
+			(at 251.206 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24641,7 +24878,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 238.76 160.02 0)
+			(at 241.3 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24658,7 +24895,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -24675,7 +24912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb0f9640-7dc9-4081-a43e-246038ab385d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 114.3 195.58 0)
 			(effects
 				(font
@@ -24726,7 +24963,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -24734,7 +24971,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 241.3 166.37 0)
+		(at 243.84 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24742,8 +24979,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb389922-b43b-4228-a807-5151c82a0b5a")
-		(property "Reference" "#PWR024"
-			(at 241.3 172.72 0)
+		(property "Reference" "#PWR025"
+			(at 243.84 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24752,7 +24989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 171.45 0)
+			(at 243.84 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24761,7 +24998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 166.37 0)
+			(at 243.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24770,7 +25007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 166.37 0)
+			(at 243.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24779,7 +25016,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 166.37 0)
+			(at 243.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24793,7 +25030,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -24801,7 +25038,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 187.96 86.36 0)
+		(at 190.5 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24809,8 +25046,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdf4bae9-f998-4767-b605-2f05b249e72b")
-		(property "Reference" "#PWR04"
-			(at 187.96 92.71 0)
+		(property "Reference" "#PWR07"
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24819,7 +25056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 91.44 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24828,7 +25065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 86.36 0)
+			(at 190.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24837,7 +25074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 86.36 0)
+			(at 190.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24846,7 +25083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 86.36 0)
+			(at 190.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24860,7 +25097,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -24934,75 +25171,8 @@
 		)
 	)
 	(symbol
-		(lib_id "KururugiESC-Symbols-Lib:TestPoint")
-		(at 276.86 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c31e4234-7e19-4b35-ad51-0068c4c6ca69")
-		(property "Reference" "TP8"
-			(at 281.686 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 281.6859 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "KururugiESC-Footprints-Lib:TestPoint_Pad_D1.0mm"
-			(at 276.86 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 276.86 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f416863-23fc-4845-bb20-c14384464599")
-		)
-		(instances
-			(project "ESC_v1.0"
-				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
-		(at 99.06 77.47 0)
+		(at 87.63 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25010,8 +25180,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6fb9857-a351-442b-84d7-2efc65cff121")
-		(property "Reference" "C5"
-			(at 98.552 75.438 0)
+		(property "Reference" "C3"
+			(at 87.122 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25020,7 +25190,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 98.552 79.756 0)
+			(at 87.122 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25029,7 +25199,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_1206_3216Metric"
-			(at 93.98 90.17 0)
+			(at 82.55 91.44 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25040,7 +25210,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B225KBHNNN.do"
-			(at 93.98 95.25 0)
+			(at 82.55 96.52 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25051,7 +25221,7 @@
 			)
 		)
 		(property "Description" "2.2uF 50V X7R ±10% 1206"
-			(at 93.98 92.71 0)
+			(at 82.55 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25062,7 +25232,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 93.98 85.09 0)
+			(at 82.55 86.36 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25073,7 +25243,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL31B225KBHNNNE"
-			(at 93.98 87.63 0)
+			(at 82.55 88.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25084,7 +25254,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C50254.html"
-			(at 93.98 100.33 0)
+			(at 82.55 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25095,7 +25265,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D&srsltid=AfmBOoo4ya47Btwe18Yt91GfTF8zqc07ohy_P5qTdhh3lchLVI1M2zJi"
-			(at 93.98 97.79 0)
+			(at 82.55 99.06 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25106,7 +25276,7 @@
 			)
 		)
 		(property "LCSC" "C50254"
-			(at 93.98 102.87 0)
+			(at 82.55 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -25117,7 +25287,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 99.06 77.47 0)
+			(at 87.63 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25134,7 +25304,144 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C5")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KururugiESC-Symbols-Lib:0402WGF2202TCE")
+		(at 111.76 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7351717-1c9d-46c7-b9bd-a64cac50b7de")
+		(property "Reference" "R1"
+			(at 111.76 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 111.76 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KururugiESC-Footprints-Lib:R_0402_1005Metric"
+			(at 111.76 75.438 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
+			(at 121.92 63.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "22kΩ 50V 62.5mW ±1% ±100ppm/℃ 0402 -55℃~+155℃"
+			(at 114.3 63.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 116.84 63.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF2202TCE"
+			(at 119.38 63.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Royalohm/0402WGF2202TCE?qs=e8oIoAS2J1Tp%252BEjwIzOR5A%3D%3D&srsltid=AfmBOorMcf2iOREepQni41RGqc7MMNnYyaUjhkkCkag98YmGXpsLumw8"
+			(at 124.46 63.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.lcsc.com/product-detail/C25768.html"
+			(at 127 63.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25768"
+			(at 129.54 63.5 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fdc61c1-e9ea-4f9c-ac7c-d3ec68ed3f95")
+		)
+		(pin "2"
+			(uuid "afb0450b-af1d-4e42-b4ef-d795c354a489")
+		)
+		(instances
+			(project "Kururugi-ESC"
+				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -25150,7 +25457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8c69d43-a1f2-411d-aeed-1a7884d8a2ac")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 62.23 134.62 0)
 			(effects
 				(font
@@ -25200,7 +25507,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -25215,7 +25522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8e7079b-d139-4651-87b4-f41621134e02")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 327.66 217.17 0)
 			(effects
 				(font
@@ -25265,7 +25572,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -25343,7 +25650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca4c0283-9ec4-4232-bad7-2d5e5f607e5e")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 52.07 256.794 90)
 			(effects
 				(font
@@ -25465,7 +25772,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -25481,7 +25788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cab91917-1825-45c5-bfeb-51b4f4b6fc22")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 358.14 233.68 0)
 			(effects
 				(font
@@ -25532,7 +25839,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -25548,7 +25855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd1d6196-8433-4286-94ac-77501cce606f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 381 97.79 0)
 			(effects
 				(font
@@ -25598,7 +25905,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -25606,15 +25913,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:VDC")
-		(at 256.54 144.78 0)
+		(at 259.08 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d2d37daf-f00f-4d98-8529-e2bc34a6e830")
-		(property "Reference" "#PWR014"
-			(at 256.54 148.59 0)
+		(property "Reference" "#PWR016"
+			(at 259.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25623,7 +25930,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 256.54 140.97 0)
+			(at 259.08 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25631,7 +25938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 144.78 0)
+			(at 259.08 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25640,7 +25947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 144.78 0)
+			(at 259.08 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25649,7 +25956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with nme \"VDC\""
-			(at 256.54 144.78 0)
+			(at 259.08 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25663,7 +25970,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -25680,7 +25987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bc8ace-18ee-493f-a6cb-a28333afbcf4")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 153.67 212.09 0)
 			(effects
 				(font
@@ -25731,7 +26038,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -25747,7 +26054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d89db5a2-bea1-47a5-b88c-5bca8d619bb9")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 239.776 227.076 0)
 			(effects
 				(font
@@ -25816,7 +26123,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -25824,15 +26131,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
-		(at 187.96 80.01 0)
+		(at 190.5 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "da200383-7b9f-4edb-aaf2-b3bc0ba08785")
-		(property "Reference" "C1"
-			(at 188.214 77.978 0)
+		(property "Reference" "C7"
+			(at 190.754 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25841,7 +26148,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 188.468 82.296 0)
+			(at 191.008 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25850,7 +26157,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
-			(at 211.836 81.788 0)
+			(at 214.376 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25859,7 +26166,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
-			(at 225.552 86.868 0)
+			(at 228.092 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25868,7 +26175,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
-			(at 212.09 84.328 0)
+			(at 214.63 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25877,7 +26184,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 209.042 76.708 0)
+			(at 211.582 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25886,7 +26193,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 204.47 79.248 0)
+			(at 207.01 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25895,7 +26202,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
-			(at 285.242 91.948 0)
+			(at 287.782 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25904,7 +26211,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
-			(at 297.18 89.408 0)
+			(at 299.72 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25913,7 +26220,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 198.374 94.488 0)
+			(at 200.914 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25922,7 +26229,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 187.96 80.01 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25939,7 +26246,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -26106,15 +26413,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:VDC")
-		(at 242.57 153.67 0)
+		(at 245.11 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dc9e6bb4-c603-4e39-aebc-fa6431b7bb34")
-		(property "Reference" "#PWR016"
-			(at 242.57 157.48 0)
+		(property "Reference" "#PWR023"
+			(at 245.11 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26123,7 +26430,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 242.57 149.86 0)
+			(at 245.11 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26131,7 +26438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 153.67 0)
+			(at 245.11 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26140,7 +26447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 153.67 0)
+			(at 245.11 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26149,7 +26456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with nme \"VDC\""
-			(at 242.57 153.67 0)
+			(at 245.11 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26163,7 +26470,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR016")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -26246,7 +26553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddd9fc8a-a4a6-4380-97f9-9705a532fbf5")
-		(property "Reference" "TP14"
+		(property "Reference" "TP13"
 			(at 121.92 176.276 0)
 			(effects
 				(font
@@ -26297,7 +26604,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "TP14")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -26314,7 +26621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddfb246b-7452-40e7-86f2-b3a9dc73b4a7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 128.27 158.75 0)
 			(effects
 				(font
@@ -26365,7 +26672,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -26381,7 +26688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de71d15a-5bdd-4f46-8d7b-48d5702aedff")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 139.7 181.61 0)
 			(effects
 				(font
@@ -26431,7 +26738,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -26439,7 +26746,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:STM32G484CEU6")
-		(at 210.82 85.09 0)
+		(at 213.36 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26447,7 +26754,7 @@
 		(dnp no)
 		(uuid "e4cee0ed-cd83-45ed-b4d5-838662f90043")
 		(property "Reference" "U1"
-			(at 212.09 83.566 0)
+			(at 214.63 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26457,7 +26764,7 @@
 			)
 		)
 		(property "Value" "STM32G484CEU6"
-			(at 261.62 148.59 0)
+			(at 264.16 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26468,7 +26775,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:STM32G484CEU6"
-			(at 261.62 151.13 0)
+			(at 264.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26478,7 +26785,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g484ce.pdf"
-			(at 261.62 153.67 0)
+			(at 264.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26488,7 +26795,7 @@
 			)
 		)
 		(property "Description" "MCU - ARM Cortex-M4 32-bit, 170MHz, HRTIM, rich math and analog, oriented toward motor control"
-			(at 261.62 156.21 0)
+			(at 264.16 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26498,7 +26805,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 261.62 158.75 0)
+			(at 264.16 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26508,7 +26815,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "STM32G484CEU6"
-			(at 261.62 161.29 0)
+			(at 264.16 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26518,7 +26825,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/STMicroelectronics/STM32G484CEU6?qs=uwxL4vQweFNyvzDDAcwe0g%3D%3D&srsltid=AfmBOorGaREXAmNOcdk6r5tpCHAUqhfaZQDfcjQ4pwtXLsObWSo9UNFw"
-			(at 261.62 166.37 0)
+			(at 264.16 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26528,7 +26835,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/stmicroelectronics/STM32G484CEU6/10326737?srsltid=AfmBOor8ccBcNfS8fvYv8dJtWtLX3YAXAeTByNZODy8iSdC1CzH-YSb1"
-			(at 261.62 163.83 0)
+			(at 264.16 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26538,7 +26845,7 @@
 			)
 		)
 		(property "LCSC" "C1342230"
-			(at 261.62 168.91 0)
+			(at 264.16 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26782,7 +27089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e686c5b6-bea5-4897-b182-f2ec37981684")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 130.81 212.09 0)
 			(effects
 				(font
@@ -26833,7 +27140,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -26848,7 +27155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea00a2eb-8354-4b81-a55a-b0ef9cab9946")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 153.67 198.12 0)
 			(effects
 				(font
@@ -26898,7 +27205,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -26914,7 +27221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec96cc48-c8e4-42c9-8eeb-87b1d8ee74bf")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 133.858 122.174 0)
 			(effects
 				(font
@@ -27038,7 +27345,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -27054,7 +27361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee7ecd4e-0465-4b8b-866e-3121e1eb7bd0")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 381 152.4 0)
 			(effects
 				(font
@@ -27104,7 +27411,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -27112,7 +27419,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:PWR_FLAG")
-		(at 74.93 73.66 180)
+		(at 63.5 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27121,7 +27428,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef84c95e-d68d-4a19-9e97-54056a2706c6")
 		(property "Reference" "#FLG01"
-			(at 74.93 75.565 0)
+			(at 63.5 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27130,7 +27437,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 74.93 78.74 0)
+			(at 63.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27139,7 +27446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 73.66 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27148,7 +27455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 73.66 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27157,7 +27464,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 74.93 73.66 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27253,7 +27560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2e2542a-803e-4aa5-b28c-f2df70646638")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 334.264 212.09 90)
 			(effects
 				(font
@@ -27377,7 +27684,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -27385,7 +27692,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL31B225KBHNNNE")
-		(at 114.3 77.47 0)
+		(at 102.87 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27393,8 +27700,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f51aecc1-1481-49d1-bfd5-662885487300")
-		(property "Reference" "C7"
-			(at 113.792 75.438 0)
+		(property "Reference" "C5"
+			(at 102.362 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27403,7 +27710,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 113.792 79.756 0)
+			(at 102.362 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27412,7 +27719,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_1206_3216Metric"
-			(at 109.22 90.17 0)
+			(at 97.79 91.44 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27423,7 +27730,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL31B225KBHNNN.do"
-			(at 109.22 95.25 0)
+			(at 97.79 96.52 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27434,7 +27741,7 @@
 			)
 		)
 		(property "Description" "2.2uF 50V X7R ±10% 1206"
-			(at 109.22 92.71 0)
+			(at 97.79 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27445,7 +27752,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 109.22 85.09 0)
+			(at 97.79 86.36 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27456,7 +27763,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL31B225KBHNNNE"
-			(at 109.22 87.63 0)
+			(at 97.79 88.9 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27467,7 +27774,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.lcsc.com/product-detail/C50254.html"
-			(at 109.22 100.33 0)
+			(at 97.79 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27478,7 +27785,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D&srsltid=AfmBOoo4ya47Btwe18Yt91GfTF8zqc07ohy_P5qTdhh3lchLVI1M2zJi"
-			(at 109.22 97.79 0)
+			(at 97.79 99.06 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27489,7 +27796,7 @@
 			)
 		)
 		(property "LCSC" "C50254"
-			(at 109.22 102.87 0)
+			(at 97.79 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -27500,7 +27807,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 114.3 77.47 0)
+			(at 102.87 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27517,7 +27824,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -27593,15 +27900,15 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:CL05B104KO5NNNC")
-		(at 195.58 80.01 0)
+		(at 198.12 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f5cd97d2-590d-4b59-abee-cc852300086f")
-		(property "Reference" "C2"
-			(at 195.834 77.978 0)
+		(property "Reference" "C8"
+			(at 198.374 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27610,7 +27917,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 196.088 82.296 0)
+			(at 198.628 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27619,7 +27926,7 @@
 			)
 		)
 		(property "Footprint" "KururugiESC-Footprints-Lib:C_0402_1005Metric"
-			(at 219.456 81.788 0)
+			(at 221.996 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27628,7 +27935,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do"
-			(at 233.172 86.868 0)
+			(at 235.712 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27637,7 +27944,7 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0402 MLCC"
-			(at 219.71 84.328 0)
+			(at 222.25 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27646,7 +27953,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 216.662 76.708 0)
+			(at 219.202 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27655,7 +27962,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 212.09 79.248 0)
+			(at 214.63 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27664,7 +27971,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D&srsltid=AfmBOop41Lf4LY67xtjvM8CPV09QzDocsidDAJbiXF9h1fAf4wbrOh-Q"
-			(at 292.862 91.948 0)
+			(at 295.402 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27673,7 +27980,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com.au/en/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3886659?srsltid=AfmBOoooOOLvJqsnQleEQTMA9X0KpDLT1GueNWRvq8dvf84qUAq21gzV"
-			(at 304.8 89.408 0)
+			(at 307.34 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27682,7 +27989,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 205.994 94.488 0)
+			(at 208.534 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27691,7 +27998,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 195.58 80.01 0)
+			(at 198.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27708,7 +28015,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -27716,7 +28023,7 @@
 	)
 	(symbol
 		(lib_id "KururugiESC-Symbols-Lib:GND")
-		(at 128.27 83.82 0)
+		(at 116.84 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27725,7 +28032,7 @@
 		(fields_autoplaced yes)
 		(uuid "f68b5ab8-3821-4528-b926-12d048ee39b3")
 		(property "Reference" "#PWR05"
-			(at 128.27 90.17 0)
+			(at 116.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27734,7 +28041,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 88.9 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27743,7 +28050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 83.82 0)
+			(at 116.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27752,7 +28059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 83.82 0)
+			(at 116.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27761,7 +28068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 83.82 0)
+			(at 116.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27928,7 +28235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe746c51-abcb-4d11-abc2-1e3454203030")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 127.762 122.174 0)
 			(effects
 				(font
@@ -28052,7 +28359,7 @@
 		(instances
 			(project "ESC_v1.0"
 				(path "/30189dae-47a7-45f4-9b84-2dfd500c2612"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)

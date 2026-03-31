@@ -63,7 +63,12 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "text_thickness|103510000|44010000|f65011fe-d797-44f0-9e47-00e03305e054|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -495,7 +500,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESC_v1.0.kicad_pro",
+    "filename": "Kururugi-ESC.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -912,7 +917,7 @@
           "show": false
         }
       ],
-      "filter_string": "c",
+      "filter_string": "r",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

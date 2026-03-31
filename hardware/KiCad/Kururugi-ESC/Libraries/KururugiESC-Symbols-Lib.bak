@@ -4764,8 +4764,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "KururugiESC-Footprints-Lib:Fiducial_0.5mm_Mask1mm"
+			(at 0.635 -4.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
