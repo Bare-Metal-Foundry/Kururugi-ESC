@@ -11,21 +11,22 @@
 
 Kururugi is a high-performance ESC designed for FPV drones, built as a platform for low-level motor control, power electronics optimization, and embedded system experimentation.
 
-It is developed within the **Bare Metal Foundry** initiative for autonomous racing drones, alongside the Shirley Flight Controller—forming a complete, fully controlled hardware stack.
+It is developed within the **Bare Metal Foundry** initiative for autonomous racing drones, alongside the Shirley Flight Controller - forming a complete, fully controlled hardware and software stack.
 
-This README present the project and its git repository, more technical details are available here: 📊 [Technical Specifications](docs/kururugi-specs-hw.md)
+This README provides an overview of the project and repository structure. Detailed hardware and ESC design information is available in: 📊 [Technical Specifications](docs/hw-kururugi-specs.md)
 
 ## ❓ Why Kururugi?
 
-Most ESCs are closed, optimized for mass production—not understanding.
+Most ESCs are closed, optimized for mass production - not understanding.
 
-Kururugi is built to:
-- Push switching frequency limits (96 kHz+ and further)
-- Enable full control of the motor stack (no black boxes)
-- Training on Bare Metal, super fast control (128kHz is aimed at long term), on low level hardware
-- Having fun with crazy makers and scientists, you are more than welcome to join the adventure !
+Kururugi is designed to:
+- Push switching frequency limits (64 kHz in v1.0, targeting 96 kHz+ in future revisions)
+- Provide full transparency and control over the motor stack (no black boxes)
+- Enable high-speed bare-metal control
+- Serve as a platform for developing and validating Six-Step and Field-Oriented Control (FOC)
+- Bring together makers and engineers to explore, experiment, and push boundaries
 
-👉 This is an engineering platform, not just an ESC.
+👉 This is an research platform, not just an ESC.
 
 ## 🚢 Navigate the repo
 
@@ -40,7 +41,7 @@ Kururugi is built to:
 ## 💻 Run it yourself
 
 ### 📟 H/W - PCB desgin
-To get started, clone the repository and proceed to open the project on Kicad 9.0.4. All libraries are self containts so it is no more difficult than this.
+To get started, simply clone the repository and proceed to open the project on Kicad 9.0.4. All libraries are self containts so it is no more difficult than this.
 ```bash
 git clone https://github.com/StepaneBinon/Kururugi-ESC-Dev-Board.git
 ```
@@ -52,13 +53,13 @@ PCB fabrication and assembly are handled through JLCPCB. The minimum order quant
 Production files are available in [Production files](hardware/Kururugi-ESC-KiCad/Production/).  
 When placing the order, use the parameters shown in [JLCPCB Options](hardware/Kururugi-ESC-KiCad/Production/JLCPCB%20-%20Options%20to%20use.png).
 
-⚠️ Ensure BOM/CPL match and components are available before ordering.
+
+> ⚠️ Ensure BOM/CPL match and components are available before ordering.
+> ⚠️ This design is provided as-is; no guarantee is made regarding functionality or performance.
 
 ### 🔢 S/W - Kururugi-6Step [WORK IN PROGRESS]
 
-
 ### 🔢 S/W - Kururugi-FOC [WORK IN PROGRESS]
-
 
 ## 🚀 Roadmap
 
