@@ -107,5 +107,11 @@ Any modifications or derived designs must be shared under the same license.
 
 For commercial use, collaboration, or licensing inquiries, please reach out.
 
+## 👤 Author
+
+This project was originally created and is actively maintained by [Stepane Binon](https://github.com/StepaneBinon).
+
+Parts of the documentation are generated with the assistance of AI tools to streamline development.
+
 
 
