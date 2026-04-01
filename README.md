@@ -3,11 +3,11 @@
 > 4/6S-ready • 64–96 kHz PWM • FOC/Six-Steps • Full bare-metal control
 
 <p align="center">
-  <img src="./docs/exports/imgs/Kururugi-V1.0-FrontPerspective.png" style="width:45%; max-width:250;"/>
-  <img src="./docs/exports/imgs/Kururugi-V1.0-BackPerspective.png" style="width:45%; max-width:250;"/>
+  <img src="./docs/exports/imgs/Kururugi-V1.0-FrontIsometric.jpg" style="width:45%; max-width:250;"/>
+  <img src="./docs/exports/imgs/Kururugi-V1.0-BackIsometric.png" style="width:45%; max-width:250;"/>
   <br>
-  <img src="./docs/exports/imgs/Kururugi-V0.1-Front.jpg" style="width:45%; max-width:250;"/>
-  <img src="./docs/exports/imgs/Kururugi-V0.1-Back.jpg" style="width:45%; max-width:250;"/>
+  <img src="./docs/exports/imgs/Kururugi-V1.0-FrontRot.png" style="width:45%; max-width:250px;" />
+  <img src="./docs/exports/imgs/Kururugi-V1.0-BackRot.png" style="width:45%; max-width:250px;" />
 </p>
 
 ## ⚙️ Project overview
