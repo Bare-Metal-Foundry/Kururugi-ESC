@@ -11,3 +11,10 @@ Report Kururugi ESC [WORK IN PROGRESS]
 ~$Draft Notes.pptx
 ~$Kururugi ESC - Visuals.pptx
 Kururugi-ESC-backups/
+
+# KiCad backups / cache / logs
+*-backups/
+*.kicad_sch-bak
+fp-info-cache
+*.log
+*.bak

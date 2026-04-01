@@ -32,20 +32,27 @@ Kururugi is built to:
 > ⚠️ Documentation is still a work in progress. Detailed design notes and analysis will be added progressively.
 
 ### 📂 Not to miss documents:
-- 🧩 **Hardware (KiCad)**: [Kururugi ESC Project](hardware/KiCad/Kururugi-ESC)
-- 📊 **Design & Sizing**: [Sizing Spreadsheet](docs/)
+- 🧩 **Hardware (KiCad)**: 
+- 📊 **Design & Sizing**: 
 - 📤 **Exports**: [Schematics, PCB renders, STEP files](docs/exports)
 - 📚 **Resources**: [Datasheets & Engineering Notes](resources/datasheets)
 
 ## 💻 Run it yourself
 
 ### 📟 H/W - PCB desgin
-To get started, clone the repository and proceed to open the project on Kicad 9.0.4. All libraries are self containts so it is no more difficult than this. Details documentation of the Kicad templates of the Bare Metal Foundry are available here [WORK IN PROGRESS].
+To get started, clone the repository and proceed to open the project on Kicad 9.0.4. All libraries are self containts so it is no more difficult than this.
 ```bash
 git clone https://github.com/StepaneBinon/Kururugi-ESC-Dev-Board.git
 ```
 
-### 📟 H/W - PCB manufacturing [WORK IN PROGRESS]
+### 📟 H/W — PCB Manufacturing
+
+PCB fabrication and assembly are handled through JLCPCB. The minimum order quantity is 5 boards for PCB fabrication and 2 boards for assembly. With the selected options, the total cost is 255.13 € (295.01 USD).
+
+Production files are available in [Production files](hardware/Kururugi-ESC-KiCad/Production/).  
+When placing the order, use the parameters shown in [JLCPCB Options](hardware/Kururugi-ESC-KiCad/Production/JLCPCB%20-%20Options%20to%20use.png).
+
+⚠️ Ensure BOM/CPL match and components are available before ordering.
 
 ### 🔢 S/W - Kururugi-6Step [WORK IN PROGRESS]
 
@@ -53,7 +60,7 @@ git clone https://github.com/StepaneBinon/Kururugi-ESC-Dev-Board.git
 ### 🔢 S/W - Kururugi-FOC [WORK IN PROGRESS]
 
 
-## 🚀 Roadmap [FLEXIBLE]
+## 🚀 Roadmap
 
 ### ⚡ Hardware
 1. 🧪 **V1.0 Production & Bring-up** *(Apr 2026)*: First batch with JLCPCB, full electrical validation
@@ -90,8 +97,13 @@ Contributions are more than welcome, at all levels:
 
 👉 If you're working on ESCs, power electronics, or embedded control, your feedback is highly valuable.
 
+## 🪪 Licensing
 
+### Hardware
+Hardware design (schematics, PCB, KiCad) is licensed under CERN-OHL-S v2. This project is released as open hardware.
+Any modifications or derived designs must be shared under the same license.
 
+For commercial use, collaboration, or licensing inquiries, please reach out.
 
 
 
