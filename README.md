@@ -3,8 +3,11 @@
 > 4/6S-ready • 64–96 kHz PWM • FOC/Six-Steps • Full bare-metal control
 
 <p align="center">
-  <img src="./docs/exports/imgs/Kururugi-V0.1-Front.jpg" width=40%" />
-  <img src="./docs/exports/imgs/Kururugi-V0.1-Back.jpg" width="40%" />
+  <img src="./docs/exports/imgs/Kururugi-V1.0-FrontPerspective.png" width="300"/>
+  <img src="./docs/exports/imgs/Kururugi-V1.0-BackPerspective.png" width="300"/>
+  <br>
+  <img src="./docs/exports/imgs/Kururugi-V0.1-Front.jpg" width=300" />
+  <img src="./docs/exports/imgs/Kururugi-V0.1-Back.jpg" width="300" />
 </p>
 
 ## ⚙️ Project overview
@@ -112,6 +115,3 @@ For commercial use, collaboration, or licensing inquiries, please reach out.
 This project was originally created and is actively maintained by [Stepane Binon](https://github.com/StepaneBinon).
 
 Parts of the documentation are generated with the assistance of AI tools to streamline development.
-
-
-
