@@ -35,6 +35,7 @@ Kururugi is designed to:
 ### 📂 Not to miss documents:
 - 🧩 **Hardware (KiCad)**: [KiCad project](hardware/Kururugi-ESC-KiCad/)
 - 📊 **Design & Sizing**: [Design notes](docs\Kururugi-ESC-sizing.xlsx)
+- 📊 **Technicals specifications**: [Documentation](docs/hw-kururugi-specs.md)
 - 📤 **Exports**: [Schematics, PCB renders, STEP files](docs/exports)
 - 📚 **Resources**: [Datasheets & Engineering Notes](resources/datasheets)
 
